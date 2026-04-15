@@ -28,8 +28,8 @@ export function About() {
             viewport={{ once: true }}
             transition={{ delay: i * 0.15, duration: 0.5 }}
           >
-            <Card className="bg-card border-border hover:border-muted-foreground/30 transition-colors">
-              <CardContent className="pt-6 text-center">
+            <Card className="h-full items-center justify-center bg-card border-border hover:border-muted-foreground/30 transition-colors">
+              <CardContent className="text-center">
                 <p className="text-2xl font-bold text-foreground">
                   {t(h.valueKey)}
                 </p>

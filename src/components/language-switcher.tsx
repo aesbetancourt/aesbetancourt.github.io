@@ -17,7 +17,7 @@ export function LanguageSwitcher() {
   const { i18n } = useTranslation()
 
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="icon" className="h-9 w-9">
           <Globe className="h-4 w-4" />

@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next"
 import { motion } from "framer-motion"
-import { Github, Linkedin, Mail, ChevronDown } from "lucide-react"
+import { Github, Linkedin, Mail, ChevronDown, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { socialLinks } from "@/lib/data"
+import cvPdf from "@/assets/AlejandroSanchezCV.pdf"
 
 export function Hero() {
   const { t } = useTranslation()
@@ -52,6 +53,12 @@ export function Hero() {
           <Button variant="outline" size="icon" asChild>
             <a href={`mailto:${socialLinks.email}`} aria-label="Email">
               <Mail className="h-5 w-5" />
+            </a>
+          </Button>
+          <Button variant="outline" asChild>
+            <a href={cvPdf} download="AlejandroSanchez_CV.pdf">
+              <Download className="h-4 w-4 mr-2" />
+              CV
             </a>
           </Button>
         </div>
