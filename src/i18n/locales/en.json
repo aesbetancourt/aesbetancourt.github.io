@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Alejandro Sánchez",
+    "role": "Fullstack AI Engineer",
+    "tagline": "Architecting scalable distributed systems with TypeScript, Python & AI-assisted engineering.",
+    "cta": "Get in touch"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "With a deep foundation in mathematics and software engineering, I specialize in architecting highly scalable, distributed systems using TypeScript, JavaScript, and Python. My expertise lies in high-level system design, performance optimization, and solving complex business logic that standard tools cannot.",
+    "p2": "I view modern software development as an exercise in AI-assisted engineering and architectural orchestration. I leverage technical expertise to guide AI coding agents, rigorously audit generated code for structural integrity, and securely integrate LLMs into enterprise environments.",
+    "highlight1_value": "7+",
+    "highlight1_label": "Years Experience",
+    "highlight2_value": "TS & Python",
+    "highlight2_label": "Core Stack",
+    "highlight3_value": "AWS & GCP",
+    "highlight3_label": "Cloud Platforms"
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "Present",
+    "entries": {
+      "entropy": {
+        "company": "Entropy Systems",
+        "role": "Fullstack Developer",
+        "period": "May 2023 - Present",
+        "bullets": [
+          "Architected and delivered SaaS products for ISO standards auditing—including client-facing applications, internal dashboards, and AI-powered tooling—as part of a small engineering team (3–5 engineers).",
+          "Built full-stack features in TypeScript using React, Next.js, and Vite on the frontend with Fastify and Node.js services on the backend.",
+          "Integrated LLMs via AWS Bedrock and designed agent orchestration pipelines for document processing, conversational assistants, and automated business workflows.",
+          "Deployed and operated distributed services across AWS and GCP, applying event-driven and serverless patterns.",
+          "Containerized services with Docker and maintained CI/CD pipelines for reliable, repeatable deployments."
+        ]
+      },
+      "vintra": {
+        "company": "Vintra, Inc.",
+        "role": "Frontend Engineer",
+        "period": "Sep 2022 - May 2023",
+        "bullets": [
+          "Led migration of a video analytics platform from legacy JavaScript to a strongly-typed TypeScript codebase, reducing runtime errors and improving developer confidence.",
+          "Introduced Vite and esbuild into the build pipeline, cutting build times and accelerating development iteration speed.",
+          "Partnered with product and design teams to deliver consistent UI behavior across a complex, data-rich surveillance interface."
+        ]
+      },
+      "bita_lead": {
+        "company": "BITA GmbH",
+        "role": "UI Development Lead",
+        "period": "Apr 2022 - Sep 2022",
+        "bullets": [
+          "Led a front-end team building index and ETF analytics tools, setting engineering standards and driving delivery quality.",
+          "Implemented shift-left practices—code reviews, linting, and automated testing—to catch defects early in the development cycle.",
+          "Drove front-end scalability across multiple web applications, establishing shared component patterns and consistent architecture.",
+          "Contributed across the stack, delivering UI features in TypeScript and supporting backend API work in Python."
+        ]
+      },
+      "bita_dev": {
+        "company": "BITA GmbH",
+        "role": "Full-Stack Engineer",
+        "period": "Jul 2021 - Apr 2022",
+        "bullets": [
+          "Built and maintained financial applications for index construction and ETF analytics across frontend, backend, and data layers.",
+          "Designed asynchronous event-processing workflows using RabbitMQ to handle data ingestion reliably at scale.",
+          "Developed REST APIs and backend services in Python and Node.js, backed by PostgreSQL and MongoDB."
+        ]
+      },
+      "intelix": {
+        "company": "Intelix Synergy",
+        "role": "Application Developer",
+        "period": "Mar 2020 - Jul 2021",
+        "bullets": [
+          "Built full-stack internal systems for registration, traceability, and collaborator lifecycle management using Python and Node.js.",
+          "Developed front-end interfaces and backend services to support business operations and data tracking workflows.",
+          "Deployed and operated services on Linux servers with NGINX as a reverse proxy."
+        ]
+      },
+      "freelance": {
+        "company": "Freelance",
+        "role": "Software Developer",
+        "period": "May 2018 - Dec 2019",
+        "bullets": [
+          "Built Python automation tools for data processing, including search and filtering workflows over large Excel datasets.",
+          "Delivered custom scripts and utilities to streamline repetitive business operations for clients."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "languages": "Programming Languages",
+      "architecture": "Architecture & System Design",
+      "cloud": "Cloud & Infrastructure",
+      "databases": "Databases & Messaging",
+      "backend": "Backend",
+      "devops": "DevOps & Tooling",
+      "frontend": "Frontend"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "I'm always open to discussing new opportunities, interesting projects, or just having a conversation about technology.",
+    "cta": "Let's connect",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Barcelona, Spain"
+  },
+  "footer": {
+    "built_with": "Built with React & shadcn/ui",
+    "rights": "All rights reserved"
+  }
+}
