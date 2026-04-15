@@ -32,5 +32,4 @@ export const socialLinks = {
   linkedin: "https://linkedin.com/in/aesbetancourt",
   email: "aesbetancourt@outlook.com",
   email2: "ale.aesbg@gmail.com",
-  phone: "+34604189484",
 }

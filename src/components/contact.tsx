@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next"
 import { SectionWrapper } from "./section-wrapper"
 import { Button } from "@/components/ui/button"
-import { Mail, Linkedin, Github, Phone, MapPin } from "lucide-react"
+import { Mail, Linkedin, Github, MapPin } from "lucide-react"
 import { socialLinks } from "@/lib/data"
 
 export function Contact() {
@@ -23,12 +23,6 @@ export function Contact() {
             <a href={`mailto:${socialLinks.email}`}>
               <Mail className="h-4 w-4 mr-2" />
               {t("contact.email")}
-            </a>
-          </Button>
-          <Button variant="outline" asChild>
-            <a href={`tel:${socialLinks.phone}`}>
-              <Phone className="h-4 w-4 mr-2" />
-              {t("contact.phone")}
             </a>
           </Button>
           <Button variant="outline" asChild>
