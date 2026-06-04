@@ -100,7 +100,8 @@
     "role": "Computer Engineering",
     "school": "Jose Antonio Páez University · Venezuela",
     "years": "2016 — 2020",
-    "detail": "Computer engineering degree — foundations in software engineering, distributed systems and mathematics."
+    "detail": "Computer engineering degree — foundations in software engineering, distributed systems and mathematics.",
+    "certifications": "Certifications & Learning"
   },
   "stack": {
     "heading": "Tools I reach for",
@@ -124,5 +125,9 @@
       "resume": "CV"
     },
     "colophon": "aesbetancourt · Senior Fullstack AI Engineer"
+  },
+  "theme": {
+    "light": "Switch to light mode",
+    "dark": "Switch to dark mode"
   }
 }

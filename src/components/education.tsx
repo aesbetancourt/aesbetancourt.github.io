@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next"
+import { certifications } from "@/lib/data"
 import { useReveal } from "@/hooks/use-reveal"
 
 export function Education() {
@@ -20,6 +21,20 @@ export function Education() {
             <p className="de">{t("education.detail")}</p>
           </div>
         </div>
+      </div>
+
+      <h3 className="subsec reveal">{t("education.certifications")}</h3>
+      <div className="certgrid reveal-group">
+        {certifications.map((group) => (
+          <div className="certgroup" key={group.org}>
+            <h4>{group.org}</h4>
+            <ul>
+              {group.courses.map((course) => (
+                <li key={course}>{course}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </section>
   )

@@ -4,6 +4,7 @@ import { animate, createScope, stagger } from "animejs"
 import { Download, Github, Linkedin, Mail } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { LanguageSwitcher } from "./language-switcher"
+import { ThemeToggle } from "./theme-toggle"
 import { socialLinks } from "@/lib/data"
 import cvPdf from "@/assets/AlejandroSanchezCV.pdf"
 
@@ -97,6 +98,7 @@ export function Sidebar() {
           </a>
           <span className="sdivider" aria-hidden="true" />
           <LanguageSwitcher />
+          <ThemeToggle />
         </div>
       </div>
     </aside>

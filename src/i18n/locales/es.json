@@ -100,7 +100,8 @@
     "role": "Ingeniería en Computación",
     "school": "Universidad José Antonio Páez · Venezuela",
     "years": "2016 — 2020",
-    "detail": "Título de ingeniería en computación — bases en ingeniería de software, sistemas distribuidos y matemáticas."
+    "detail": "Título de ingeniería en computación — bases en ingeniería de software, sistemas distribuidos y matemáticas.",
+    "certifications": "Certificaciones y formación"
   },
   "stack": {
     "heading": "Herramientas que uso",
@@ -124,5 +125,9 @@
       "resume": "CV"
     },
     "colophon": "aesbetancourt · Ingeniero Senior Fullstack AI"
+  },
+  "theme": {
+    "light": "Cambiar a modo claro",
+    "dark": "Cambiar a modo oscuro"
   }
 }

@@ -36,6 +36,41 @@ export const skills: Record<string, string[]> = {
   frontend: ["React", "Next.js", "Vite", "esbuild"],
 };
 
+export const certifications: { org: string; courses: string[] }[] = [
+  {
+    org: "Educative.io",
+    courses: [
+      "Grokking the System Design Interview",
+      "Grokking the Advanced System Design Interview",
+      "Grokking the Modern System Design Interview",
+    ],
+  },
+  {
+    org: "AWS Skill Builder",
+    courses: ["Architecting on AWS", "AWS Cloud Practitioner Essentials"],
+  },
+  {
+    org: "Google Cloud Skills Boost",
+    courses: ["Designing Distributed Systems", "Google Cloud Fundamentals"],
+  },
+  {
+    org: "DeepLearning.AI",
+    courses: ["Neural Networks and Deep Learning", "AI For Everyone"],
+  },
+  {
+    org: "Coursera",
+    courses: [
+      "Introduction to Artificial Intelligence",
+      "Software Security",
+      "Python Data Structures",
+    ],
+  },
+  {
+    org: "Platzi",
+    courses: ["Backend Development with Node.js"],
+  },
+];
+
 export const socialLinks = {
   github: "https://github.com/aesbetancourt",
   linkedin: "https://www.linkedin.com/in/aesbetancourt/",

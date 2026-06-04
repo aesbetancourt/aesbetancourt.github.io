@@ -13,6 +13,7 @@
    Sidebar + content grid, Space Grotesk / Space Mono, coral accent.
    ==================================================================== */
 :root {
+  color-scheme: dark;
   --accent: #e2645a;
   --bg: #0d0e11;
   --panel: #121419;
@@ -23,6 +24,20 @@
   --line2: #2c2f37;
   --sans: "Space Grotesk", system-ui, sans-serif;
   --mono: "Space Mono", ui-monospace, monospace;
+}
+
+/* Light theme — warm-paper editorial palette. Same coral accent for brand
+   continuity; structural tokens flip via the `light` class on <html> (set
+   pre-paint in index.html, toggled by the theme switcher). */
+html.light {
+  color-scheme: light;
+  --bg: #f5f3ee;
+  --panel: #ffffff;
+  --ink: #1b1c1f;
+  --soft: #56554f;
+  --faint: #8a887f;
+  --line: #e4e1d9;
+  --line2: #d8d4ca;
 }
 
 * {
@@ -38,6 +53,15 @@ body {
   font-family: var(--sans);
   -webkit-font-smoothing: antialiased;
   line-height: 1.55;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Ease the larger surfaces across a theme switch (smaller bordered elements
+   already animate via their own hover transitions). */
+.side,
+section,
+.avatar,
+.sdivider {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 a {
   color: inherit;
@@ -194,6 +218,12 @@ nav.snav a.active .ix {
   background: var(--accent);
   border-color: var(--accent);
   font-weight: 700;
+}
+.themebtn {
+  padding: 6px 8px;
+}
+.themebtn svg {
+  display: block;
 }
 
 /* ---------------- CONTENT ---------------- */
@@ -393,6 +423,50 @@ h2.sec {
   color: var(--accent);
 }
 
+/* certifications (within education) */
+.subsec {
+  margin: 42px 0 22px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.certgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 34px;
+}
+.certgroup h4 {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin: 0 0 11px;
+}
+.certgroup ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.certgroup li {
+  display: flex;
+  gap: 9px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--soft);
+}
+.certgroup li::before {
+  content: "·";
+  color: var(--accent);
+  font-weight: 700;
+}
+
 /* contact */
 .contact .big {
   font-size: clamp(30px, 4vw, 48px);
@@ -511,6 +585,9 @@ h2.sec {
   .stackgrid {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+  .certgrid {
+    grid-template-columns: 1fr;
   }
   .xp .item {
     grid-template-columns: 1fr;

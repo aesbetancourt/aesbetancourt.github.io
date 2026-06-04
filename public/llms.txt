@@ -26,6 +26,15 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack —
 
 - Computer Engineering — Jose Antonio Páez University, Venezuela (2016 — 2020)
 
+## Certifications & Learning
+
+- Grokking the System Design Interview / Advanced / Modern — Educative.io
+- Architecting on AWS; AWS Cloud Practitioner Essentials — AWS Skill Builder
+- Designing Distributed Systems; Google Cloud Fundamentals — Google Cloud Skills Boost
+- Neural Networks and Deep Learning; AI For Everyone — DeepLearning.AI
+- Introduction to Artificial Intelligence; Software Security; Python Data Structures — Coursera
+- Backend Development with Node.js — Platzi
+
 ## Stack
 
 - Languages: TypeScript, JavaScript, Python

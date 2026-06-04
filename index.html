@@ -29,6 +29,24 @@
     />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0d0e11" />
+
+    <!-- Theme: apply the saved choice, else the system preference, before paint
+         so there's no light/dark flash. Defaults to dark when unknown. -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme")
+          var sysLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches
+          var theme = stored === "light" || stored === "dark" ? stored : sysLight ? "light" : "dark"
+          var root = document.documentElement
+          root.classList.remove("light", "dark")
+          root.classList.add(theme)
+          var meta = document.querySelector('meta[name="theme-color"]')
+          if (meta) meta.setAttribute("content", theme === "light" ? "#f5f3ee" : "#0d0e11")
+        } catch (e) {}
+      })()
+    </script>
+
     <link rel="canonical" href="https://aesbetancourt.dev/" />
     <link rel="manifest" href="/site.webmanifest" />
 
