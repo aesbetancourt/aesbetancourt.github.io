@@ -11,7 +11,7 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack —
 - Role: Senior Fullstack AI Engineer
 - Focus: distributed systems, LLMs, fullstack TypeScript/Python
 - Location: Europe (remote)
-- Website: https://aesbetancourt.github.io/
+- Website: https://aesbetancourt.dev/
 
 ## Experience
 
@@ -37,7 +37,7 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack —
 
 ## Links
 
-- Website: https://aesbetancourt.github.io/
+- Website: https://aesbetancourt.dev/
 - GitHub: https://github.com/aesbetancourt
 - LinkedIn: https://www.linkedin.com/in/aesbetancourt/
 - Email: aesbetancourt@outlook.com
