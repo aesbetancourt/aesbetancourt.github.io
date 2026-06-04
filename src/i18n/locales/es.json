@@ -14,7 +14,7 @@
   },
   "hero": {
     "lead": "Construyendo sistemas distribuidos escalables con <ts>TypeScript</ts>, <py>Python</py> e <ai>IA</ai>.",
-    "sub": "Ingeniero en computación especializado en desarrollo fullstack con JavaScript — desde servicios backend resilientes hasta las funcionalidades de IA que viven sobre ellos.",
+    "sub": "Ingeniero en computación especializado en desarrollo fullstack con JavaScript, desde servicios backend resilientes hasta las funcionalidades de IA que viven sobre ellos.",
     "focusValue": "sistemas distribuidos · LLMs",
     "meta": {
       "role": "rol",
@@ -24,9 +24,9 @@
     }
   },
   "about": {
-    "p1": "Soy <strong>ingeniero en computación especializado en desarrollo fullstack con JavaScript</strong>, trabajando de extremo a extremo en todo el stack — diseñando APIs y capas de datos, construyendo las interfaces encima, e integrando la IA que las hace útiles.",
+    "p1": "Soy <strong>ingeniero en computación especializado en desarrollo fullstack con JavaScript</strong>, trabajando de extremo a extremo en todo el stack, diseñando APIs y capas de datos, construyendo las interfaces encima, e integrando la IA que las hace útiles.",
     "p2": "Mi trabajo se centra en <strong>sistemas escalables y distribuidos</strong> construidos con TypeScript, Node y Python, con un interés de larga data en herramientas de documentos y librerías orientadas a desarrolladores.",
-    "p3": "Últimamente eso significa lanzar <strong>funcionalidades potenciadas por IA</strong> — recuperación, orquestación de LLMs y la infraestructura de producción que las mantiene confiables."
+    "p3": "Últimamente eso significa lanzar <strong>funcionalidades potenciadas por IA</strong>: recuperación, orquestación de LLMs y la infraestructura de producción que las mantiene confiables."
   },
   "experience": {
     "heading": "Dónde he trabajado",
@@ -36,7 +36,7 @@
         "role": "Ingeniero Fullstack AI",
         "years": "2023 — Presente",
         "bullets": [
-          "Diseñé y entregué productos SaaS para auditoría de estándares ISO—incluyendo aplicaciones para clientes, dashboards internos y herramientas potenciadas por IA—como parte de un equipo pequeño (3–5 ingenieros).",
+          "Diseñé y entregué productos SaaS para auditoría de estándares ISO, incluyendo aplicaciones para clientes, dashboards internos y herramientas potenciadas por IA, como parte de un equipo pequeño (3–5 ingenieros).",
           "Construí funcionalidades full-stack en TypeScript usando React, Next.js y Vite en el frontend con servicios Fastify y Node.js en el backend.",
           "Integré LLMs a través de AWS Bedrock y diseñé pipelines de orquestación de agentes para procesamiento de documentos, asistentes conversacionales y flujos de trabajo automatizados.",
           "Desplegué y operé servicios distribuidos en AWS y GCP, aplicando patrones event-driven y serverless.",
@@ -59,7 +59,7 @@
         "years": "2022",
         "bullets": [
           "Lideré un equipo frontend construyendo herramientas de analítica de índices y ETFs, estableciendo estándares de ingeniería.",
-          "Implementé prácticas shift-left—revisiones de código, linting y testing automatizado—para detectar defectos tempranamente.",
+          "Implementé prácticas shift-left (revisiones de código, linting y testing automatizado) para detectar defectos tempranamente.",
           "Impulsé la escalabilidad frontend en múltiples aplicaciones web, estableciendo patrones de componentes compartidos.",
           "Contribuí a lo largo del stack, entregando funcionalidades UI en TypeScript y apoyando trabajo de API backend en Python."
         ]
@@ -100,7 +100,7 @@
     "role": "Ingeniería en Computación",
     "school": "Universidad José Antonio Páez · Venezuela",
     "years": "2016 — 2020",
-    "detail": "Título de ingeniería en computación — bases en ingeniería de software, sistemas distribuidos y matemáticas.",
+    "detail": "Título de ingeniería en computación, con bases en ingeniería de software, sistemas distribuidos y matemáticas.",
     "certifications": "Certificaciones y formación"
   },
   "stack": {

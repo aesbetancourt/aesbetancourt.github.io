@@ -14,7 +14,7 @@
   },
   "hero": {
     "lead": "Building scalable distributed systems with <ts>TypeScript</ts>, <py>Python</py> & <ai>AI</ai>.",
-    "sub": "Computer engineer specialized in JavaScript fullstack development — from resilient backend services to the AI features on top of them.",
+    "sub": "Computer engineer specialized in JavaScript fullstack development, from resilient backend services to the AI features on top of them.",
     "focusValue": "distributed systems · LLMs",
     "meta": {
       "role": "role",
@@ -24,9 +24,9 @@
     }
   },
   "about": {
-    "p1": "I'm a <strong>computer engineer specialized in JavaScript fullstack</strong> development, working end-to-end across the stack — designing APIs and data layers, building the interfaces on top, and wiring in the AI that makes them useful.",
+    "p1": "I'm a <strong>computer engineer specialized in JavaScript fullstack</strong> development, working end-to-end across the stack, designing APIs and data layers, building the interfaces on top, and wiring in the AI that makes them useful.",
     "p2": "My work centers on <strong>scalable, distributed systems</strong> built with TypeScript, Node and Python, with a long-running interest in document tooling and developer-facing libraries.",
-    "p3": "Lately that means shipping <strong>AI-powered features</strong> — retrieval, LLM orchestration and the production plumbing that keeps them reliable."
+    "p3": "Lately that means shipping <strong>AI-powered features</strong>: retrieval, LLM orchestration and the production plumbing that keeps them reliable."
   },
   "experience": {
     "heading": "Where I've worked",
@@ -36,7 +36,7 @@
         "role": "Fullstack AI Engineer",
         "years": "2023 — Present",
         "bullets": [
-          "Architected and delivered SaaS products for ISO standards auditing—including client-facing applications, internal dashboards, and AI-powered tooling—as part of a small engineering team (3–5 engineers).",
+          "Architected and delivered SaaS products for ISO standards auditing, including client-facing applications, internal dashboards, and AI-powered tooling, as part of a small engineering team (3–5 engineers).",
           "Built full-stack features in TypeScript using React, Next.js, and Vite on the frontend with Fastify and Node.js services on the backend.",
           "Integrated LLMs via AWS Bedrock and designed agent orchestration pipelines for document processing, conversational assistants, and automated business workflows.",
           "Deployed and operated distributed services across AWS and GCP, applying event-driven and serverless patterns.",
@@ -59,7 +59,7 @@
         "years": "2022",
         "bullets": [
           "Led a front-end team building index and ETF analytics tools, setting engineering standards and driving delivery quality.",
-          "Implemented shift-left practices—code reviews, linting, and automated testing—to catch defects early in the development cycle.",
+          "Implemented shift-left practices (code reviews, linting, and automated testing) to catch defects early in the development cycle.",
           "Drove front-end scalability across multiple web applications, establishing shared component patterns and consistent architecture.",
           "Contributed across the stack, delivering UI features in TypeScript and supporting backend API work in Python."
         ]
@@ -100,7 +100,7 @@
     "role": "Computer Engineering",
     "school": "Jose Antonio Páez University · Venezuela",
     "years": "2016 — 2020",
-    "detail": "Computer engineering degree — foundations in software engineering, distributed systems and mathematics.",
+    "detail": "Computer engineering degree, with foundations in software engineering, distributed systems and mathematics.",
     "certifications": "Certifications & Learning"
   },
   "stack": {
