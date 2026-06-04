@@ -1,52 +1,44 @@
 import { useTranslation } from "react-i18next"
-import { SectionWrapper } from "./section-wrapper"
-import { Button } from "@/components/ui/button"
-import { Mail, Linkedin, Github, MapPin } from "lucide-react"
+import { Download, Github, Linkedin, Mail } from "lucide-react"
 import { socialLinks } from "@/lib/data"
+import cvPdf from "@/assets/AlejandroSanchezCV.pdf"
 
 export function Contact() {
   const { t } = useTranslation()
+  const year = new Date().getFullYear()
 
   return (
-    <SectionWrapper id="contact">
-      <div className="text-center max-w-2xl mx-auto">
-        <h2 className="text-3xl font-bold mb-4">{t("contact.title")}</h2>
-        <p className="text-muted-foreground mb-4">
-          {t("contact.description")}
-        </p>
-        <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground mb-8">
-          <MapPin className="h-4 w-4" />
-          {t("contact.location")}
-        </div>
-        <div className="flex flex-wrap items-center justify-center gap-3">
-          <Button variant="outline" asChild>
-            <a href={`mailto:${socialLinks.email}`}>
-              <Mail className="h-4 w-4 mr-2" />
-              {t("contact.email")}
-            </a>
-          </Button>
-          <Button variant="outline" asChild>
-            <a
-              href={socialLinks.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Linkedin className="h-4 w-4 mr-2" />
-              LinkedIn
-            </a>
-          </Button>
-          <Button variant="outline" asChild>
-            <a
-              href={socialLinks.github}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Github className="h-4 w-4 mr-2" />
-              GitHub
-            </a>
-          </Button>
-        </div>
+    <section id="contact" className="contact">
+      <div className="eyebrow">
+        05 / {t("nav.contact")} <span className="ln" />
       </div>
-    </SectionWrapper>
+      <p className="big">
+        {t("contact.big")}{" "}
+        <a href={socialLinks.github} target="_blank" rel="noopener noreferrer">
+          {t("contact.sayHello")}
+        </a>
+      </p>
+      <div className="clinks">
+        <a href={socialLinks.github} target="_blank" rel="noopener noreferrer">
+          <Github size={15} strokeWidth={1.75} />
+          {t("contact.links.github")}
+        </a>
+        <a href={`mailto:${socialLinks.email}`}>
+          <Mail size={15} strokeWidth={1.75} />
+          {t("contact.links.email")}
+        </a>
+        <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer">
+          <Linkedin size={15} strokeWidth={1.75} />
+          {t("contact.links.linkedin")}
+        </a>
+        <a href={cvPdf} download="AlejandroSanchez_CV.pdf">
+          <Download size={15} strokeWidth={1.75} />
+          {t("contact.links.resume")}
+        </a>
+      </div>
+      <p className="colophon">
+        © {year} {t("contact.colophon")}
+      </p>
+    </section>
   )
 }

@@ -1,0 +1,43 @@
+# Alejandro Sánchez — Senior Fullstack AI Engineer
+
+> Computer engineer specialized in JavaScript fullstack development, building scalable distributed systems with TypeScript, Node.js and Python, and shipping AI-powered features (LLM orchestration, RAG, retrieval) with production-grade reliability. Based in Europe, available remote.
+
+Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack — designing APIs and data layers, building the interfaces on top, and integrating the AI that makes them useful. This file summarizes his profile for language models and AI agents. The site is a single-page portfolio available in English and Spanish.
+
+## Profile
+
+- Name: Alejandro Sánchez
+- Handle: aesbetancourt
+- Role: Senior Fullstack AI Engineer
+- Focus: distributed systems, LLMs, fullstack TypeScript/Python
+- Location: Europe (remote)
+- Website: https://aesbetancourt.github.io/
+
+## Experience
+
+- Fullstack AI Engineer — Entropy Systems (2023 — Present): SaaS products for ISO standards auditing; LLM integration via AWS Bedrock and agent orchestration; distributed services across AWS and GCP with Docker and CI/CD.
+- Frontend Engineer — Vintra, Inc. (2022 — 2023): migrated a video analytics platform from legacy JavaScript to strongly-typed TypeScript; introduced Vite and esbuild.
+- UI Development Lead — BITA GmbH (2022): led a front-end team building index and ETF analytics tools; established shift-left practices and shared component architecture.
+- Full-Stack Engineer — BITA GmbH (2021 — 2022): financial applications for index construction; asynchronous event processing with RabbitMQ; REST APIs in Python and Node.js.
+- Application Developer — Intelix Synergy (2020 — 2021): full-stack internal systems in Python and Node.js on Linux/NGINX.
+- Software Developer (Freelance) — (2018 — 2019): Python automation tools for data processing.
+
+## Education
+
+- Computer Engineering — Jose Antonio Páez University, Venezuela (2016 — 2020)
+
+## Stack
+
+- Languages: TypeScript, JavaScript, Python
+- Backend: Node.js, Fastify, Express.js, FastAPI, Flask
+- Frontend: React, Next.js, Vite, esbuild
+- Cloud & Infra: AWS (Bedrock, Lambda, EC2, S3, RDS, SQS, EventBridge), GCP (Cloud Run, Cloud Functions), Docker, CI/CD, NGINX, Linux
+- Data & Messaging: PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ
+- AI & Systems: LLMs, RAG, distributed systems, microservices, event-driven architecture
+
+## Links
+
+- Website: https://aesbetancourt.github.io/
+- GitHub: https://github.com/aesbetancourt
+- LinkedIn: https://www.linkedin.com/in/aesbetancourt/
+- Email: aesbetancourt@outlook.com

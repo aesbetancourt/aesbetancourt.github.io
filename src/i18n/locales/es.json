@@ -1,36 +1,40 @@
 {
+  "brand": "aesbetancourt · engineering",
   "nav": {
     "about": "Sobre mí",
     "experience": "Experiencia",
-    "skills": "Habilidades",
+    "education": "Educación",
+    "stack": "Stack",
     "contact": "Contacto"
   },
+  "sidebar": {
+    "role": "Ingeniero Senior Fullstack AI",
+    "location": "Europa",
+    "resume": "Descargar CV"
+  },
   "hero": {
-    "greeting": "Hola, soy",
-    "name": "Alejandro Sánchez",
-    "role": "Ingeniero Fullstack AI",
-    "tagline": "Ingeniero en Computación de formación. Construyendo sistemas distribuidos escalables con TypeScript, Python e IA a diario.",
-    "cta": "Contáctame"
+    "lead": "Construyendo sistemas distribuidos escalables con <ts>TypeScript</ts>, <py>Python</py> e <ai>IA</ai>.",
+    "sub": "Ingeniero en computación especializado en desarrollo fullstack con JavaScript — desde servicios backend resilientes hasta las funcionalidades de IA que viven sobre ellos.",
+    "focusValue": "sistemas distribuidos · LLMs",
+    "meta": {
+      "role": "rol",
+      "focus": "enfoque",
+      "based": "ubicación",
+      "github": "github"
+    }
   },
   "about": {
-    "title": "Sobre Mí",
-    "p1": "Con una sólida base en matemáticas e ingeniería de software, me especializo en diseñar sistemas distribuidos altamente escalables usando TypeScript, JavaScript y Python. Mi experiencia se centra en diseño de sistemas de alto nivel, optimización de rendimiento y resolución de lógica de negocio compleja que las herramientas estándar no pueden abordar.",
-    "p2": "Considero el desarrollo de software moderno como un ejercicio de ingeniería asistida por IA y orquestación arquitectónica. Utilizo mi experiencia técnica para guiar agentes de codificación con IA, auditar rigurosamente el código generado en cuanto a integridad estructural e integrar LLMs de forma segura en entornos empresariales.",
-    "highlight1_value": "7+",
-    "highlight1_label": "Años de Experiencia",
-    "highlight2_value": "TS & Python",
-    "highlight2_label": "Stack Principal",
-    "highlight3_value": "AWS & GCP",
-    "highlight3_label": "Plataformas Cloud"
+    "p1": "Soy <strong>ingeniero en computación especializado en desarrollo fullstack con JavaScript</strong>, trabajando de extremo a extremo en todo el stack — diseñando APIs y capas de datos, construyendo las interfaces encima, e integrando la IA que las hace útiles.",
+    "p2": "Mi trabajo se centra en <strong>sistemas escalables y distribuidos</strong> construidos con TypeScript, Node y Python, con un interés de larga data en herramientas de documentos y librerías orientadas a desarrolladores.",
+    "p3": "Últimamente eso significa lanzar <strong>funcionalidades potenciadas por IA</strong> — recuperación, orquestación de LLMs y la infraestructura de producción que las mantiene confiables."
   },
   "experience": {
-    "title": "Experiencia",
-    "present": "Presente",
+    "heading": "Dónde he trabajado",
     "entries": {
       "entropy": {
         "company": "Entropy Systems",
-        "role": "Desarrollador Fullstack",
-        "period": "May 2023 - Presente",
+        "role": "Ingeniero Fullstack AI",
+        "years": "2023 — Presente",
         "bullets": [
           "Diseñé y entregué productos SaaS para auditoría de estándares ISO—incluyendo aplicaciones para clientes, dashboards internos y herramientas potenciadas por IA—como parte de un equipo pequeño (3–5 ingenieros).",
           "Construí funcionalidades full-stack en TypeScript usando React, Next.js y Vite en el frontend con servicios Fastify y Node.js en el backend.",
@@ -42,7 +46,7 @@
       "vintra": {
         "company": "Vintra, Inc.",
         "role": "Ingeniero Frontend",
-        "period": "Sep 2022 - May 2023",
+        "years": "2022 — 2023",
         "bullets": [
           "Lideré la migración de una plataforma de análisis de video de JavaScript legacy a un codebase fuertemente tipado en TypeScript, reduciendo errores en tiempo de ejecución.",
           "Introduje Vite y esbuild en el pipeline de build, reduciendo tiempos de compilación y acelerando la velocidad de iteración.",
@@ -52,7 +56,7 @@
       "bita_lead": {
         "company": "BITA GmbH",
         "role": "Líder de Desarrollo UI",
-        "period": "Abr 2022 - Sep 2022",
+        "years": "2022",
         "bullets": [
           "Lideré un equipo frontend construyendo herramientas de analítica de índices y ETFs, estableciendo estándares de ingeniería.",
           "Implementé prácticas shift-left—revisiones de código, linting y testing automatizado—para detectar defectos tempranamente.",
@@ -63,7 +67,7 @@
       "bita_dev": {
         "company": "BITA GmbH",
         "role": "Ingeniero Full-Stack",
-        "period": "Jul 2021 - Abr 2022",
+        "years": "2021 — 2022",
         "bullets": [
           "Construí y mantuve aplicaciones financieras para construcción de índices y analítica de ETFs a través de frontend, backend y capas de datos.",
           "Diseñé flujos de procesamiento asíncrono de eventos usando RabbitMQ para manejar ingesta de datos de forma confiable a escala.",
@@ -73,7 +77,7 @@
       "intelix": {
         "company": "Intelix Synergy",
         "role": "Desarrollador de Aplicaciones",
-        "period": "Mar 2020 - Jul 2021",
+        "years": "2020 — 2021",
         "bullets": [
           "Construí sistemas internos full-stack para registro, trazabilidad y gestión del ciclo de vida de colaboradores usando Python y Node.js.",
           "Desarrollé interfaces frontend y servicios backend para apoyar operaciones de negocio y flujos de seguimiento de datos.",
@@ -83,7 +87,7 @@
       "freelance": {
         "company": "Freelance",
         "role": "Desarrollador de Software",
-        "period": "May 2018 - Dic 2019",
+        "years": "2018 — 2019",
         "bullets": [
           "Construí herramientas de automatización en Python para procesamiento de datos, incluyendo flujos de búsqueda y filtrado sobre grandes datasets de Excel.",
           "Entregué scripts y utilidades personalizadas para optimizar operaciones de negocio repetitivas para clientes."
@@ -91,28 +95,34 @@
       }
     }
   },
-  "skills": {
-    "title": "Habilidades",
+  "education": {
+    "heading": "Educación",
+    "role": "Ingeniería en Computación",
+    "school": "Universidad José Antonio Páez · Venezuela",
+    "years": "2016 — 2020",
+    "detail": "Título de ingeniería en computación — bases en ingeniería de software, sistemas distribuidos y matemáticas."
+  },
+  "stack": {
+    "heading": "Herramientas que uso",
     "categories": {
-      "languages": "Lenguajes de Programación",
-      "architecture": "Arquitectura y Diseño de Sistemas",
-      "cloud": "Cloud e Infraestructura",
-      "databases": "Bases de Datos y Mensajería",
+      "languages": "Lenguajes",
+      "architecture": "Arquitectura",
+      "cloud": "Cloud e Infra",
+      "databases": "Datos y Mensajería",
       "backend": "Backend",
       "devops": "DevOps y Herramientas",
       "frontend": "Frontend"
     }
   },
   "contact": {
-    "title": "Contacto",
-    "description": "Siempre estoy abierto a discutir nuevas oportunidades, proyectos interesantes o simplemente conversar sobre tecnología.",
-    "cta": "Conectemos",
-    "email": "Correo",
-    "phone": "Teléfono",
-    "location": "Barcelona, España"
-  },
-  "footer": {
-    "built_with": "Construido con React & shadcn/ui",
-    "rights": "Todos los derechos reservados"
+    "big": "Construyamos algo.",
+    "sayHello": "Hablemos →",
+    "links": {
+      "github": "GitHub",
+      "email": "Correo",
+      "linkedin": "LinkedIn",
+      "resume": "CV"
+    },
+    "colophon": "aesbetancourt · Ingeniero Senior Fullstack AI"
   }
 }

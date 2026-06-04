@@ -23,13 +23,24 @@ export const skills: Record<string, string[]> = {
   ],
   databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "RabbitMQ"],
   backend: ["Node.js", "Fastify", "Express.js", "FastAPI", "Flask"],
-  devops: ["Docker", "CI/CD", "NGINX", "PM2", "Git", "GitHub", "GitLab", "Linux"],
+  devops: [
+    "Docker",
+    "CI/CD",
+    "NGINX",
+    "PM2",
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Linux",
+  ],
   frontend: ["React", "Next.js", "Vite", "esbuild"],
-}
+};
 
 export const socialLinks = {
   github: "https://github.com/aesbetancourt",
-  linkedin: "https://linkedin.com/in/aesbetancourt",
+  linkedin: "https://www.linkedin.com/in/aesbetancourt/",
   email: "aesbetancourt@outlook.com",
-  email2: "ale.aesbg@gmail.com",
-}
+  email2: "ale.aesb@gmail.com",
+};
+
+export const githubHandle = "@aesbetancourt";

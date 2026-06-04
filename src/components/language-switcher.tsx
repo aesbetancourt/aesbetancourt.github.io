@@ -1,12 +1,5 @@
 import { useTranslation } from "react-i18next"
-import { Globe } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+import { cn } from "@/lib/utils"
 
 const languages = [
   { code: "en", label: "EN" },
@@ -17,28 +10,21 @@ export function LanguageSwitcher() {
   const { i18n } = useTranslation()
 
   return (
-    <DropdownMenu modal={false}>
-      <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="h-9 w-9">
-          <Globe className="h-4 w-4" />
-          <span className="sr-only">Switch language</span>
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
-        {languages.map((lang) => (
-          <DropdownMenuItem
+    <div className="langswitch">
+      {languages.map((lang) => {
+        const active = i18n.language?.startsWith(lang.code)
+        return (
+          <button
             key={lang.code}
+            type="button"
             onClick={() => i18n.changeLanguage(lang.code)}
-            className={
-              i18n.language?.startsWith(lang.code)
-                ? "font-bold bg-accent"
-                : ""
-            }
+            className={cn("langbtn", active && "active")}
+            aria-pressed={active}
           >
             {lang.label}
-          </DropdownMenuItem>
-        ))}
-      </DropdownMenuContent>
-    </DropdownMenu>
+          </button>
+        )
+      })}
+    </div>
   )
 }
