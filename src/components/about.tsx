@@ -1,14 +1,16 @@
 import { Trans, useTranslation } from "react-i18next"
+import { useReveal } from "@/hooks/use-reveal"
 
 export function About() {
   const { t } = useTranslation()
+  const root = useReveal()
 
   return (
-    <section id="about">
-      <div className="eyebrow">
+    <section id="about" ref={root}>
+      <div className="eyebrow reveal">
         01 / {t("nav.about")} <span className="ln" />
       </div>
-      <div className="aboutgrid">
+      <div className="aboutgrid reveal">
         <div>
           <p>
             <Trans i18nKey="about.p1" components={{ strong: <strong /> }} />

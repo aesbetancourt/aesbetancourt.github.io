@@ -456,6 +456,23 @@ h2.sec {
   color: var(--accent);
 }
 
+/* ---------------- ANIMATION REVEAL SCAFFOLDING ----------------
+   Targets are hidden only when JS will animate them (data-anim flag set
+   pre-paint). No-JS / reduce-motion users never get the flag, so content
+   renders immediately with zero layout shift. anime.js writes inline
+   opacity/transform, which overrides these base rules as each plays. */
+[data-anim="on"] .reveal,
+[data-anim="on"] .reveal-group > * {
+  opacity: 0;
+}
+/* Eyebrow accent line starts collapsed, then draws in from the left. */
+.eyebrow .ln {
+  transform-origin: left center;
+}
+[data-anim="on"] .eyebrow .ln {
+  transform: scaleX(0);
+}
+
 @media (max-width: 880px) {
   .wrap {
     grid-template-columns: 1fr;

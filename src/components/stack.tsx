@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next"
 import { skills } from "@/lib/data"
+import { useReveal } from "@/hooks/use-reveal"
 
 const categoryOrder = [
   "languages",
@@ -13,14 +14,15 @@ const categoryOrder = [
 
 export function Stack() {
   const { t } = useTranslation()
+  const root = useReveal()
 
   return (
-    <section id="stack">
-      <div className="eyebrow">
+    <section id="stack" ref={root}>
+      <div className="eyebrow reveal">
         04 / {t("nav.stack")} <span className="ln" />
       </div>
-      <h2 className="sec">{t("stack.heading")}</h2>
-      <div className="stackgrid">
+      <h2 className="sec reveal">{t("stack.heading")}</h2>
+      <div className="stackgrid reveal-group">
         {categoryOrder.map((category) => (
           <div key={category}>
             <h4>{t(`stack.categories.${category}`)}</h4>

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next"
+import { useReveal } from "@/hooks/use-reveal"
 
 const experienceKeys = [
   "entropy",
@@ -11,14 +12,15 @@ const experienceKeys = [
 
 export function Experience() {
   const { t } = useTranslation()
+  const root = useReveal()
 
   return (
-    <section id="experience">
-      <div className="eyebrow">
+    <section id="experience" ref={root}>
+      <div className="eyebrow reveal">
         02 / {t("nav.experience")} <span className="ln" />
       </div>
-      <h2 className="sec">{t("experience.heading")}</h2>
-      <div className="xp">
+      <h2 className="sec reveal">{t("experience.heading")}</h2>
+      <div className="xp reveal-group">
         {experienceKeys.map((key) => {
           const bullets = t(`experience.entries.${key}.bullets`, {
             returnObjects: true,

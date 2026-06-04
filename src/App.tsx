@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next"
 import { Sidebar } from "@/components/sidebar"
 import { Hero } from "@/components/hero"
 import { About } from "@/components/about"
@@ -7,11 +8,14 @@ import { Stack } from "@/components/stack"
 import { Contact } from "@/components/contact"
 
 function App() {
+  const { i18n } = useTranslation()
   return (
     <div className="wrap">
       <Sidebar />
       <main className="content">
-        <Hero />
+        {/* Remount on locale change: the hero splits its headline into per-word
+            spans, so React must not diff against that rewritten DOM. */}
+        <Hero key={i18n.language} />
         <About />
         <Experience />
         <Education />

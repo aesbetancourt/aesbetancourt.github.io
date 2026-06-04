@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
+import { animate, createScope, stagger } from "animejs"
 import { Download, Github, Linkedin, Mail } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { LanguageSwitcher } from "./language-switcher"
@@ -17,6 +18,25 @@ const sections = [
 export function Sidebar() {
   const { t } = useTranslation()
   const [active, setActive] = useState<string>("about")
+  const root = useRef<HTMLElement>(null)
+  const scope = useRef<ReturnType<typeof createScope> | null>(null)
+
+  // Entrance cascade on load — the sidebar is always in view, so it runs once
+  // on mount rather than on scroll.
+  useEffect(() => {
+    if (!root.current) return
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return
+    scope.current = createScope({ root }).add(() => {
+      animate(".reveal", {
+        opacity: [0, 1],
+        translateY: [10, 0],
+        duration: 640,
+        delay: stagger(70, { start: 120 }),
+        ease: "out(3)",
+      })
+    })
+    return () => scope.current?.revert()
+  }, [])
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -35,26 +55,30 @@ export function Sidebar() {
   }, [])
 
   return (
-    <aside className="side">
-      <span className="brandmark">{t("brand")}</span>
-      <h1>
+    <aside className="side" ref={root}>
+      <span className="brandmark reveal">{t("brand")}</span>
+      <h1 className="reveal">
         Alejandro
         <br />
         Sánchez
       </h1>
-      <p className="role">{t("sidebar.role")}</p>
-      <span className="loc">{t("sidebar.location")}</span>
+      <p className="role reveal">{t("sidebar.role")}</p>
+      <span className="loc reveal">{t("sidebar.location")}</span>
 
       <nav className="snav">
         {sections.map(({ id, nav }, i) => (
-          <a key={id} href={`#${id}`} className={cn(active === id && "active")}>
+          <a
+            key={id}
+            href={`#${id}`}
+            className={cn("reveal", active === id && "active")}
+          >
             <span className="ix">{String(i + 1).padStart(2, "0")}</span>
             {t(`nav.${nav}`)}
           </a>
         ))}
       </nav>
 
-      <div className="foot">
+      <div className="foot reveal">
         <a className="resume" href={cvPdf} download="AlejandroSanchez_CV.pdf">
           <Download size={15} strokeWidth={2} /> {t("sidebar.resume")}
         </a>
