@@ -1,12 +1,11 @@
 import { useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { animate, createScope, stagger } from "animejs"
-import { Download, Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { LanguageSwitcher } from "./language-switcher"
 import { ThemeToggle } from "./theme-toggle"
 import { socialLinks } from "@/lib/data"
-import cvPdf from "@/assets/AlejandroSanchezCV.pdf"
 
 const sections = [
   { id: "about", nav: "about" },
@@ -80,21 +79,13 @@ export function Sidebar() {
       </nav>
 
       <div className="foot reveal">
-        <a className="resume" href={cvPdf} download="AlejandroSanchez_CV.pdf">
-          <Download size={15} strokeWidth={2} /> {t("sidebar.resume")}
+        <a className="resume" href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer">
+          <Linkedin size={15} strokeWidth={2} /> {t("sidebar.resume")}
         </a>
         <div className="socials">
           <a href={socialLinks.github} target="_blank" rel="noopener noreferrer">
             <Github size={14} strokeWidth={1.75} />
             GitHub
-          </a>
-          <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer">
-            <Linkedin size={14} strokeWidth={1.75} />
-            LinkedIn
-          </a>
-          <a href={`mailto:${socialLinks.email}`}>
-            <Mail size={14} strokeWidth={1.75} />
-            Email
           </a>
           <span className="sdivider" aria-hidden="true" />
           <LanguageSwitcher />

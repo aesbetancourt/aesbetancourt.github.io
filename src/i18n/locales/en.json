@@ -10,7 +10,7 @@
   "sidebar": {
     "role": "Senior Fullstack AI Engineer",
     "location": "Europe",
-    "resume": "Download CV"
+    "resume": "Go to LinkedIn"
   },
   "hero": {
     "lead": "Building scalable distributed systems with <ts>TypeScript</ts>, <py>Python</py> & <ai>AI</ai>.",
@@ -119,10 +119,7 @@
     "big": "Let's build something.",
     "sayHello": "Let's talk →",
     "links": {
-      "github": "GitHub",
-      "email": "Email",
-      "linkedin": "LinkedIn",
-      "resume": "CV"
+      "linkedin": "LinkedIn"
     },
     "colophon": "aesbetancourt · Senior Fullstack AI Engineer"
   },

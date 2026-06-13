@@ -74,8 +74,6 @@ export const certifications: { org: string; courses: string[] }[] = [
 export const socialLinks = {
   github: "https://github.com/aesbetancourt",
   linkedin: "https://www.linkedin.com/in/aesbetancourt/",
-  email: "aesbetancourt@outlook.com",
-  email2: "ale.aesb@gmail.com",
 };
 
 export const githubHandle = "@aesbetancourt";
