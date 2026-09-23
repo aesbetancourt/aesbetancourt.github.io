@@ -321,14 +321,8 @@ h2.sec {
   border: 1px solid var(--line2);
   border-radius: 14px;
   background: var(--panel);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--mono);
-  font-size: 56px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--accent);
+  display: block;
+  object-fit: cover;
 }
 
 /* experience / education */

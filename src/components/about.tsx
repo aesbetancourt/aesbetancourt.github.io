@@ -1,5 +1,6 @@
 import { Trans, useTranslation } from "react-i18next"
 import { useReveal } from "@/hooks/use-reveal"
+import avatar from "@/assets/avatar.webp"
 
 export function About() {
   const { t } = useTranslation()
@@ -26,9 +27,15 @@ export function About() {
           </p>
         </div>
         <div className="avatarwrap">
-          <div className="avatar" aria-hidden="true">
-            AS
-          </div>
+          <img
+            className="avatar"
+            src={avatar}
+            alt="Alejandro Sánchez"
+            width={168}
+            height={200}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       </div>
     </section>
