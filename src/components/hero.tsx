@@ -61,6 +61,7 @@ export function Hero() {
 
   const meta = [
     { label: t("hero.meta.role"), value: t("sidebar.role") },
+    { label: t("hero.meta.now"), value: t("sidebar.founding") },
     { label: t("hero.meta.focus"), value: t("hero.focusValue") },
     { label: t("hero.meta.based"), value: t("sidebar.location") },
     { label: t("hero.meta.github"), value: githubHandle },

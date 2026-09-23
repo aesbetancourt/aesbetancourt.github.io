@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import { Linkedin } from "lucide-react"
+import { Github, Linkedin } from "lucide-react"
 import { socialLinks } from "@/lib/data"
 import { useReveal } from "@/hooks/use-reveal"
 
@@ -23,6 +23,10 @@ export function Contact() {
         <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer">
           <Linkedin size={15} strokeWidth={1.75} />
           {t("contact.links.linkedin")}
+        </a>
+        <a href={socialLinks.github} target="_blank" rel="noopener noreferrer">
+          <Github size={15} strokeWidth={1.75} />
+          {t("contact.links.github")}
         </a>
       </div>
       <p className="colophon reveal">

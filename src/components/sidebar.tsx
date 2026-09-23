@@ -63,6 +63,7 @@ export function Sidebar() {
         Sánchez
       </h1>
       <p className="role reveal">{t("sidebar.role")}</p>
+      <p className="role reveal">{t("sidebar.founding")}</p>
       <span className="loc reveal">{t("sidebar.location")}</span>
 
       <nav className="snav">

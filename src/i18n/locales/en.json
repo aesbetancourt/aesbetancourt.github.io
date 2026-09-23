@@ -9,7 +9,8 @@
   },
   "sidebar": {
     "role": "Senior Fullstack AI Engineer",
-    "location": "Europe",
+    "founding": "Founding Engineer at Entropy Systems",
+    "location": "Barcelona, Spain · Remote (EU)",
     "resume": "Go to LinkedIn"
   },
   "hero": {
@@ -18,6 +19,7 @@
     "focusValue": "distributed systems · LLMs",
     "meta": {
       "role": "role",
+      "now": "now",
       "focus": "focus",
       "based": "based",
       "github": "github"
@@ -25,6 +27,7 @@
   },
   "about": {
     "p1": "I'm a <strong>computer engineer specialized in JavaScript fullstack</strong> development, working end-to-end across the stack, designing APIs and data layers, building the interfaces on top, and wiring in the AI that makes them useful.",
+    "founding": "As a <strong>founding engineer at Entropy Systems</strong>, I've shaped the architecture of our SaaS products for ISO standards auditing from day one. They're now used by ~40 client companies.",
     "p2": "My work centers on <strong>scalable, distributed systems</strong> built with TypeScript, Node and Python, with a long-running interest in document tooling and developer-facing libraries.",
     "p3": "Lately that means shipping <strong>AI-powered features</strong>: retrieval, LLM orchestration and the production plumbing that keeps them reliable."
   },
@@ -33,14 +36,14 @@
     "entries": {
       "entropy": {
         "company": "Entropy Systems",
-        "role": "Fullstack AI Engineer",
+        "role": "Founding Full Stack Engineer",
         "years": "2023 — Present",
         "bullets": [
-          "Architected and delivered SaaS products for ISO standards auditing, including client-facing applications, internal dashboards, and AI-powered tooling, as part of a small engineering team (3–5 engineers).",
-          "Built full-stack features in TypeScript using React, Next.js, and Vite on the frontend with Fastify and Node.js services on the backend.",
-          "Integrated LLMs via AWS Bedrock and designed agent orchestration pipelines for document processing, conversational assistants, and automated business workflows.",
-          "Deployed and operated distributed services across AWS and GCP, applying event-driven and serverless patterns.",
-          "Containerized services with Docker and maintained CI/CD pipelines for reliable, repeatable deployments."
+          "Founding engineer: architected and delivered 3 SaaS products for ISO standards auditing, now used by ~40 client companies, in a small engineering team (3–5 engineers).",
+          "Built full-stack features in TypeScript using React, Next.js and Vite on the frontend, with Fastify and Node.js services on the backend.",
+          "Designed LLM agent pipelines on AWS Bedrock for document processing, conversational assistants and workflow automation, processing ~2,000 audit documents per month and cutting manual review time by ~60%.",
+          "Operated 12 distributed services across AWS and GCP with 99.9% uptime, using event-driven and serverless patterns.",
+          "Containerized services with Docker and built CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases."
         ]
       },
       "vintra": {
@@ -48,8 +51,8 @@
         "role": "Frontend Engineer",
         "years": "2022 — 2023",
         "bullets": [
-          "Led migration of a video analytics platform from legacy JavaScript to a strongly-typed TypeScript codebase, reducing runtime errors and improving developer confidence.",
-          "Introduced Vite and esbuild into the build pipeline, cutting build times and accelerating development iteration speed.",
+          "Led migration of a ~80k-line video analytics codebase from legacy JavaScript to TypeScript, reducing production runtime errors by ~30%.",
+          "Introduced Vite and esbuild into the build pipeline, cutting build time from ~3 min to ~20 s.",
           "Partnered with product and design teams to deliver consistent UI behavior across a complex, data-rich surveillance interface."
         ]
       },
@@ -58,9 +61,9 @@
         "role": "UI Development Lead",
         "years": "2022",
         "bullets": [
-          "Led a front-end team building index and ETF analytics tools, setting engineering standards and driving delivery quality.",
-          "Implemented shift-left practices (code reviews, linting, and automated testing) to catch defects early in the development cycle.",
-          "Drove front-end scalability across multiple web applications, establishing shared component patterns and consistent architecture.",
+          "Led a team of 4 front-end engineers building 5 index and ETF analytics applications, setting engineering standards and driving delivery quality.",
+          "Introduced shift-left practices (code reviews, linting and automated testing), raising test coverage from ~10% to ~70%.",
+          "Established shared component patterns and a consistent architecture across the applications.",
           "Contributed across the stack, delivering UI features in TypeScript and supporting backend API work in Python."
         ]
       },
@@ -69,8 +72,8 @@
         "role": "Full-Stack Engineer",
         "years": "2021 — 2022",
         "bullets": [
-          "Built and maintained financial applications for index construction and ETF analytics across frontend, backend, and data layers.",
-          "Designed asynchronous event-processing workflows using RabbitMQ to handle data ingestion reliably at scale.",
+          "Built and maintained financial applications for index construction and ETF analytics across frontend, backend and data layers.",
+          "Designed asynchronous RabbitMQ workflows ingesting ~1M market-data records per day.",
           "Developed REST APIs and backend services in Python and Node.js, backed by PostgreSQL and MongoDB."
         ]
       },
@@ -79,18 +82,9 @@
         "role": "Application Developer",
         "years": "2020 — 2021",
         "bullets": [
-          "Built full-stack internal systems for registration, traceability, and collaborator lifecycle management using Python and Node.js.",
+          "Built 3 internal systems used daily by ~200 employees for registration, traceability and collaborator lifecycle management, using Python and Node.js.",
           "Developed front-end interfaces and backend services to support business operations and data tracking workflows.",
           "Deployed and operated services on Linux servers with NGINX as a reverse proxy."
-        ]
-      },
-      "freelance": {
-        "company": "Freelance",
-        "role": "Software Developer",
-        "years": "2018 — 2019",
-        "bullets": [
-          "Built Python automation tools for data processing, including search and filtering workflows over large Excel datasets.",
-          "Delivered custom scripts and utilities to streamline repetitive business operations for clients."
         ]
       }
     }
@@ -119,7 +113,8 @@
     "big": "Let's build something.",
     "sayHello": "Let's talk →",
     "links": {
-      "linkedin": "LinkedIn"
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
     },
     "colophon": "aesbetancourt · Senior Fullstack AI Engineer"
   },

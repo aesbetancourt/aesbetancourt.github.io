@@ -38,36 +38,16 @@ export const skills: Record<string, string[]> = {
 
 export const certifications: { org: string; courses: string[] }[] = [
   {
-    org: "Educative.io",
-    courses: [
-      "Grokking the System Design Interview",
-      "Grokking the Advanced System Design Interview",
-      "Grokking the Modern System Design Interview",
-    ],
-  },
-  {
     org: "AWS Skill Builder",
-    courses: ["Architecting on AWS", "AWS Cloud Practitioner Essentials"],
+    courses: ["Architecting on AWS"],
   },
   {
     org: "Google Cloud Skills Boost",
-    courses: ["Designing Distributed Systems", "Google Cloud Fundamentals"],
+    courses: ["Designing Distributed Systems"],
   },
   {
     org: "DeepLearning.AI",
-    courses: ["Neural Networks and Deep Learning", "AI For Everyone"],
-  },
-  {
-    org: "Coursera",
-    courses: [
-      "Introduction to Artificial Intelligence",
-      "Software Security",
-      "Python Data Structures",
-    ],
-  },
-  {
-    org: "Platzi",
-    courses: ["Backend Development with Node.js"],
+    courses: ["Neural Networks and Deep Learning"],
   },
 ];
 

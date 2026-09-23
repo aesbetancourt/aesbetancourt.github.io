@@ -16,6 +16,9 @@ export function About() {
             <Trans i18nKey="about.p1" components={{ strong: <strong /> }} />
           </p>
           <p>
+            <Trans i18nKey="about.founding" components={{ strong: <strong /> }} />
+          </p>
+          <p>
             <Trans i18nKey="about.p2" components={{ strong: <strong /> }} />
           </p>
           <p>

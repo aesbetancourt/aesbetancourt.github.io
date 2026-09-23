@@ -7,7 +7,6 @@ const experienceKeys = [
   "bita_lead",
   "bita_dev",
   "intelix",
-  "freelance",
 ] as const
 
 export function Experience() {

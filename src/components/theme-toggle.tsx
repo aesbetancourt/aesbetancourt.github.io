@@ -16,6 +16,8 @@ function applyTheme(theme: Theme) {
 }
 
 function currentTheme(): Theme {
+  // No document during the build-time prerender; html defaults to dark.
+  if (typeof document === "undefined") return "dark"
   return document.documentElement.classList.contains("light") ? "light" : "dark"
 }
 

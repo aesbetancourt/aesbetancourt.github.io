@@ -1,6 +1,6 @@
 # Alejandro Sánchez · Senior Fullstack AI Engineer
 
-> Computer engineer specialized in JavaScript fullstack development, building scalable distributed systems with TypeScript, Node.js and Python, and shipping AI-powered features (LLM orchestration, RAG, retrieval) with production-grade reliability. Based in Europe, available remote.
+> Computer engineer specialized in JavaScript fullstack development, building scalable distributed systems with TypeScript, Node.js and Python, and shipping AI-powered features (LLM orchestration, RAG, retrieval) with production-grade reliability. Founding Engineer at Entropy Systems. Based in Barcelona, Spain, available remote (EU).
 
 Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, designing APIs and data layers, building the interfaces on top, and integrating the AI that makes them useful. This file summarizes his profile for language models and AI agents. The site is a single-page portfolio available in English and Spanish.
 
@@ -9,18 +9,18 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 - Name: Alejandro Sánchez
 - Handle: aesbetancourt
 - Role: Senior Fullstack AI Engineer
+- Current: Founding Engineer at Entropy Systems
 - Focus: distributed systems, LLMs, fullstack TypeScript/Python
-- Location: Europe (remote)
+- Location: Barcelona, Spain · Remote (EU)
 - Website: https://aesbetancourt.dev/
 
 ## Experience
 
-- Fullstack AI Engineer · Entropy Systems (2023 — Present): SaaS products for ISO standards auditing; LLM integration via AWS Bedrock and agent orchestration; distributed services across AWS and GCP with Docker and CI/CD.
-- Frontend Engineer · Vintra, Inc. (2022 — 2023): migrated a video analytics platform from legacy JavaScript to strongly-typed TypeScript; introduced Vite and esbuild.
-- UI Development Lead · BITA GmbH (2022): led a front-end team building index and ETF analytics tools; established shift-left practices and shared component architecture.
-- Full-Stack Engineer · BITA GmbH (2021 — 2022): financial applications for index construction; asynchronous event processing with RabbitMQ; REST APIs in Python and Node.js.
-- Application Developer · Intelix Synergy (2020 — 2021): full-stack internal systems in Python and Node.js on Linux/NGINX.
-- Software Developer (Freelance) · (2018 — 2019): Python automation tools for data processing.
+- Founding Full Stack Engineer · Entropy Systems (2023 — Present): architected and delivered 3 SaaS products for ISO standards auditing, now used by ~40 client companies, in a team of 3–5 engineers; full-stack TypeScript (React, Next.js, Vite, Fastify, Node.js); LLM agent pipelines on AWS Bedrock processing ~2,000 audit documents per month and cutting manual review time by ~60%; 12 distributed services across AWS and GCP with 99.9% uptime; Docker and CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases.
+- Frontend Engineer · Vintra, Inc. (2022 — 2023): led migration of a ~80k-line video analytics codebase from legacy JavaScript to TypeScript, reducing production runtime errors by ~30%; introduced Vite and esbuild, cutting build time from ~3 min to ~20 s.
+- UI Development Lead · BITA GmbH (2022): led a team of 4 front-end engineers building 5 index and ETF analytics applications; introduced shift-left practices, raising test coverage from ~10% to ~70%; established shared component patterns.
+- Full-Stack Engineer · BITA GmbH (2021 — 2022): financial applications for index construction and ETF analytics; asynchronous RabbitMQ workflows ingesting ~1M market-data records per day; REST APIs in Python and Node.js.
+- Application Developer · Intelix Synergy (2020 — 2021): built 3 internal systems used daily by ~200 employees, in Python and Node.js on Linux/NGINX.
 
 ## Education
 
@@ -28,12 +28,9 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 
 ## Certifications & Learning
 
-- Grokking the System Design Interview / Advanced / Modern · Educative.io
-- Architecting on AWS; AWS Cloud Practitioner Essentials · AWS Skill Builder
-- Designing Distributed Systems; Google Cloud Fundamentals · Google Cloud Skills Boost
-- Neural Networks and Deep Learning; AI For Everyone · DeepLearning.AI
-- Introduction to Artificial Intelligence; Software Security; Python Data Structures · Coursera
-- Backend Development with Node.js · Platzi
+- Architecting on AWS · AWS Skill Builder
+- Designing Distributed Systems · Google Cloud Skills Boost
+- Neural Networks and Deep Learning · DeepLearning.AI
 
 ## Stack
 
@@ -49,4 +46,3 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 - Website: https://aesbetancourt.dev/
 - GitHub: https://github.com/aesbetancourt
 - LinkedIn: https://www.linkedin.com/in/aesbetancourt/
-- Email: aesbetancourt@outlook.com
