@@ -1,0 +1,125 @@
+{
+  "brand": "aesbetancourt · engineering",
+  "nav": {
+    "about": "À propos",
+    "experience": "Expérience",
+    "education": "Formation",
+    "stack": "Stack",
+    "contact": "Contact"
+  },
+  "sidebar": {
+    "role": "Ingénieur Senior Fullstack IA",
+    "founding": "Ingénieur fondateur chez Entropy Systems",
+    "location": "Barcelone, Espagne · Télétravail (UE)",
+    "resume": "Voir sur LinkedIn"
+  },
+  "hero": {
+    "lead": "Je conçois des systèmes distribués évolutifs avec <ts>TypeScript</ts>, <py>Python</py> et l'<ai>IA</ai>.",
+    "sub": "Ingénieur informatique spécialisé dans le développement fullstack JavaScript, des services backend résilients jusqu'aux fonctionnalités d'IA qui s'appuient dessus.",
+    "focusValue": "systèmes distribués · LLMs",
+    "meta": {
+      "role": "poste",
+      "now": "actuel",
+      "focus": "focus",
+      "based": "lieu",
+      "github": "github"
+    }
+  },
+  "about": {
+    "p1": "Je suis <strong>ingénieur informatique spécialisé dans le développement fullstack JavaScript</strong> et je travaille sur l'ensemble de la stack : conception d'APIs et de couches de données, création des interfaces qui les exploitent, et intégration de l'IA qui les rend utiles.",
+    "founding": "En tant qu'<strong>ingénieur fondateur chez Entropy Systems</strong>, je façonne depuis le premier jour l'architecture de nos produits SaaS d'audit des normes ISO. Ils sont aujourd'hui utilisés par ~40 entreprises clientes.",
+    "p2": "Mon travail porte sur des <strong>systèmes distribués et évolutifs</strong> construits avec TypeScript, Node et Python, avec un intérêt de longue date pour l'outillage documentaire et les bibliothèques destinées aux développeurs.",
+    "p3": "Ces derniers temps, cela signifie livrer des <strong>fonctionnalités basées sur l'IA</strong> : recherche augmentée, orchestration de LLMs et l'infrastructure de production qui les rend fiables."
+  },
+  "experience": {
+    "heading": "Où j'ai travaillé",
+    "entries": {
+      "entropy": {
+        "company": "Entropy Systems",
+        "role": "Ingénieur Full Stack fondateur",
+        "years": "2023 — Aujourd'hui",
+        "bullets": [
+          "Ingénieur fondateur : conception et livraison de 3 produits SaaS d'audit des normes ISO, aujourd'hui utilisés par ~40 entreprises clientes, au sein d'une petite équipe technique (3 à 5 ingénieurs).",
+          "Développement de fonctionnalités full-stack en TypeScript avec React, Next.js et Vite côté frontend, et des services Fastify et Node.js côté backend.",
+          "Conception de pipelines d'agents LLM sur AWS Bedrock pour le traitement de documents, les assistants conversationnels et l'automatisation de workflows : ~2 000 documents d'audit traités par mois et ~60 % de temps de revue manuelle en moins.",
+          "Exploitation de 12 services distribués sur AWS et GCP avec 99,9 % de disponibilité, selon des architectures événementielles et serverless.",
+          "Conteneurisation des services avec Docker et mise en place de pipelines CI/CD réduisant le temps de déploiement de ~1 heure à ~10 minutes, permettant des mises en production quotidiennes."
+        ]
+      },
+      "vintra": {
+        "company": "Vintra, Inc.",
+        "role": "Ingénieur Frontend",
+        "years": "2022 — 2023",
+        "bullets": [
+          "Pilotage de la migration d'une base de code d'analyse vidéo de ~80k lignes de JavaScript historique vers TypeScript, réduisant les erreurs d'exécution en production de ~30 %.",
+          "Introduction de Vite et esbuild dans la chaîne de build, faisant passer le temps de build de ~3 min à ~20 s.",
+          "Collaboration avec les équipes produit et design pour garantir un comportement d'interface cohérent sur une application de vidéosurveillance complexe et riche en données."
+        ]
+      },
+      "bita_lead": {
+        "company": "BITA GmbH",
+        "role": "Responsable du développement UI",
+        "years": "2022",
+        "bullets": [
+          "Direction d'une équipe de 4 ingénieurs front-end développant 5 applications d'analyse d'indices et d'ETF, avec définition des standards techniques et pilotage de la qualité de livraison.",
+          "Mise en place de pratiques shift-left (revues de code, linting et tests automatisés), faisant passer la couverture de tests de ~10 % à ~70 %.",
+          "Définition de patterns de composants partagés et d'une architecture cohérente entre les applications.",
+          "Contributions sur toute la stack : fonctionnalités UI en TypeScript et soutien au développement d'APIs backend en Python."
+        ]
+      },
+      "bita_dev": {
+        "company": "BITA GmbH",
+        "role": "Ingénieur Full-Stack",
+        "years": "2021 — 2022",
+        "bullets": [
+          "Développement et maintenance d'applications financières pour la construction d'indices et l'analyse d'ETF, sur les couches frontend, backend et données.",
+          "Conception de workflows asynchrones RabbitMQ ingérant ~1M d'enregistrements de données de marché par jour.",
+          "Développement d'APIs REST et de services backend en Python et Node.js, reposant sur PostgreSQL et MongoDB."
+        ]
+      },
+      "intelix": {
+        "company": "Intelix Synergy",
+        "role": "Développeur d'applications",
+        "years": "2020 — 2021",
+        "bullets": [
+          "Développement de 3 systèmes internes utilisés quotidiennement par ~200 employés pour l'enregistrement, la traçabilité et la gestion du cycle de vie des collaborateurs, en Python et Node.js.",
+          "Développement d'interfaces front-end et de services backend au service des opérations métier et des workflows de suivi des données.",
+          "Déploiement et exploitation de services sur des serveurs Linux avec NGINX comme reverse proxy."
+        ]
+      }
+    }
+  },
+  "education": {
+    "heading": "Formation",
+    "role": "Génie informatique",
+    "school": "Université Jose Antonio Páez · Venezuela",
+    "years": "2016 — 2020",
+    "detail": "Diplôme d'ingénieur en informatique, avec des bases en génie logiciel, systèmes distribués et mathématiques.",
+    "certifications": "Certifications et apprentissage"
+  },
+  "stack": {
+    "heading": "Mes outils de prédilection",
+    "categories": {
+      "languages": "Langages",
+      "architecture": "Architecture",
+      "cloud": "Cloud et infra",
+      "databases": "Données et messagerie",
+      "backend": "Backend",
+      "devops": "DevOps et outillage",
+      "frontend": "Frontend"
+    }
+  },
+  "contact": {
+    "big": "Construisons quelque chose.",
+    "sayHello": "Parlons-en →",
+    "links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "colophon": "aesbetancourt · Ingénieur Senior Fullstack IA"
+  },
+  "theme": {
+    "light": "Passer en mode clair",
+    "dark": "Passer en mode sombre"
+  }
+}
