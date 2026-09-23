@@ -89,9 +89,9 @@ export function Sidebar() {
             GitHub
           </a>
           <span className="sdivider" aria-hidden="true" />
-          <LanguageSwitcher />
           <ThemeToggle />
         </div>
+        <LanguageSwitcher />
       </div>
     </aside>
   )

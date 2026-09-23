@@ -1,0 +1,125 @@
+{
+  "brand": "aesbetancourt · engineering",
+  "nav": {
+    "about": "Über mich",
+    "experience": "Erfahrung",
+    "education": "Ausbildung",
+    "stack": "Stack",
+    "contact": "Kontakt"
+  },
+  "sidebar": {
+    "role": "Senior Fullstack AI Engineer",
+    "founding": "Founding Engineer bei Entropy Systems",
+    "location": "Barcelona, Spanien · Remote (EU)",
+    "resume": "Zu LinkedIn"
+  },
+  "hero": {
+    "lead": "Ich baue skalierbare verteilte Systeme mit <ts>TypeScript</ts>, <py>Python</py> & <ai>KI</ai>.",
+    "sub": "Informatikingenieur mit Schwerpunkt auf JavaScript-Fullstack-Entwicklung, von robusten Backend-Services bis zu den KI-Funktionen, die darauf aufbauen.",
+    "focusValue": "verteilte Systeme · LLMs",
+    "meta": {
+      "role": "rolle",
+      "now": "aktuell",
+      "focus": "fokus",
+      "based": "standort",
+      "github": "github"
+    }
+  },
+  "about": {
+    "p1": "Ich bin <strong>Informatikingenieur mit Schwerpunkt auf JavaScript-Fullstack-Entwicklung</strong> und arbeite durchgängig über den gesamten Stack: Ich entwerfe APIs und Datenschichten, baue die Oberflächen darauf und binde die KI ein, die sie nützlich macht.",
+    "founding": "Als <strong>Founding Engineer bei Entropy Systems</strong> gestalte ich seit dem ersten Tag die Architektur unserer SaaS-Produkte für ISO-Normen-Audits. Heute nutzen sie ~40 Kundenunternehmen.",
+    "p2": "Im Mittelpunkt meiner Arbeit stehen <strong>skalierbare, verteilte Systeme</strong> mit TypeScript, Node und Python, dazu ein langjähriges Interesse an Dokumenten-Tooling und Bibliotheken für Entwickler.",
+    "p3": "Zuletzt heißt das vor allem, <strong>KI-gestützte Funktionen</strong> auszuliefern: Retrieval, LLM-Orchestrierung und die Produktionsinfrastruktur, die sie zuverlässig hält."
+  },
+  "experience": {
+    "heading": "Wo ich gearbeitet habe",
+    "entries": {
+      "entropy": {
+        "company": "Entropy Systems",
+        "role": "Founding Full Stack Engineer",
+        "years": "2023 — heute",
+        "bullets": [
+          "Founding Engineer: Konzeption und Umsetzung von 3 SaaS-Produkten für ISO-Normen-Audits, die heute ~40 Kundenunternehmen nutzen, in einem kleinen Engineering-Team (3–5 Personen).",
+          "Entwicklung von Fullstack-Features in TypeScript mit React, Next.js und Vite im Frontend sowie Fastify- und Node.js-Services im Backend.",
+          "Entwurf von LLM-Agenten-Pipelines auf AWS Bedrock für Dokumentenverarbeitung, Chat-Assistenten und Workflow-Automatisierung: ~2.000 Audit-Dokumente pro Monat, ~60 % weniger manuelle Prüfzeit.",
+          "Betrieb von 12 verteilten Services auf AWS und GCP mit 99,9 % Verfügbarkeit, auf Basis ereignisgesteuerter und serverloser Muster.",
+          "Containerisierung der Services mit Docker und Aufbau von CI/CD-Pipelines, die die Deployment-Zeit von ~1 Stunde auf ~10 Minuten senkten und tägliche Releases ermöglichten."
+        ]
+      },
+      "vintra": {
+        "company": "Vintra, Inc.",
+        "role": "Frontend Engineer",
+        "years": "2022 — 2023",
+        "bullets": [
+          "Leitung der Migration einer Videoanalyse-Codebasis mit ~80k Zeilen von Legacy-JavaScript zu TypeScript, wodurch Laufzeitfehler in Produktion um ~30 % sanken.",
+          "Einführung von Vite und esbuild in die Build-Pipeline, wodurch die Build-Zeit von ~3 Min. auf ~20 s sank.",
+          "Enge Zusammenarbeit mit Produkt- und Designteams für ein konsistentes UI-Verhalten in einer komplexen, datenintensiven Überwachungsoberfläche."
+        ]
+      },
+      "bita_lead": {
+        "company": "BITA GmbH",
+        "role": "UI Development Lead",
+        "years": "2022",
+        "bullets": [
+          "Leitung eines Teams von 4 Frontend-Engineers, das 5 Analyseanwendungen für Indizes und ETFs entwickelte, einschließlich Engineering-Standards und Verantwortung für die Lieferqualität.",
+          "Einführung von Shift-Left-Praktiken (Code-Reviews, Linting und automatisierte Tests), wodurch die Testabdeckung von ~10 % auf ~70 % stieg.",
+          "Etablierung gemeinsamer Komponentenmuster und einer einheitlichen Architektur über alle Anwendungen hinweg.",
+          "Beiträge über den gesamten Stack: UI-Features in TypeScript und Unterstützung bei Backend-APIs in Python."
+        ]
+      },
+      "bita_dev": {
+        "company": "BITA GmbH",
+        "role": "Full-Stack Engineer",
+        "years": "2021 — 2022",
+        "bullets": [
+          "Entwicklung und Wartung von Finanzanwendungen für Indexkonstruktion und ETF-Analyse über Frontend, Backend und Datenschicht.",
+          "Entwurf asynchroner RabbitMQ-Workflows, die ~1 Mio. Marktdatensätze pro Tag verarbeiten.",
+          "Entwicklung von REST-APIs und Backend-Services in Python und Node.js auf Basis von PostgreSQL und MongoDB."
+        ]
+      },
+      "intelix": {
+        "company": "Intelix Synergy",
+        "role": "Anwendungsentwickler",
+        "years": "2020 — 2021",
+        "bullets": [
+          "Entwicklung von 3 internen Systemen, die ~200 Mitarbeitende täglich für Registrierung, Rückverfolgbarkeit und Mitarbeiter-Lifecycle-Management nutzen, mit Python und Node.js.",
+          "Entwicklung von Frontend-Oberflächen und Backend-Services zur Unterstützung von Geschäftsprozessen und Datenverfolgung.",
+          "Deployment und Betrieb von Services auf Linux-Servern mit NGINX als Reverse Proxy."
+        ]
+      }
+    }
+  },
+  "education": {
+    "heading": "Ausbildung",
+    "role": "Informatikingenieurwesen",
+    "school": "Universität Jose Antonio Páez · Venezuela",
+    "years": "2016 — 2020",
+    "detail": "Abschluss in Informatikingenieurwesen mit Grundlagen in Softwaretechnik, verteilten Systemen und Mathematik.",
+    "certifications": "Zertifizierungen & Weiterbildung"
+  },
+  "stack": {
+    "heading": "Meine bevorzugten Werkzeuge",
+    "categories": {
+      "languages": "Sprachen",
+      "architecture": "Architektur",
+      "cloud": "Cloud & Infrastruktur",
+      "databases": "Daten & Messaging",
+      "backend": "Backend",
+      "devops": "DevOps & Tooling",
+      "frontend": "Frontend"
+    }
+  },
+  "contact": {
+    "big": "Lass uns etwas bauen.",
+    "sayHello": "Sprechen wir →",
+    "links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "colophon": "aesbetancourt · Senior Fullstack AI Engineer"
+  },
+  "theme": {
+    "light": "Zum hellen Modus wechseln",
+    "dark": "Zum dunklen Modus wechseln"
+  }
+}
