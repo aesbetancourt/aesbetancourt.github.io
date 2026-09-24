@@ -10,13 +10,13 @@
   "sidebar": {
     "role": "Ingeniero Senior Fullstack AI",
     "founding": "Ingeniero fundador en Entropy Systems",
-    "location": "Barcelona, España · Remoto (UE)",
+    "location": "Barcelona, España · UE",
     "resume": "Ir a LinkedIn"
   },
   "hero": {
-    "lead": "Construyendo sistemas distribuidos escalables con <ts>TypeScript</ts>, <py>Python</py> e <ai>IA</ai>.",
-    "sub": "Ingeniero en computación especializado en desarrollo fullstack con JavaScript, desde servicios backend resilientes hasta las funcionalidades de IA que viven sobre ellos.",
-    "focusValue": "sistemas distribuidos · LLMs",
+    "lead": "Diseñando sistemas distribuidos escalables para productos impulsados por <ai>IA</ai>.",
+    "sub": "Ingeniero de software enfocado en la arquitectura de sistemas: límites entre servicios, flujo de datos e infraestructura cloud. Y sigo escribiendo el código, en TypeScript y Python.",
+    "focusValue": "arquitectura de sistemas · sistemas distribuidos · IA",
     "meta": {
       "role": "rol",
       "now": "ahora",
@@ -26,10 +26,10 @@
     }
   },
   "about": {
-    "p1": "Soy <strong>ingeniero en computación especializado en desarrollo fullstack con JavaScript</strong>, trabajando de extremo a extremo en todo el stack, diseñando APIs y capas de datos, construyendo las interfaces encima, e integrando la IA que las hace útiles.",
+    "p1": "Soy <strong>ingeniero de software enfocado en la arquitectura de sistemas</strong>: defino los límites entre servicios, el flujo de datos y la infraestructura cloud, y luego construyo en todo el stack para llevarlo a producción, desde las APIs y las capas de datos hasta las interfaces y la IA que las acompaña.",
     "founding": "Como <strong>ingeniero fundador en Entropy Systems</strong>, he dado forma a la arquitectura de nuestros productos SaaS para auditoría de normas ISO desde el primer día. Hoy los utilizan ~40 empresas cliente.",
-    "p2": "Mi trabajo se centra en <strong>sistemas escalables y distribuidos</strong> construidos con TypeScript, Node y Python, con un interés de larga data en herramientas de documentos y librerías orientadas a desarrolladores.",
-    "p3": "Últimamente eso significa lanzar <strong>funcionalidades potenciadas por IA</strong>: recuperación, orquestación de LLMs y la infraestructura de producción que las mantiene confiables."
+    "p2": "Mi trabajo se centra en <strong>las decisiones difíciles de cambiar después</strong>: cómo se comunican los servicios, dónde viven los datos y cómo falla y se recupera el sistema. Las llevo a cabo con TypeScript, Node y Python, y mantengo un interés de larga data en herramientas de documentos y librerías orientadas a desarrolladores.",
+    "p3": "Últimamente eso significa diseñar la arquitectura de <strong>funcionalidades potenciadas por IA</strong>: recuperación, orquestación de LLMs, transcripción de voz independiente del proveedor y la infraestructura de producción que las mantiene confiables."
   },
   "experience": {
     "heading": "Dónde he trabajado",
@@ -40,9 +40,10 @@
         "years": "2023 — Presente",
         "bullets": [
           "Ingeniero fundador: diseñé la arquitectura y entregué 3 productos SaaS para auditoría de normas ISO, que hoy utilizan ~40 empresas cliente, dentro de un equipo de ingeniería pequeño (3–5 ingenieros).",
-          "Desarrollé funcionalidades full-stack en TypeScript con React, Next.js y Vite en el frontend, y servicios Fastify y Node.js en el backend.",
+          "Definí la arquitectura de servicios y la implementé de primera mano en TypeScript: React, Next.js y Vite en el frontend, y servicios Fastify y Node.js en el backend.",
           "Diseñé pipelines de agentes LLM en AWS Bedrock para procesamiento de documentos, asistentes conversacionales y automatización de flujos de trabajo, que procesan ~2000 documentos de auditoría al mes y reducen el tiempo de revisión manual en un ~60 %.",
-          "Operé 12 servicios distribuidos en AWS y GCP con un 99,9 % de disponibilidad, aplicando patrones event-driven y serverless.",
+          "Diseñé un motor de transcripción de voz a texto (STT) independiente del proveedor, que funciona con AWS Transcribe o con los modelos Chirp 2 y Chirp 3 de Google Cloud sin cambios en los servicios que lo consumen.",
+          "Diseñé y operé 12 servicios distribuidos en AWS y GCP con un 99,9 % de disponibilidad, aplicando patrones event-driven y serverless.",
           "Empaqueté los servicios en contenedores Docker y construí pipelines de CI/CD que redujeron el tiempo de despliegue de ~1 hora a ~10 minutos, lo que permitió publicar a diario."
         ]
       },
@@ -98,13 +99,14 @@
     "certifications": "Certificaciones y formación"
   },
   "stack": {
-    "heading": "Herramientas que uso",
+    "heading": "Patrones y herramientas que uso",
     "categories": {
       "languages": "Lenguajes",
-      "architecture": "Arquitectura",
+      "architecture": "Arquitectura y patrones",
       "cloud": "Cloud e Infra",
       "databases": "Datos y Mensajería",
       "backend": "Backend",
+      "aiTools": "IA y automatización",
       "devops": "DevOps y Herramientas",
       "frontend": "Frontend"
     }

@@ -3,11 +3,12 @@ import { skills } from "@/lib/data"
 import { useReveal } from "@/hooks/use-reveal"
 
 const categoryOrder = [
-  "languages",
   "architecture",
   "cloud",
   "databases",
   "backend",
+  "aiTools",
+  "languages",
   "devops",
   "frontend",
 ] as const

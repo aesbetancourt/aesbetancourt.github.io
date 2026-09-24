@@ -10,13 +10,13 @@
   "sidebar": {
     "role": "Ingegnere Senior Fullstack AI",
     "founding": "Founding Engineer presso Entropy Systems",
-    "location": "Barcellona, Spagna · Remoto (UE)",
+    "location": "Barcellona, Spagna · UE",
     "resume": "Vai a LinkedIn"
   },
   "hero": {
-    "lead": "Costruisco sistemi distribuiti scalabili con <ts>TypeScript</ts>, <py>Python</py> e <ai>IA</ai>.",
-    "sub": "Ingegnere informatico specializzato nello sviluppo fullstack JavaScript, dai servizi backend resilienti alle funzionalità di IA che si basano su di essi.",
-    "focusValue": "sistemi distribuiti · LLM",
+    "lead": "Progetto sistemi distribuiti scalabili per prodotti basati sull'<ai>IA</ai>.",
+    "sub": "Ingegnere del software focalizzato sull'architettura dei sistemi: confini tra servizi, flussi di dati e infrastruttura cloud. E il codice continuo a scriverlo io, in TypeScript e Python.",
+    "focusValue": "architettura dei sistemi · sistemi distribuiti · IA",
     "meta": {
       "role": "ruolo",
       "now": "ora",
@@ -26,10 +26,10 @@
     }
   },
   "about": {
-    "p1": "Sono un <strong>ingegnere informatico specializzato nello sviluppo fullstack JavaScript</strong> e lavoro su tutto lo stack: progetto API e livelli dati, costruisco le interfacce che li utilizzano e integro l'IA che le rende utili.",
+    "p1": "Sono un <strong>ingegnere del software focalizzato sull'architettura dei sistemi</strong>: definisco i confini tra servizi, i flussi di dati e l'infrastruttura cloud, poi li realizzo su tutto lo stack, dalle API e dai livelli dati fino alle interfacce e all'IA che le accompagna.",
     "founding": "Come <strong>founding engineer presso Entropy Systems</strong>, ho definito fin dal primo giorno l'architettura dei nostri prodotti SaaS per l'audit delle norme ISO. Oggi sono utilizzati da ~40 aziende clienti.",
-    "p2": "Il mio lavoro è incentrato su <strong>sistemi scalabili e distribuiti</strong> realizzati con TypeScript, Node e Python, con un interesse di lunga data per gli strumenti documentali e le librerie per sviluppatori.",
-    "p3": "Ultimamente questo significa rilasciare <strong>funzionalità basate sull'IA</strong>: retrieval, orchestrazione di LLM e l'infrastruttura di produzione che le rende affidabili."
+    "p2": "Il mio lavoro è incentrato sulle <strong>decisioni difficili da cambiare in seguito</strong>: come comunicano i servizi, dove risiedono i dati e come il sistema si guasta e si ripristina. Le realizzo con TypeScript, Node e Python, con un interesse di lunga data per gli strumenti documentali e le librerie per sviluppatori.",
+    "p3": "Ultimamente questo significa progettare l'architettura di <strong>funzionalità basate sull'IA</strong>: retrieval, orchestrazione di LLM, trascrizione vocale indipendente dal provider e l'infrastruttura di produzione che le rende affidabili."
   },
   "experience": {
     "heading": "Dove ho lavorato",
@@ -40,9 +40,10 @@
         "years": "2023 — Oggi",
         "bullets": [
           "Founding engineer: progettazione e realizzazione di 3 prodotti SaaS per l'audit delle norme ISO, oggi utilizzati da ~40 aziende clienti, in un piccolo team di ingegneria (3–5 persone).",
-          "Sviluppo di funzionalità full-stack in TypeScript con React, Next.js e Vite sul frontend e servizi Fastify e Node.js sul backend.",
+          "Definizione dell'architettura dei servizi e realizzazione diretta in TypeScript: React, Next.js e Vite sul frontend, servizi Fastify e Node.js sul backend.",
           "Progettazione di pipeline di agenti LLM su AWS Bedrock per l'elaborazione di documenti, assistenti conversazionali e automazione dei flussi di lavoro: ~2.000 documenti di audit al mese e ~60% di tempo di revisione manuale in meno.",
-          "Gestione di 12 servizi distribuiti su AWS e GCP con il 99,9% di uptime, con pattern event-driven e serverless.",
+          "Progettazione di un motore di trascrizione vocale (STT) indipendente dal provider, che funziona con AWS Transcribe o con i modelli Chirp 2 e Chirp 3 di Google Cloud senza modifiche ai servizi chiamanti.",
+          "Progettazione e gestione di 12 servizi distribuiti su AWS e GCP con il 99,9% di uptime, con pattern event-driven e serverless.",
           "Containerizzazione dei servizi con Docker e creazione di pipeline CI/CD che hanno ridotto i tempi di deploy da ~1 ora a ~10 minuti, abilitando rilasci quotidiani."
         ]
       },
@@ -98,13 +99,14 @@
     "certifications": "Certificazioni e formazione"
   },
   "stack": {
-    "heading": "Gli strumenti che preferisco",
+    "heading": "Pattern e strumenti che preferisco",
     "categories": {
       "languages": "Linguaggi",
-      "architecture": "Architettura",
+      "architecture": "Architettura e pattern",
       "cloud": "Cloud e infrastruttura",
       "databases": "Dati e messaggistica",
       "backend": "Backend",
+      "aiTools": "IA e automazione",
       "devops": "DevOps e tooling",
       "frontend": "Frontend"
     }

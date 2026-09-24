@@ -1,8 +1,8 @@
 # Alejandro Sánchez · Senior Fullstack AI Engineer
 
-> Computer engineer specialized in JavaScript fullstack development, building scalable distributed systems with TypeScript, Node.js and Python, and shipping AI-powered features (LLM orchestration, RAG, retrieval) with production-grade reliability. Founding Engineer at Entropy Systems. Based in Barcelona, Spain, available remote (EU).
+> Software engineer focused on system architecture: service boundaries, data flow and cloud infrastructure for scalable distributed systems and AI-powered features (LLM orchestration, retrieval, speech-to-text). Builds them hands-on with TypeScript, Node.js and Python. Founding Engineer at Entropy Systems. Based in Barcelona, Spain, EU.
 
-Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, designing APIs and data layers, building the interfaces on top, and integrating the AI that makes them useful. This file summarizes his profile for language models and AI agents. The site is a single-page portfolio available in English and Spanish.
+Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, designing APIs and data layers, building the interfaces on top, and integrating the AI that makes them useful. This file summarizes his profile for language models and AI agents. The site is a single-page portfolio available in English, Spanish, French, German and Italian.
 
 ## Profile
 
@@ -10,13 +10,13 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 - Handle: aesbetancourt
 - Role: Senior Fullstack AI Engineer
 - Current: Founding Engineer at Entropy Systems
-- Focus: distributed systems, LLMs, fullstack TypeScript/Python
-- Location: Barcelona, Spain · Remote (EU)
+- Focus: system architecture, distributed systems, LLMs, fullstack TypeScript/Python
+- Location: Barcelona, Spain · EU
 - Website: https://aesbetancourt.dev/
 
 ## Experience
 
-- Founding Full Stack Engineer · Entropy Systems (2023 — Present): architected and delivered 3 SaaS products for ISO standards auditing, now used by ~40 client companies, in a team of 3–5 engineers; full-stack TypeScript (React, Next.js, Vite, Fastify, Node.js); LLM agent pipelines on AWS Bedrock processing ~2,000 audit documents per month and cutting manual review time by ~60%; 12 distributed services across AWS and GCP with 99.9% uptime; Docker and CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases.
+- Founding Full Stack Engineer · Entropy Systems (2023 — Present): architected and delivered 3 SaaS products for ISO standards auditing, now used by ~40 client companies, in a team of 3–5 engineers; defined the service architecture and delivered it hands-on in TypeScript (React, Next.js, Vite, Fastify, Node.js); LLM agent pipelines on AWS Bedrock processing ~2,000 audit documents per month and cutting manual review time by ~60%; a provider-agnostic speech-to-text (STT) engine on AWS Transcribe or Google Cloud Chirp 2 and Chirp 3, with no changes to calling services; designed and operated 12 distributed services across AWS and GCP with 99.9% uptime; Docker and CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases.
 - Frontend Engineer · Vintra, Inc. (2022 — 2023): led migration of a ~80k-line video analytics codebase from legacy JavaScript to TypeScript, reducing production runtime errors by ~30%; introduced Vite and esbuild, cutting build time from ~3 min to ~20 s.
 - UI Development Lead · BITA GmbH (2022): led a team of 4 front-end engineers building 5 index and ETF analytics applications; introduced shift-left practices, raising test coverage from ~10% to ~70%; established shared component patterns.
 - Full-Stack Engineer · BITA GmbH (2021 — 2022): financial applications for index construction and ETF analytics; asynchronous RabbitMQ workflows ingesting ~1M market-data records per day; REST APIs in Python and Node.js.
@@ -34,12 +34,14 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 
 ## Stack
 
-- Languages: TypeScript, JavaScript, Python
-- Backend: Node.js, Fastify, Express.js, FastAPI, Flask
-- Frontend: React, Next.js, Vite, esbuild
-- Cloud & Infra: AWS (Bedrock, Lambda, EC2, S3, RDS, SQS, EventBridge), GCP (Cloud Run, Cloud Functions), Docker, CI/CD, NGINX, Linux
+- Architecture & Patterns: system design, distributed systems, event-driven architecture, serverless, microservices, asynchronous workflows, multi-cloud (AWS, GCP), provider abstraction, REST API design
+- AI: LLMs, LLM orchestration, speech-to-text
+- Cloud & Infra: AWS (Bedrock, Transcribe, Lambda, EC2, S3, RDS, SQS, EventBridge), GCP (Cloud Run, Cloud Functions, Speech-to-Text Chirp), Docker, CI/CD, NGINX, Linux
 - Data & Messaging: PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ
-- AI & Systems: LLMs, RAG, distributed systems, microservices, event-driven architecture
+- Backend: Node.js, Fastify, Express.js, FastAPI, Flask
+- AI & Automation tools: Claude Code, GitHub Copilot, n8n, Hermes
+- Languages: TypeScript, JavaScript, Python
+- Frontend: React, Next.js, Vite, esbuild
 
 ## Links
 

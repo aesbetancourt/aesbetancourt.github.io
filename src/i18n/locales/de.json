@@ -10,13 +10,13 @@
   "sidebar": {
     "role": "Senior Fullstack AI Engineer",
     "founding": "Founding Engineer bei Entropy Systems",
-    "location": "Barcelona, Spanien · Remote (EU)",
+    "location": "Barcelona, Spanien · EU",
     "resume": "Zu LinkedIn"
   },
   "hero": {
-    "lead": "Ich baue skalierbare verteilte Systeme mit <ts>TypeScript</ts>, <py>Python</py> & <ai>KI</ai>.",
-    "sub": "Informatikingenieur mit Schwerpunkt auf JavaScript-Fullstack-Entwicklung, von robusten Backend-Services bis zu den KI-Funktionen, die darauf aufbauen.",
-    "focusValue": "verteilte Systeme · LLMs",
+    "lead": "Ich entwerfe skalierbare verteilte Systeme für <ai>KI</ai>-gestützte Produkte.",
+    "sub": "Softwareingenieur mit Fokus auf Systemarchitektur: Service-Grenzen, Datenflüsse und Cloud-Infrastruktur. Den Code schreibe ich weiterhin selbst, in TypeScript und Python.",
+    "focusValue": "Systemarchitektur · verteilte Systeme · KI",
     "meta": {
       "role": "rolle",
       "now": "aktuell",
@@ -26,10 +26,10 @@
     }
   },
   "about": {
-    "p1": "Ich bin <strong>Informatikingenieur mit Schwerpunkt auf JavaScript-Fullstack-Entwicklung</strong> und arbeite durchgängig über den gesamten Stack: Ich entwerfe APIs und Datenschichten, baue die Oberflächen darauf und binde die KI ein, die sie nützlich macht.",
+    "p1": "Ich bin <strong>Softwareingenieur mit Fokus auf Systemarchitektur</strong>: Ich definiere Service-Grenzen, Datenflüsse und Cloud-Infrastruktur und setze sie anschließend über den gesamten Stack um, von APIs und Datenschichten bis zu den Oberflächen und der KI darauf.",
     "founding": "Als <strong>Founding Engineer bei Entropy Systems</strong> gestalte ich seit dem ersten Tag die Architektur unserer SaaS-Produkte für ISO-Normen-Audits. Heute nutzen sie ~40 Kundenunternehmen.",
-    "p2": "Im Mittelpunkt meiner Arbeit stehen <strong>skalierbare, verteilte Systeme</strong> mit TypeScript, Node und Python, dazu ein langjähriges Interesse an Dokumenten-Tooling und Bibliotheken für Entwickler.",
-    "p3": "Zuletzt heißt das vor allem, <strong>KI-gestützte Funktionen</strong> auszuliefern: Retrieval, LLM-Orchestrierung und die Produktionsinfrastruktur, die sie zuverlässig hält."
+    "p2": "Im Mittelpunkt meiner Arbeit stehen <strong>die Entscheidungen, die sich später nur schwer ändern lassen</strong>: wie Services miteinander kommunizieren, wo Daten liegen und wie das System ausfällt und sich wieder erholt. Umgesetzt wird das mit TypeScript, Node und Python, dazu ein langjähriges Interesse an Dokumenten-Tooling und Bibliotheken für Entwickler.",
+    "p3": "Zuletzt heißt das vor allem, die Architektur <strong>KI-gestützter Funktionen</strong> zu entwerfen: Retrieval, LLM-Orchestrierung, anbieterunabhängige Spracherkennung und die Produktionsinfrastruktur, die sie zuverlässig hält."
   },
   "experience": {
     "heading": "Wo ich gearbeitet habe",
@@ -40,9 +40,10 @@
         "years": "2023 — heute",
         "bullets": [
           "Founding Engineer: Konzeption und Umsetzung von 3 SaaS-Produkten für ISO-Normen-Audits, die heute ~40 Kundenunternehmen nutzen, in einem kleinen Engineering-Team (3–5 Personen).",
-          "Entwicklung von Fullstack-Features in TypeScript mit React, Next.js und Vite im Frontend sowie Fastify- und Node.js-Services im Backend.",
+          "Definition der Service-Architektur und praktische Umsetzung in TypeScript: React, Next.js und Vite im Frontend sowie Fastify- und Node.js-Services im Backend.",
           "Entwurf von LLM-Agenten-Pipelines auf AWS Bedrock für Dokumentenverarbeitung, Chat-Assistenten und Workflow-Automatisierung: ~2.000 Audit-Dokumente pro Monat, ~60 % weniger manuelle Prüfzeit.",
-          "Betrieb von 12 verteilten Services auf AWS und GCP mit 99,9 % Verfügbarkeit, auf Basis ereignisgesteuerter und serverloser Muster.",
+          "Entwurf einer anbieterunabhängigen Speech-to-Text-Engine (STT), die mit AWS Transcribe oder den Modellen Chirp 2 und Chirp 3 von Google Cloud läuft, ohne Änderungen an den aufrufenden Services.",
+          "Entwurf und Betrieb von 12 verteilten Services auf AWS und GCP mit 99,9 % Verfügbarkeit, auf Basis ereignisgesteuerter und serverloser Muster.",
           "Containerisierung der Services mit Docker und Aufbau von CI/CD-Pipelines, die die Deployment-Zeit von ~1 Stunde auf ~10 Minuten senkten und tägliche Releases ermöglichten."
         ]
       },
@@ -98,13 +99,14 @@
     "certifications": "Zertifizierungen & Weiterbildung"
   },
   "stack": {
-    "heading": "Meine bevorzugten Werkzeuge",
+    "heading": "Muster und Werkzeuge, die ich nutze",
     "categories": {
       "languages": "Sprachen",
-      "architecture": "Architektur",
+      "architecture": "Architektur & Muster",
       "cloud": "Cloud & Infrastruktur",
       "databases": "Daten & Messaging",
       "backend": "Backend",
+      "aiTools": "KI & Automatisierung",
       "devops": "DevOps & Tooling",
       "frontend": "Frontend"
     }

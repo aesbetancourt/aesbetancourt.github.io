@@ -1,14 +1,19 @@
 export const skills: Record<string, string[]> = {
   languages: ["TypeScript", "JavaScript", "Python"],
   architecture: [
+    "System Design",
     "Distributed Systems",
+    "Event-Driven Architecture",
+    "Serverless",
     "Microservices",
     "Asynchronous Workflows",
-    "System Design",
+    "Multi-Cloud (AWS · GCP)",
+    "Provider Abstraction",
     "API Design (REST)",
   ],
   cloud: [
     "AWS Bedrock",
+    "AWS Transcribe",
     "AWS Lambda",
     "EC2",
     "S3",
@@ -20,6 +25,7 @@ export const skills: Record<string, string[]> = {
     "CloudWatch",
     "GCP Cloud Run",
     "GCP Cloud Functions",
+    "GCP Speech-to-Text (Chirp)",
   ],
   databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "RabbitMQ"],
   backend: ["Node.js", "Fastify", "Express.js", "FastAPI", "Flask"],
@@ -34,6 +40,7 @@ export const skills: Record<string, string[]> = {
     "Linux",
   ],
   frontend: ["React", "Next.js", "Vite", "esbuild"],
+  aiTools: ["Claude Code", "GitHub Copilot", "n8n", "Hermes"],
 };
 
 export const certifications: { org: string; courses: string[] }[] = [

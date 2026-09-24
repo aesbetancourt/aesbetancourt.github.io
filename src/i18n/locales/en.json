@@ -10,13 +10,13 @@
   "sidebar": {
     "role": "Senior Fullstack AI Engineer",
     "founding": "Founding Engineer at Entropy Systems",
-    "location": "Barcelona, Spain · Remote (EU)",
+    "location": "Barcelona, Spain · EU",
     "resume": "Go to LinkedIn"
   },
   "hero": {
-    "lead": "Building scalable distributed systems with <ts>TypeScript</ts>, <py>Python</py> & <ai>AI</ai>.",
-    "sub": "Computer engineer specialized in JavaScript fullstack development, from resilient backend services to the AI features on top of them.",
-    "focusValue": "distributed systems · LLMs",
+    "lead": "Designing scalable distributed systems for <ai>AI</ai>-powered products.",
+    "sub": "Software engineer focused on system architecture: service boundaries, data flow and cloud infrastructure. I still ship the code, in TypeScript and Python.",
+    "focusValue": "system architecture · distributed systems · AI",
     "meta": {
       "role": "role",
       "now": "now",
@@ -26,10 +26,10 @@
     }
   },
   "about": {
-    "p1": "I'm a <strong>computer engineer specialized in JavaScript fullstack</strong> development, working end-to-end across the stack, designing APIs and data layers, building the interfaces on top, and wiring in the AI that makes them useful.",
+    "p1": "I'm a <strong>software engineer focused on system architecture</strong>: I define service boundaries, data flow and cloud infrastructure, then build across the stack to ship it, from APIs and data layers to the interfaces and the AI on top.",
     "founding": "As a <strong>founding engineer at Entropy Systems</strong>, I've shaped the architecture of our SaaS products for ISO standards auditing from day one. They're now used by ~40 client companies.",
-    "p2": "My work centers on <strong>scalable, distributed systems</strong> built with TypeScript, Node and Python, with a long-running interest in document tooling and developer-facing libraries.",
-    "p3": "Lately that means shipping <strong>AI-powered features</strong>: retrieval, LLM orchestration and the production plumbing that keeps them reliable."
+    "p2": "My work centers on <strong>the decisions that are hard to change later</strong>: how services talk to each other, where data lives, and how the system fails and recovers. I build them with TypeScript, Node and Python, and keep a long-running interest in document tooling and developer-facing libraries.",
+    "p3": "Lately that means architecting <strong>AI-powered features</strong>: retrieval, LLM orchestration, provider-agnostic speech-to-text and the production plumbing that keeps them reliable."
   },
   "experience": {
     "heading": "Where I've worked",
@@ -40,9 +40,10 @@
         "years": "2023 — Present",
         "bullets": [
           "Founding engineer: architected and delivered 3 SaaS products for ISO standards auditing, now used by ~40 client companies, in a small engineering team (3–5 engineers).",
-          "Built full-stack features in TypeScript using React, Next.js and Vite on the frontend, with Fastify and Node.js services on the backend.",
+          "Defined the service architecture and delivered it hands-on in TypeScript: React, Next.js and Vite on the frontend, Fastify and Node.js services on the backend.",
           "Designed LLM agent pipelines on AWS Bedrock for document processing, conversational assistants and workflow automation, processing ~2,000 audit documents per month and cutting manual review time by ~60%.",
-          "Operated 12 distributed services across AWS and GCP with 99.9% uptime, using event-driven and serverless patterns.",
+          "Designed a provider-agnostic speech-to-text (STT) engine that runs on AWS Transcribe or Google Cloud's Chirp 2 and Chirp 3 models, with no changes to the calling services.",
+          "Designed and operated 12 distributed services across AWS and GCP with 99.9% uptime, using event-driven and serverless patterns.",
           "Containerized services with Docker and built CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases."
         ]
       },
@@ -98,13 +99,14 @@
     "certifications": "Certifications & Learning"
   },
   "stack": {
-    "heading": "Tools I reach for",
+    "heading": "Patterns and tools I reach for",
     "categories": {
       "languages": "Languages",
-      "architecture": "Architecture",
+      "architecture": "Architecture & Patterns",
       "cloud": "Cloud & Infra",
       "databases": "Data & Messaging",
       "backend": "Backend",
+      "aiTools": "AI & Automation",
       "devops": "DevOps & Tooling",
       "frontend": "Frontend"
     }

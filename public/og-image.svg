@@ -14,6 +14,6 @@
   <text x="432" y="430" font-family="'Space Grotesk', system-ui, sans-serif" font-size="27" fill="#a7a59d">Node.js, Python &amp; AI.</text>
 
   <!-- meta row -->
-  <text x="432" y="520" font-family="'Space Mono', ui-monospace, monospace" font-size="20" fill="#6f6e69">distributed systems · LLMs · RAG · AWS · GCP</text>
+  <text x="432" y="520" font-family="'Space Mono', ui-monospace, monospace" font-size="20" fill="#6f6e69">distributed systems · LLMs · AWS · GCP</text>
   <text x="432" y="556" font-family="'Space Mono', ui-monospace, monospace" font-size="20" fill="#6f6e69">aesbetancourt.dev</text>
 </svg>
