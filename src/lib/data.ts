@@ -59,7 +59,11 @@ export const exploringLanguages = ["Go", "Rust"];
 export const certifications: { org: string; courses: string[] }[] = [
   {
     org: "AWS Skill Builder",
-    courses: ["Architecting on AWS"],
+    courses: [
+      "AWS Agentic AI Demonstrated",
+      "AWS Serverless Demonstrated",
+      "Architecting on AWS",
+    ],
   },
   {
     org: "Google Cloud Skills Boost",

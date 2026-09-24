@@ -28,6 +28,8 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 
 ## Certifications & Learning
 
+- AWS Agentic AI Demonstrated · AWS Skill Builder
+- AWS Serverless Demonstrated · AWS Skill Builder
 - Architecting on AWS · AWS Skill Builder
 - Designing Distributed Systems · Google Cloud Skills Boost
 - Neural Networks and Deep Learning · DeepLearning.AI
