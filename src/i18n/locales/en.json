@@ -100,6 +100,7 @@
   },
   "stack": {
     "heading": "Patterns and tools I reach for",
+    "exploring": "Dashed: currently exploring",
     "categories": {
       "languages": "Languages",
       "architecture": "Architecture & Patterns",

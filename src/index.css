@@ -424,6 +424,17 @@ h2.sec {
   border-color: var(--accent);
   color: var(--accent);
 }
+.chip.exploring {
+  border-style: dashed;
+  color: var(--soft);
+  background: transparent;
+}
+.exploring-note {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--faint);
+  margin: 10px 0 0;
+}
 
 /* certifications (within education) */
 .subsec {

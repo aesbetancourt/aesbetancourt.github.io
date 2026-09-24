@@ -40,7 +40,7 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 - Data & Messaging: PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ
 - Backend: Node.js, Fastify, Express.js, FastAPI, Flask
 - AI & Automation tools: Claude Code, Codex, OpenCode, Cursor, GitHub Copilot, n8n, Hermes
-- Languages: TypeScript, JavaScript, Python
+- Languages: TypeScript, JavaScript, Python (currently exploring Go and Rust)
 - Frontend: React, Next.js, Vite, esbuild
 
 ## Links

@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import { skills } from "@/lib/data"
+import { exploringLanguages, skills } from "@/lib/data"
 import { useReveal } from "@/hooks/use-reveal"
 
 const categoryOrder = [
@@ -33,7 +33,16 @@ export function Stack() {
                   {skill}
                 </span>
               ))}
+              {category === "languages" &&
+                exploringLanguages.map((lang) => (
+                  <span className="chip exploring" key={lang}>
+                    {lang}
+                  </span>
+                ))}
             </div>
+            {category === "languages" && (
+              <p className="exploring-note">{t("stack.exploring")}</p>
+            )}
           </div>
         ))}
       </div>

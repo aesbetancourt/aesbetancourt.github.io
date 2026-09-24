@@ -100,6 +100,7 @@
   },
   "stack": {
     "heading": "Patterns et outils de prédilection",
+    "exploring": "En pointillés : en cours d'exploration",
     "categories": {
       "languages": "Langages",
       "architecture": "Architecture et patterns",

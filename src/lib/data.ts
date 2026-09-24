@@ -51,6 +51,9 @@ export const skills: Record<string, string[]> = {
   ],
 };
 
+// Languages I am learning; shown apart from the production stack.
+export const exploringLanguages = ["Go", "Rust"];
+
 export const certifications: { org: string; courses: string[] }[] = [
   {
     org: "AWS Skill Builder",
