@@ -36,7 +36,7 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 
 - Architecture & Patterns: system design, distributed systems, event-driven architecture, serverless, microservices, asynchronous workflows, multi-cloud (AWS, GCP), provider abstraction, REST API design
 - AI: LLMs, LLM orchestration, speech-to-text
-- Cloud & Infra: AWS (Bedrock, Transcribe, Lambda, EC2, S3, RDS, SQS, EventBridge), GCP (Cloud Run, Cloud Functions, Speech-to-Text Chirp), Docker, CI/CD, NGINX, Linux
+- Cloud & Infra: AWS (Bedrock, Transcribe, Lambda, EC2, S3, RDS, SQS, EventBridge), GCP (Cloud Run, Cloud Functions, Speech-to-Text Chirp), DigitalOcean, Docker, CI/CD, NGINX, Linux
 - Data & Messaging: PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ
 - Backend: Node.js, Fastify, Express.js, FastAPI, Flask
 - AI & Automation tools: Claude Code, Codex, OpenCode, Cursor, Kiro, GitHub Copilot, n8n, Hermes

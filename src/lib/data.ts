@@ -26,6 +26,7 @@ export const skills: Record<string, string[]> = {
     "GCP Cloud Run",
     "GCP Cloud Functions",
     "GCP Speech-to-Text (Chirp)",
+    "DigitalOcean",
   ],
   databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "RabbitMQ"],
   backend: ["Node.js", "Fastify", "Express.js", "FastAPI", "Flask"],
