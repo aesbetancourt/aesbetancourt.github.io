@@ -377,6 +377,14 @@ h2.sec {
   display: flex;
   gap: 9px;
 }
+/* justified body copy; hyphenation follows <html lang> to avoid wide gaps */
+.hero p.sub,
+.aboutgrid p,
+.xp .de li {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
 .xp .de li::before {
   content: "·";
   color: var(--accent);

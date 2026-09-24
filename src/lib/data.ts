@@ -40,7 +40,15 @@ export const skills: Record<string, string[]> = {
     "Linux",
   ],
   frontend: ["React", "Next.js", "Vite", "esbuild"],
-  aiTools: ["Claude Code", "GitHub Copilot", "n8n", "Hermes"],
+  aiTools: [
+    "Claude Code",
+    "Codex",
+    "OpenCode",
+    "Cursor",
+    "GitHub Copilot",
+    "n8n",
+    "Hermes",
+  ],
 };
 
 export const certifications: { org: string; courses: string[] }[] = [
