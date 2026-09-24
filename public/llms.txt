@@ -39,7 +39,7 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 - Cloud & Infra: AWS (Bedrock, Transcribe, Lambda, EC2, S3, RDS, SQS, EventBridge), GCP (Cloud Run, Cloud Functions, Speech-to-Text Chirp), Docker, CI/CD, NGINX, Linux
 - Data & Messaging: PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ
 - Backend: Node.js, Fastify, Express.js, FastAPI, Flask
-- AI & Automation tools: Claude Code, Codex, OpenCode, Cursor, GitHub Copilot, n8n, Hermes
+- AI & Automation tools: Claude Code, Codex, OpenCode, Cursor, Kiro, GitHub Copilot, n8n, Hermes
 - Languages: TypeScript, JavaScript, Python (currently exploring Go and Rust)
 - Frontend: React, Next.js, Vite, esbuild
 

@@ -45,6 +45,7 @@ export const skills: Record<string, string[]> = {
     "Codex",
     "OpenCode",
     "Cursor",
+    "Kiro",
     "GitHub Copilot",
     "n8n",
     "Hermes",
