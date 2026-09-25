@@ -8,7 +8,7 @@
     "contact": "Kontakt"
   },
   "sidebar": {
-    "role": "Senior Fullstack AI Engineer",
+    "role": "Senior Software Engineer",
     "founding": "Founding Engineer bei Entropy Systems",
     "location": "Barcelona, Spanien · EU",
     "resume": "Zu LinkedIn"
@@ -40,13 +40,11 @@
         "years": "2023 — heute",
         "bullets": [
           "Founding Engineer: Konzeption und Umsetzung von 3 SaaS-Produkten für ISO-Normen-Audits, die heute ~40 Kundenunternehmen nutzen, in einem kleinen Engineering-Team (3–5 Personen).",
-          "Mitgestaltung der agentischen Architektur und des Agenten-Harness auf AWS Bedrock und Google Cloud Vertex AI.",
+          "Mitgestaltung der agentischen Architektur und des Agenten-Harness auf AWS Bedrock und GCP Vertex AI. Aufbau der Bedrock-Agenten-Pipelines für Dokumentenverarbeitung, Chat-Assistenten und Workflow-Automatisierung: ~2.000 Audit-Dokumente pro Monat, ~60 % weniger manuelle Prüfzeit.",
           "Definition der Service-Architektur und praktische Umsetzung in TypeScript: React, Next.js und Vite im Frontend sowie Fastify- und Node.js-Services im Backend.",
-          "Entwurf von LLM-Agenten-Pipelines auf AWS Bedrock für Dokumentenverarbeitung, Chat-Assistenten und Workflow-Automatisierung: ~2.000 Audit-Dokumente pro Monat, ~60 % weniger manuelle Prüfzeit.",
-          "Entwurf einer anbieterunabhängigen Speech-to-Text-Engine (STT), die mit AWS Transcribe oder den Modellen Chirp 2 und Chirp 3 von Google Cloud läuft, ohne Änderungen an den aufrufenden Services.",
+          "Aufbau einer anbieterunabhängigen Speech-to-Text-Engine (STT), die mit AWS Transcribe oder den Modellen Chirp 2 und Chirp 3 von Google Cloud läuft, ohne Änderungen an den aufrufenden Services.",
           "Ablösung einer Puppeteer-Pipeline (HTML zu PDF) durch ein Typst-basiertes System für Dokumente und Berichte: ~90 % weniger Generierungszeit und Ressourcenverbrauch.",
-          "Entwurf und Betrieb von 12 verteilten Services auf AWS und GCP mit 99,9 % Verfügbarkeit, auf Basis ereignisgesteuerter und serverloser Muster.",
-          "Aufbau simulierter Umgebungen, um die Systemleistung vor dem Produktionsrelease zu testen.",
+          "Entwurf und Betrieb von 12 verteilten Services auf AWS und GCP mit 99,9 % Verfügbarkeit, auf Basis ereignisgesteuerter und serverloser Muster; Performancetests in simulierten Umgebungen vor jedem Release.",
           "Containerisierung der Services mit Docker und Aufbau von CI/CD-Pipelines, die die Deployment-Zeit von ~1 Stunde auf ~10 Minuten senkten und tägliche Releases ermöglichten."
         ]
       },
@@ -122,7 +120,7 @@
       "linkedin": "LinkedIn",
       "github": "GitHub"
     },
-    "colophon": "aesbetancourt · Senior Fullstack AI Engineer"
+    "colophon": "aesbetancourt · Senior Software Engineer"
   },
   "theme": {
     "light": "Zum hellen Modus wechseln",

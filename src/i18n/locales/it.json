@@ -8,7 +8,7 @@
     "contact": "Contatti"
   },
   "sidebar": {
-    "role": "Ingegnere Senior Fullstack AI",
+    "role": "Ingegnere software senior",
     "founding": "Founding Engineer presso Entropy Systems",
     "location": "Barcellona, Spagna · UE",
     "resume": "Vai a LinkedIn"
@@ -40,13 +40,11 @@
         "years": "2023 — Oggi",
         "bullets": [
           "Founding engineer: progettazione e realizzazione di 3 prodotti SaaS per l'audit delle norme ISO, oggi utilizzati da ~40 aziende clienti, in un piccolo team di ingegneria (3–5 persone).",
-          "Co-progettazione dell'architettura agentica e dell'harness degli agenti su AWS Bedrock e Vertex AI di Google Cloud.",
+          "Co-progettazione dell'architettura agentica e dell'harness degli agenti su AWS Bedrock e GCP Vertex AI. Sviluppo delle pipeline di agenti su Bedrock per l'elaborazione di documenti, assistenti conversazionali e automazione dei flussi di lavoro: ~2.000 documenti di audit al mese e ~60% di tempo di revisione manuale in meno.",
           "Definizione dell'architettura dei servizi e realizzazione diretta in TypeScript: React, Next.js e Vite sul frontend, servizi Fastify e Node.js sul backend.",
-          "Progettazione di pipeline di agenti LLM su AWS Bedrock per l'elaborazione di documenti, assistenti conversazionali e automazione dei flussi di lavoro: ~2.000 documenti di audit al mese e ~60% di tempo di revisione manuale in meno.",
-          "Progettazione di un motore di trascrizione vocale (STT) indipendente dal provider, che funziona con AWS Transcribe o con i modelli Chirp 2 e Chirp 3 di Google Cloud senza modifiche ai servizi chiamanti.",
+          "Sviluppo di un motore di trascrizione vocale (STT) indipendente dal provider, che funziona con AWS Transcribe o con i modelli Chirp 2 e Chirp 3 di Google Cloud senza modifiche ai servizi chiamanti.",
           "Sostituzione di una pipeline HTML-to-PDF basata su Puppeteer con un sistema di generazione di documenti e report basato su Typst: ~90% di tempo di generazione e di risorse in meno.",
-          "Progettazione e gestione di 12 servizi distribuiti su AWS e GCP con il 99,9% di uptime, con pattern event-driven e serverless.",
-          "Realizzazione di ambienti simulati per testare le prestazioni dei sistemi prima del rilascio in produzione.",
+          "Progettazione e gestione di 12 servizi distribuiti su AWS e GCP con il 99,9% di uptime, con pattern event-driven e serverless; test delle prestazioni in ambienti simulati prima di ogni rilascio.",
           "Containerizzazione dei servizi con Docker e creazione di pipeline CI/CD che hanno ridotto i tempi di deploy da ~1 ora a ~10 minuti, abilitando rilasci quotidiani."
         ]
       },
@@ -122,7 +120,7 @@
       "linkedin": "LinkedIn",
       "github": "GitHub"
     },
-    "colophon": "aesbetancourt · Ingegnere Senior Fullstack AI"
+    "colophon": "aesbetancourt · Ingegnere software senior"
   },
   "theme": {
     "light": "Passa alla modalità chiara",

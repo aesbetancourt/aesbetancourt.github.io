@@ -8,7 +8,7 @@
     "contact": "Contacto"
   },
   "sidebar": {
-    "role": "Ingeniero Senior Fullstack AI",
+    "role": "Ingeniero de Software Senior",
     "founding": "Ingeniero fundador en Entropy Systems",
     "location": "Barcelona, España · UE",
     "resume": "Ir a LinkedIn"
@@ -40,13 +40,11 @@
         "years": "2023 — Presente",
         "bullets": [
           "Ingeniero fundador: diseñé la arquitectura y entregué 3 productos SaaS para auditoría de normas ISO, que hoy utilizan ~40 empresas cliente, dentro de un equipo de ingeniería pequeño (3–5 ingenieros).",
-          "Codiseñé la arquitectura agéntica y el harness de agentes sobre AWS Bedrock y Vertex AI de Google Cloud.",
+          "Codiseñé la arquitectura agéntica y el harness de agentes sobre AWS Bedrock y GCP Vertex AI. Construí los pipelines de agentes en Bedrock para procesamiento de documentos, asistentes conversacionales y automatización de flujos de trabajo: ~2000 documentos de auditoría al mes y un ~60 % menos de tiempo de revisión manual.",
           "Definí la arquitectura de servicios y la implementé de primera mano en TypeScript: React, Next.js y Vite en el frontend, y servicios Fastify y Node.js en el backend.",
-          "Diseñé pipelines de agentes LLM en AWS Bedrock para procesamiento de documentos, asistentes conversacionales y automatización de flujos de trabajo, que procesan ~2000 documentos de auditoría al mes y reducen el tiempo de revisión manual en un ~60 %.",
-          "Diseñé un motor de transcripción de voz a texto (STT) independiente del proveedor, que funciona con AWS Transcribe o con los modelos Chirp 2 y Chirp 3 de Google Cloud sin cambios en los servicios que lo consumen.",
+          "Construí un motor de transcripción de voz a texto (STT) independiente del proveedor, que funciona con AWS Transcribe o con los modelos Chirp 2 y Chirp 3 de Google Cloud sin cambios en los servicios que lo consumen.",
           "Sustituí un pipeline de HTML a PDF con Puppeteer por un sistema de generación de documentos e informes con Typst, reduciendo en un ~90 % el tiempo de generación y el consumo de recursos.",
-          "Diseñé y operé 12 servicios distribuidos en AWS y GCP con un 99,9 % de disponibilidad, aplicando patrones event-driven y serverless.",
-          "Construí entornos simulados para probar el rendimiento de los sistemas antes de su paso a producción.",
+          "Diseñé y operé 12 servicios distribuidos en AWS y GCP con un 99,9 % de disponibilidad, aplicando patrones event-driven y serverless; probé su rendimiento en entornos simulados antes de cada paso a producción.",
           "Empaqueté los servicios en contenedores Docker y construí pipelines de CI/CD que redujeron el tiempo de despliegue de ~1 hora a ~10 minutos, lo que permitió publicar a diario."
         ]
       },
@@ -122,7 +120,7 @@
       "linkedin": "LinkedIn",
       "github": "GitHub"
     },
-    "colophon": "aesbetancourt · Ingeniero Senior Fullstack AI"
+    "colophon": "aesbetancourt · Ingeniero de Software Senior"
   },
   "theme": {
     "light": "Cambiar a modo claro",

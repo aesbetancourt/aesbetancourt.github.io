@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "sidebar": {
-    "role": "Senior Fullstack AI Engineer",
+    "role": "Senior Software Engineer",
     "founding": "Founding Engineer at Entropy Systems",
     "location": "Barcelona, Spain · EU",
     "resume": "Go to LinkedIn"
@@ -40,13 +40,11 @@
         "years": "2023 — Present",
         "bullets": [
           "Founding engineer: architected and delivered 3 SaaS products for ISO standards auditing, now used by ~40 client companies, in a small engineering team (3–5 engineers).",
-          "Co-designed the agentic architecture and agent harness across AWS Bedrock and Google Cloud Vertex AI.",
+          "Co-designed the agentic architecture and agent harness on AWS Bedrock and GCP Vertex AI. Built the Bedrock agent pipelines for document processing, conversational assistants and workflow automation: ~2,000 audit documents per month and ~60% less manual review time.",
           "Defined the service architecture and delivered it hands-on in TypeScript: React, Next.js and Vite on the frontend, Fastify and Node.js services on the backend.",
-          "Designed LLM agent pipelines on AWS Bedrock for document processing, conversational assistants and workflow automation, processing ~2,000 audit documents per month and cutting manual review time by ~60%.",
-          "Designed a provider-agnostic speech-to-text (STT) engine that runs on AWS Transcribe or Google Cloud's Chirp 2 and Chirp 3 models, with no changes to the calling services.",
+          "Built a provider-agnostic speech-to-text (STT) engine that runs on AWS Transcribe or Google Cloud's Chirp 2 and Chirp 3 models, with no changes to the calling services.",
           "Replaced a Puppeteer HTML-to-PDF pipeline with a Typst-based document and report generation system, cutting generation time and resource usage by ~90%.",
-          "Designed and operated 12 distributed services across AWS and GCP with 99.9% uptime, using event-driven and serverless patterns.",
-          "Built simulated environments to test system performance before production releases.",
+          "Owned 12 distributed services across AWS and GCP with 99.9% uptime, built on event-driven and serverless patterns and performance-tested in simulated environments before each release.",
           "Containerized services with Docker and built CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases."
         ]
       },
@@ -122,7 +120,7 @@
       "linkedin": "LinkedIn",
       "github": "GitHub"
     },
-    "colophon": "aesbetancourt · Senior Fullstack AI Engineer"
+    "colophon": "aesbetancourt · Senior Software Engineer"
   },
   "theme": {
     "light": "Switch to light mode",
