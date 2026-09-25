@@ -25,6 +25,7 @@ export const skills: Record<string, string[]> = {
     "CloudWatch",
     "GCP Cloud Run",
     "GCP Cloud Functions",
+    "GCP Vertex AI",
     "GCP Speech-to-Text (Chirp)",
     "DigitalOcean",
   ],

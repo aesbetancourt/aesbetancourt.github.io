@@ -40,9 +40,11 @@
         "years": "2023 — Aujourd'hui",
         "bullets": [
           "Ingénieur fondateur : conception et livraison de 3 produits SaaS d'audit des normes ISO, aujourd'hui utilisés par ~40 entreprises clientes, au sein d'une petite équipe technique (3 à 5 ingénieurs).",
+          "Co-conception de l'architecture agentique et du harness d'agents sur AWS Bedrock et Vertex AI de Google Cloud.",
           "Définition de l'architecture des services et mise en œuvre directe en TypeScript : React, Next.js et Vite côté frontend, services Fastify et Node.js côté backend.",
           "Conception de pipelines d'agents LLM sur AWS Bedrock pour le traitement de documents, les assistants conversationnels et l'automatisation de workflows : ~2 000 documents d'audit traités par mois et ~60 % de temps de revue manuelle en moins.",
           "Conception d'un moteur de transcription vocale (STT) indépendant du fournisseur, qui fonctionne avec AWS Transcribe ou les modèles Chirp 2 et Chirp 3 de Google Cloud sans modifier les services appelants.",
+          "Remplacement d'un pipeline HTML vers PDF basé sur Puppeteer par un système de génération de documents et de rapports basé sur Typst : ~90 % de temps de génération et de ressources en moins.",
           "Conception et exploitation de 12 services distribués sur AWS et GCP avec 99,9 % de disponibilité, selon des architectures événementielles et serverless.",
           "Conteneurisation des services avec Docker et mise en place de pipelines CI/CD réduisant le temps de déploiement de ~1 heure à ~10 minutes, permettant des mises en production quotidiennes."
         ]
