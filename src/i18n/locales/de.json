@@ -46,6 +46,7 @@
           "Entwurf einer anbieterunabhängigen Speech-to-Text-Engine (STT), die mit AWS Transcribe oder den Modellen Chirp 2 und Chirp 3 von Google Cloud läuft, ohne Änderungen an den aufrufenden Services.",
           "Ablösung einer Puppeteer-Pipeline (HTML zu PDF) durch ein Typst-basiertes System für Dokumente und Berichte: ~90 % weniger Generierungszeit und Ressourcenverbrauch.",
           "Entwurf und Betrieb von 12 verteilten Services auf AWS und GCP mit 99,9 % Verfügbarkeit, auf Basis ereignisgesteuerter und serverloser Muster.",
+          "Aufbau simulierter Umgebungen, um die Systemleistung vor dem Produktionsrelease zu testen.",
           "Containerisierung der Services mit Docker und Aufbau von CI/CD-Pipelines, die die Deployment-Zeit von ~1 Stunde auf ~10 Minuten senkten und tägliche Releases ermöglichten."
         ]
       },

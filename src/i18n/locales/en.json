@@ -46,6 +46,7 @@
           "Designed a provider-agnostic speech-to-text (STT) engine that runs on AWS Transcribe or Google Cloud's Chirp 2 and Chirp 3 models, with no changes to the calling services.",
           "Replaced a Puppeteer HTML-to-PDF pipeline with a Typst-based document and report generation system, cutting generation time and resource usage by ~90%.",
           "Designed and operated 12 distributed services across AWS and GCP with 99.9% uptime, using event-driven and serverless patterns.",
+          "Built simulated environments to test system performance before production releases.",
           "Containerized services with Docker and built CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases."
         ]
       },

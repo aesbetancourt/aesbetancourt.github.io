@@ -46,6 +46,7 @@
           "Progettazione di un motore di trascrizione vocale (STT) indipendente dal provider, che funziona con AWS Transcribe o con i modelli Chirp 2 e Chirp 3 di Google Cloud senza modifiche ai servizi chiamanti.",
           "Sostituzione di una pipeline HTML-to-PDF basata su Puppeteer con un sistema di generazione di documenti e report basato su Typst: ~90% di tempo di generazione e di risorse in meno.",
           "Progettazione e gestione di 12 servizi distribuiti su AWS e GCP con il 99,9% di uptime, con pattern event-driven e serverless.",
+          "Realizzazione di ambienti simulati per testare le prestazioni dei sistemi prima del rilascio in produzione.",
           "Containerizzazione dei servizi con Docker e creazione di pipeline CI/CD che hanno ridotto i tempi di deploy da ~1 ora a ~10 minuti, abilitando rilasci quotidiani."
         ]
       },
