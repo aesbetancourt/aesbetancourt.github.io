@@ -10,10 +10,10 @@
   <!-- content -->
   <text x="430" y="250" font-family="'Space Grotesk', system-ui, sans-serif" font-weight="600" font-size="68" letter-spacing="-1" fill="#ece9e2">Alejandro Sánchez</text>
   <text x="432" y="318" font-family="'Space Mono', ui-monospace, monospace" font-size="30" fill="#e2645a">Senior Fullstack AI Engineer</text>
-  <text x="432" y="392" font-family="'Space Grotesk', system-ui, sans-serif" font-size="27" fill="#a7a59d">Scalable distributed systems with TypeScript,</text>
-  <text x="432" y="430" font-family="'Space Grotesk', system-ui, sans-serif" font-size="27" fill="#a7a59d">Node.js, Python &amp; AI.</text>
+  <text x="432" y="392" font-family="'Space Grotesk', system-ui, sans-serif" font-size="27" fill="#a7a59d">Designing scalable distributed systems</text>
+  <text x="432" y="430" font-family="'Space Grotesk', system-ui, sans-serif" font-size="27" fill="#a7a59d">for <tspan fill="#e2645a">AI</tspan>-powered products.</text>
 
   <!-- meta row -->
-  <text x="432" y="520" font-family="'Space Mono', ui-monospace, monospace" font-size="20" fill="#6f6e69">distributed systems · LLMs · AWS · GCP</text>
+  <text x="432" y="520" font-family="'Space Mono', ui-monospace, monospace" font-size="20" fill="#6f6e69">system architecture · distributed systems · AI</text>
   <text x="432" y="556" font-family="'Space Mono', ui-monospace, monospace" font-size="20" fill="#6f6e69">aesbetancourt.dev</text>
 </svg>
