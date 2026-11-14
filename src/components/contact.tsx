@@ -11,7 +11,7 @@ export function Contact() {
   return (
     <section id="contact" className="contact" ref={root}>
       <div className="eyebrow reveal">
-        05 / {t("nav.contact")} <span className="ln" />
+        06 / {t("nav.contact")} <span className="ln" />
       </div>
       <p className="big reveal">
         {t("contact.big")}{" "}

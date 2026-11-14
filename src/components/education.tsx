@@ -9,7 +9,7 @@ export function Education() {
   return (
     <section id="education" ref={root}>
       <div className="eyebrow reveal">
-        03 / {t("nav.education")} <span className="ln" />
+        04 / {t("nav.education")} <span className="ln" />
       </div>
       <h2 className="sec reveal">{t("education.heading")}</h2>
       <div className="xp reveal">

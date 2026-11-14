@@ -3,6 +3,7 @@
   "nav": {
     "about": "Chi sono",
     "experience": "Esperienza",
+    "projects": "Progetti",
     "education": "Formazione",
     "stack": "Stack",
     "contact": "Contatti"
@@ -87,6 +88,31 @@
           "Sviluppo di 3 sistemi interni utilizzati ogni giorno da ~200 dipendenti per registrazione, tracciabilità e gestione del ciclo di vita dei collaboratori, con Python e Node.js.",
           "Sviluppo di interfacce front-end e servizi backend a supporto delle operazioni aziendali e dei flussi di tracciamento dei dati.",
           "Deploy e gestione di servizi su server Linux con NGINX come reverse proxy."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "heading": "Cosa costruisco per conto mio",
+    "source": "Codice su GitHub",
+    "entries": {
+      "archsim": {
+        "kind": "App web · open source",
+        "tagline": "Kata di architettura con un revisore IA",
+        "bullets": [
+          "Uno strumento per esercitarsi nell'architettura software. Prendi un breve problema di business, definisci l'ambito, scegli le caratteristiche chiave e uno stile, disegni il diagramma e scrivi i trade-off.",
+          "Un revisore IA legge il diagramma e il testo, valuta sette dimensioni da 1 a 5, cita le evidenze di ogni punteggio e indica il rischio principale.",
+          "Indipendente dal provider per scelta progettuale: funziona con Claude Code, OpenCode, l'API di Anthropic o qualsiasi endpoint compatibile con OpenAI, inclusi i modelli locali.",
+          "Include una wiki di 43 pagine, esempi svolti e un glossario di oltre 120 termini. Locale e per un solo utente, con semplici file al posto di un database."
+        ]
+      },
+      "blueprints": {
+        "kind": "App desktop",
+        "tagline": "Editor markdown e sistema di specifiche software",
+        "bullets": [
+          "Un editor desktop per scrivere specifiche software in un vault di semplici file markdown, con un backend Rust su Tauri.",
+          "Editing avanzato con comandi slash, wiki-link e backlink, diagrammi Mermaid e disegni Excalidraw.",
+          "Integrazione con Git (status, commit, diff), ricerca full-text con regex, tag e template per i nuovi file."
         ]
       }
     }

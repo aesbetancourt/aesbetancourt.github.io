@@ -3,6 +3,7 @@
   "nav": {
     "about": "About",
     "experience": "Experience",
+    "projects": "Projects",
     "education": "Education",
     "stack": "Stack",
     "contact": "Contact"
@@ -87,6 +88,31 @@
           "Built 3 internal systems used daily by ~200 employees for registration, traceability and collaborator lifecycle management, using Python and Node.js.",
           "Developed front-end interfaces and backend services to support business operations and data tracking workflows.",
           "Deployed and operated services on Linux servers with NGINX as a reverse proxy."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "heading": "What I build on my own",
+    "source": "Source on GitHub",
+    "entries": {
+      "archsim": {
+        "kind": "Web app · open source",
+        "tagline": "Architecture katas with an AI reviewer",
+        "bullets": [
+          "A practice tool for software architecture. You take a short business problem, set the scope, select the driving characteristics and a style, draw the diagram and write the trade-offs.",
+          "An AI reviewer reads the diagram and the text, scores seven dimensions from 1 to 5, quotes the evidence for each score and names the top risk.",
+          "Provider-agnostic by design: it runs on Claude Code, OpenCode, the Anthropic API or any OpenAI-compatible endpoint, including local models.",
+          "Includes a 43-page wiki, worked examples and a glossary of 120+ terms. Local and single-user, with plain files in place of a database."
+        ]
+      },
+      "blueprints": {
+        "kind": "Desktop app",
+        "tagline": "Markdown editor and software spec system",
+        "bullets": [
+          "A desktop editor to write software specs in a vault of plain markdown files, with a Rust backend on Tauri.",
+          "Rich editing with slash commands, wiki-links and backlinks, Mermaid diagrams and Excalidraw drawings.",
+          "Git integration (status, commit, diff), full-text search with regex, tags and templates for new files."
         ]
       }
     }

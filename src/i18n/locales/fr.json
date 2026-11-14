@@ -3,6 +3,7 @@
   "nav": {
     "about": "À propos",
     "experience": "Expérience",
+    "projects": "Projets",
     "education": "Formation",
     "stack": "Stack",
     "contact": "Contact"
@@ -87,6 +88,31 @@
           "Développement de 3 systèmes internes utilisés quotidiennement par ~200 employés pour l'enregistrement, la traçabilité et la gestion du cycle de vie des collaborateurs, en Python et Node.js.",
           "Développement d'interfaces front-end et de services backend au service des opérations métier et des workflows de suivi des données.",
           "Déploiement et exploitation de services sur des serveurs Linux avec NGINX comme reverse proxy."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "heading": "Ce que je construis de mon côté",
+    "source": "Code sur GitHub",
+    "entries": {
+      "archsim": {
+        "kind": "App web · open source",
+        "tagline": "Katas d'architecture avec un relecteur IA",
+        "bullets": [
+          "Un outil pour s'exercer à l'architecture logicielle. Vous prenez un court problème métier, fixez le périmètre, choisissez les caractéristiques clés et un style, dessinez le diagramme et rédigez les compromis.",
+          "Un relecteur IA lit le diagramme et le texte, note sept dimensions de 1 à 5, cite les éléments qui justifient chaque note et désigne le risque principal.",
+          "Indépendant du fournisseur par conception : il fonctionne avec Claude Code, OpenCode, l'API Anthropic ou tout endpoint compatible OpenAI, y compris des modèles locaux.",
+          "Comprend un wiki de 43 pages, des exemples corrigés et un glossaire de plus de 120 termes. Local et mono-utilisateur, avec de simples fichiers à la place d'une base de données."
+        ]
+      },
+      "blueprints": {
+        "kind": "App de bureau",
+        "tagline": "Éditeur markdown et système de spécifications logicielles",
+        "bullets": [
+          "Un éditeur de bureau pour rédiger des spécifications logicielles dans un vault de simples fichiers markdown, avec un backend Rust sur Tauri.",
+          "Édition riche avec commandes slash, wiki-links et backlinks, diagrammes Mermaid et dessins Excalidraw.",
+          "Intégration Git (status, commit, diff), recherche plein texte avec regex, tags et modèles pour les nouveaux fichiers."
         ]
       }
     }

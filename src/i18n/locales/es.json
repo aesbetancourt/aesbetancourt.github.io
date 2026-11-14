@@ -3,6 +3,7 @@
   "nav": {
     "about": "Sobre mí",
     "experience": "Experiencia",
+    "projects": "Proyectos",
     "education": "Educación",
     "stack": "Stack",
     "contact": "Contacto"
@@ -87,6 +88,31 @@
           "Construí 3 sistemas internos, usados a diario por ~200 empleados, para registro, trazabilidad y gestión del ciclo de vida de colaboradores, con Python y Node.js.",
           "Desarrollé interfaces frontend y servicios backend para dar soporte a las operaciones de negocio y a los flujos de seguimiento de datos.",
           "Desplegué y operé servicios en servidores Linux con NGINX como proxy inverso."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "heading": "Lo que construyo por mi cuenta",
+    "source": "Código en GitHub",
+    "entries": {
+      "archsim": {
+        "kind": "App web · código abierto",
+        "tagline": "Katas de arquitectura con un revisor de IA",
+        "bullets": [
+          "Una herramienta para practicar arquitectura de software. Tomas un problema de negocio breve, defines el alcance, eliges las características clave y un estilo, dibujas el diagrama y escribes los trade-offs.",
+          "Un revisor de IA lee el diagrama y el texto, puntúa siete dimensiones del 1 al 5, cita la evidencia de cada puntuación y señala el riesgo principal.",
+          "Agnóstico del proveedor por diseño: funciona con Claude Code, OpenCode, la API de Anthropic o cualquier endpoint compatible con OpenAI, incluidos modelos locales.",
+          "Incluye una wiki de 43 páginas, ejemplos resueltos y un glosario de más de 120 términos. Local y de un solo usuario, con archivos planos en lugar de una base de datos."
+        ]
+      },
+      "blueprints": {
+        "kind": "App de escritorio",
+        "tagline": "Editor markdown y sistema de especificaciones de software",
+        "bullets": [
+          "Un editor de escritorio para escribir especificaciones de software en un vault de archivos markdown planos, con backend en Rust sobre Tauri.",
+          "Edición enriquecida con comandos slash, wiki-links y backlinks, diagramas Mermaid y dibujos de Excalidraw.",
+          "Integración con Git (status, commit, diff), búsqueda de texto completo con regex, etiquetas y plantillas para archivos nuevos."
         ]
       }
     }

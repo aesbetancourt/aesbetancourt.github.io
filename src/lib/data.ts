@@ -76,6 +76,27 @@ export const certifications: { org: string; courses: string[] }[] = [
   },
 ];
 
+// Personal projects. The text for each key is in the locale files.
+export const projects: {
+  key: string;
+  name: string;
+  url: string;
+  stack: string[];
+}[] = [
+  {
+    key: "archsim",
+    name: "ArchSim",
+    url: "https://github.com/aesbetancourt/archsim",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Excalidraw", "Tiptap"],
+  },
+  {
+    key: "blueprints",
+    name: "Blueprints",
+    url: "https://github.com/aesbetancourt/blueprints",
+    stack: ["Tauri v2", "Rust", "React 19", "TypeScript", "TipTap", "Zustand"],
+  },
+];
+
 export const socialLinks = {
   github: "https://github.com/aesbetancourt",
   linkedin: "https://www.linkedin.com/in/aesbetancourt/",

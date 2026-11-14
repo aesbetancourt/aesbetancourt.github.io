@@ -10,6 +10,7 @@ import { socialLinks } from "@/lib/data"
 const sections = [
   { id: "about", nav: "about" },
   { id: "experience", nav: "experience" },
+  { id: "projects", nav: "projects" },
   { id: "education", nav: "education" },
   { id: "stack", nav: "stack" },
   { id: "contact", nav: "contact" },

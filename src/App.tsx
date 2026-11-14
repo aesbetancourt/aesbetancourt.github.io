@@ -3,6 +3,7 @@ import { Sidebar } from "@/components/sidebar"
 import { Hero } from "@/components/hero"
 import { About } from "@/components/about"
 import { Experience } from "@/components/experience"
+import { Projects } from "@/components/projects"
 import { Education } from "@/components/education"
 import { Stack } from "@/components/stack"
 import { Contact } from "@/components/contact"
@@ -18,6 +19,7 @@ function App() {
         <Hero key={i18n.language} />
         <About />
         <Experience />
+        <Projects />
         <Education />
         <Stack />
         <Contact />

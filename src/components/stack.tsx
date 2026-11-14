@@ -20,7 +20,7 @@ export function Stack() {
   return (
     <section id="stack" ref={root}>
       <div className="eyebrow reveal">
-        04 / {t("nav.stack")} <span className="ln" />
+        05 / {t("nav.stack")} <span className="ln" />
       </div>
       <h2 className="sec reveal">{t("stack.heading")}</h2>
       <div className="stackgrid reveal-group">

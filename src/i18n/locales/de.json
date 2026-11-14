@@ -3,6 +3,7 @@
   "nav": {
     "about": "Über mich",
     "experience": "Erfahrung",
+    "projects": "Projekte",
     "education": "Ausbildung",
     "stack": "Stack",
     "contact": "Kontakt"
@@ -87,6 +88,31 @@
           "Entwicklung von 3 internen Systemen, die ~200 Mitarbeitende täglich für Registrierung, Rückverfolgbarkeit und Mitarbeiter-Lifecycle-Management nutzen, mit Python und Node.js.",
           "Entwicklung von Frontend-Oberflächen und Backend-Services zur Unterstützung von Geschäftsprozessen und Datenverfolgung.",
           "Deployment und Betrieb von Services auf Linux-Servern mit NGINX als Reverse Proxy."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "heading": "Was ich nebenbei baue",
+    "source": "Code auf GitHub",
+    "entries": {
+      "archsim": {
+        "kind": "Web-App · Open Source",
+        "tagline": "Architektur-Katas mit einem KI-Reviewer",
+        "bullets": [
+          "Ein Übungswerkzeug für Softwarearchitektur. Man nimmt ein kurzes Geschäftsproblem, legt den Umfang fest, wählt die treibenden Eigenschaften und einen Stil, zeichnet das Diagramm und beschreibt die Trade-offs.",
+          "Ein KI-Reviewer liest Diagramm und Text, bewertet sieben Dimensionen von 1 bis 5, zitiert die Belege für jede Bewertung und benennt das größte Risiko.",
+          "Bewusst anbieterunabhängig: läuft mit Claude Code, OpenCode, der Anthropic API oder jedem OpenAI-kompatiblen Endpoint, auch mit lokalen Modellen.",
+          "Enthält ein Wiki mit 43 Seiten, durchgearbeitete Beispiele und ein Glossar mit über 120 Begriffen. Lokal und für einen Nutzer, mit einfachen Dateien statt einer Datenbank."
+        ]
+      },
+      "blueprints": {
+        "kind": "Desktop-App",
+        "tagline": "Markdown-Editor und System für Software-Spezifikationen",
+        "bullets": [
+          "Ein Desktop-Editor für Software-Spezifikationen in einem Vault aus einfachen Markdown-Dateien, mit einem Rust-Backend auf Tauri.",
+          "Komfortables Editieren mit Slash-Befehlen, Wiki-Links und Backlinks, Mermaid-Diagrammen und Excalidraw-Zeichnungen.",
+          "Git-Integration (Status, Commit, Diff), Volltextsuche mit Regex, Tags und Vorlagen für neue Dateien."
         ]
       }
     }

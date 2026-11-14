@@ -391,6 +391,27 @@ h2.sec {
   font-weight: 700;
 }
 
+/* projects (reuses the .xp rows) */
+.projchips {
+  margin-top: 16px;
+}
+.projlink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--ink);
+  border-bottom: 1px solid var(--line2);
+  padding-bottom: 2px;
+  transition: 0.15s;
+}
+.projlink:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 /* stack */
 .stackgrid {
   display: grid;
