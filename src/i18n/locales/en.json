@@ -28,8 +28,8 @@
   },
   "about": {
     "p1": "I'm a <strong>software engineer focused on system architecture</strong>: I define service boundaries, data flow and cloud infrastructure, then build across the stack to ship it, from APIs and data layers to the interfaces and the AI on top.",
-    "founding": "As a <strong>founding engineer at Entropy Systems</strong>, I've shaped the architecture of our SaaS products for ISO standards auditing from day one. They're now used by ~40 client companies.",
-    "p2": "My work centers on <strong>the decisions that are hard to change later</strong>: how services talk to each other, where data lives, and how the system fails and recovers. I build them with TypeScript, Node and Python, and keep a long-running interest in document tooling and developer-facing libraries.",
+    "founding": "As a <strong>founding engineer at Entropy Systems</strong>, I've shaped the architecture of our SaaS products for ISO standards auditing from day one. They're now used by ~40 client companies. I work with C-level leadership and the product team on the roadmap and architecture decisions.",
+    "p2": "My work centers on <strong>the decisions that are hard to change later</strong>: how services talk to each other, where data lives, and how the system fails and recovers. I build them test-first (TDD) with TypeScript, Node and Python, and keep a long-running interest in document tooling and developer-facing libraries.",
     "p3": "Lately that means architecting <strong>AI-powered features</strong>: retrieval, LLM orchestration, provider-agnostic speech-to-text and the production plumbing that keeps them reliable."
   },
   "experience": {
@@ -41,12 +41,16 @@
         "years": "2023 — Present",
         "bullets": [
           "Founding engineer: architected and delivered 3 SaaS products for ISO standards auditing, now used by ~40 client companies, in a small engineering team (3–5 engineers).",
+          "Worked directly with client companies to gather their requirements, and measured product KPIs with SQL queries and dashboards.",
           "Co-designed the agentic architecture and agent harness on AWS Bedrock and GCP Vertex AI. Built the Bedrock agent pipelines for document processing, conversational assistants and workflow automation: ~2,000 audit documents per month and ~60% less manual review time.",
-          "Defined the service architecture and delivered it hands-on in TypeScript: React, Next.js and Vite on the frontend, Fastify and Node.js services on the backend.",
+          "Defined the service architecture and delivered it hands-on in TypeScript: React, Next.js and Vite on the frontend, Fastify, Node.js and Prisma on PostgreSQL on the backend, plus Go for internal projects.",
+          "Built the identity and access layer on Better Auth and OpenID Connect: passkeys (WebAuthn), 2FA, email verification, organization roles and invitations, OIDC single sign-on and CASL authorization, plus hardened admin sign-in (bounded sessions, rate limiting, nonce-based CSP, sign-in audit log).",
           "Built a provider-agnostic speech-to-text (STT) engine that runs on AWS Transcribe or Google Cloud's Chirp 2 and Chirp 3 models, with no changes to the calling services.",
+          "Built the transaction handling for paid features and AI model usage on Stripe (Checkout Sessions with automatic tax, webhooks), including failure handling for those transactions.",
           "Replaced a Puppeteer HTML-to-PDF pipeline with a Typst-based document and report generation system, cutting generation time and resource usage by ~90%.",
           "Owned 12 distributed services across AWS and GCP with 99.9% uptime, built on event-driven and serverless patterns and performance-tested in simulated environments before each release.",
-          "Containerized services with Docker and built CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases."
+          "Containerized services with Docker and built CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases.",
+          "Mentored engineers on the team and gave them regular feedback."
         ]
       },
       "vintra": {
@@ -56,28 +60,28 @@
         "bullets": [
           "Led migration of a ~80k-line video analytics codebase from legacy JavaScript to TypeScript, reducing production runtime errors by ~30%.",
           "Introduced Vite and esbuild into the build pipeline, cutting build time from ~3 min to ~20 s.",
-          "Partnered with product and design teams to deliver consistent UI behavior across a complex, data-rich surveillance interface."
+          "Gathered requirements directly from clients, and partnered with product and design teams to deliver consistent UI behavior across a complex, data-rich surveillance interface."
         ]
       },
       "bita_lead": {
         "company": "BITA GmbH",
-        "role": "UI Development Lead",
+        "role": "UI Development Lead (full stack)",
         "years": "2022",
         "bullets": [
           "Led a team of 4 front-end engineers building 5 index and ETF analytics applications, setting engineering standards and driving delivery quality.",
-          "Introduced shift-left practices (code reviews, linting and automated testing), raising test coverage from ~10% to ~70%.",
+          "Introduced code reviews, linting and automated testing, raising test coverage from ~10% to ~70%.",
           "Established shared component patterns and a consistent architecture across the applications.",
-          "Contributed across the stack, delivering UI features in TypeScript and supporting backend API work in Python."
+          "Contributed across the stack: UI features in TypeScript and backend APIs in Python."
         ]
       },
       "bita_dev": {
         "company": "BITA GmbH",
-        "role": "Full-Stack Engineer",
+        "role": "Full Stack Engineer",
         "years": "2021 — 2022",
         "bullets": [
-          "Built and maintained financial applications for index construction and ETF analytics across frontend, backend and data layers.",
+          "Built index construction and ETF analytics applications across frontend, backend and data layers.",
           "Designed asynchronous RabbitMQ workflows ingesting ~1M market-data records per day.",
-          "Developed REST APIs and backend services in Python and Node.js, backed by PostgreSQL and MongoDB."
+          "Developed REST APIs and backend services in Python and Node.js on PostgreSQL and MongoDB, and wrote Go for internal index calculation projects."
         ]
       },
       "intelix": {
@@ -86,6 +90,7 @@
         "years": "2020 — 2021",
         "bullets": [
           "Built 3 internal systems used daily by ~200 employees for registration, traceability and collaborator lifecycle management, using Python and Node.js.",
+          "Developed backend services in Java with Spring Boot.",
           "Developed front-end interfaces and backend services to support business operations and data tracking workflows.",
           "Deployed and operated services on Linux servers with NGINX as a reverse proxy."
         ]
@@ -131,11 +136,13 @@
     "categories": {
       "languages": "Languages",
       "architecture": "Architecture & Patterns",
+      "ai": "AI Engineering",
       "cloud": "Cloud & Infra",
       "databases": "Data & Messaging",
       "backend": "Backend",
+      "security": "Identity & Security",
       "aiTools": "AI & Automation",
-      "devops": "DevOps & Tooling",
+      "devops": "DevOps & Networking",
       "frontend": "Frontend"
     }
   },

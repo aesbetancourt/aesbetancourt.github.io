@@ -28,8 +28,8 @@
   },
   "about": {
     "p1": "Ich bin <strong>Softwareingenieur mit Fokus auf Systemarchitektur</strong>: Ich definiere Service-Grenzen, Datenflüsse und Cloud-Infrastruktur und setze sie anschließend über den gesamten Stack um, von APIs und Datenschichten bis zu den Oberflächen und der KI darauf.",
-    "founding": "Als <strong>Founding Engineer bei Entropy Systems</strong> gestalte ich seit dem ersten Tag die Architektur unserer SaaS-Produkte für ISO-Normen-Audits. Heute nutzen sie ~40 Kundenunternehmen.",
-    "p2": "Im Mittelpunkt meiner Arbeit stehen <strong>die Entscheidungen, die sich später nur schwer ändern lassen</strong>: wie Services miteinander kommunizieren, wo Daten liegen und wie das System ausfällt und sich wieder erholt. Umgesetzt wird das mit TypeScript, Node und Python, dazu ein langjähriges Interesse an Dokumenten-Tooling und Bibliotheken für Entwickler.",
+    "founding": "Als <strong>Founding Engineer bei Entropy Systems</strong> gestalte ich seit dem ersten Tag die Architektur unserer SaaS-Produkte für ISO-Normen-Audits. Heute nutzen sie ~40 Kundenunternehmen. Mit der Geschäftsführung und dem Produktteam arbeite ich an der Roadmap und den Architekturentscheidungen.",
+    "p2": "Im Mittelpunkt meiner Arbeit stehen <strong>die Entscheidungen, die sich später nur schwer ändern lassen</strong>: wie Services miteinander kommunizieren, wo Daten liegen und wie das System ausfällt und sich wieder erholt. Umgesetzt wird das testgetrieben (TDD) mit TypeScript, Node und Python, dazu ein langjähriges Interesse an Dokumenten-Tooling und Bibliotheken für Entwickler.",
     "p3": "Zuletzt heißt das vor allem, die Architektur <strong>KI-gestützter Funktionen</strong> zu entwerfen: Retrieval, LLM-Orchestrierung, anbieterunabhängige Spracherkennung und die Produktionsinfrastruktur, die sie zuverlässig hält."
   },
   "experience": {
@@ -41,12 +41,16 @@
         "years": "2023 — heute",
         "bullets": [
           "Founding Engineer: Konzeption und Umsetzung von 3 SaaS-Produkten für ISO-Normen-Audits, die heute ~40 Kundenunternehmen nutzen, in einem kleinen Engineering-Team (3–5 Personen).",
+          "Direkte Zusammenarbeit mit Kundenunternehmen zur Erhebung ihrer Anforderungen sowie Messung der Produkt-KPIs mit SQL-Abfragen und Dashboards.",
           "Mitgestaltung der agentischen Architektur und des Agenten-Harness auf AWS Bedrock und GCP Vertex AI. Aufbau der Bedrock-Agenten-Pipelines für Dokumentenverarbeitung, Chat-Assistenten und Workflow-Automatisierung: ~2.000 Audit-Dokumente pro Monat, ~60 % weniger manuelle Prüfzeit.",
-          "Definition der Service-Architektur und praktische Umsetzung in TypeScript: React, Next.js und Vite im Frontend sowie Fastify- und Node.js-Services im Backend.",
+          "Definition der Service-Architektur und praktische Umsetzung in TypeScript: React, Next.js und Vite im Frontend, Fastify, Node.js und Prisma auf PostgreSQL im Backend, dazu Go für interne Projekte.",
+          "Aufbau der Identitäts- und Zugriffsschicht mit Better Auth und OpenID Connect: Passkeys (WebAuthn), 2FA, E-Mail-Verifizierung, Organisationsrollen und Einladungen, OIDC Single Sign-On und CASL-Autorisierung, dazu ein gehärteter Admin-Login (begrenzte Sitzungen, Rate Limiting, Nonce-basierte CSP, Audit-Log der Anmeldungen).",
           "Aufbau einer anbieterunabhängigen Speech-to-Text-Engine (STT), die mit AWS Transcribe oder den Modellen Chirp 2 und Chirp 3 von Google Cloud läuft, ohne Änderungen an den aufrufenden Services.",
+          "Aufbau der Transaktionsabwicklung für kostenpflichtige Funktionen und die Nutzung von KI-Modellen mit Stripe (Checkout Sessions mit automatischer Steuerberechnung, Webhooks), einschließlich der Fehlerbehandlung dieser Transaktionen.",
           "Ablösung einer Puppeteer-Pipeline (HTML zu PDF) durch ein Typst-basiertes System für Dokumente und Berichte: ~90 % weniger Generierungszeit und Ressourcenverbrauch.",
           "Entwurf und Betrieb von 12 verteilten Services auf AWS und GCP mit 99,9 % Verfügbarkeit, auf Basis ereignisgesteuerter und serverloser Muster; Performancetests in simulierten Umgebungen vor jedem Release.",
-          "Containerisierung der Services mit Docker und Aufbau von CI/CD-Pipelines, die die Deployment-Zeit von ~1 Stunde auf ~10 Minuten senkten und tägliche Releases ermöglichten."
+          "Containerisierung der Services mit Docker und Aufbau von CI/CD-Pipelines, die die Deployment-Zeit von ~1 Stunde auf ~10 Minuten senkten und tägliche Releases ermöglichten.",
+          "Mentoring von Engineers im Team mit regelmäßigem Feedback."
         ]
       },
       "vintra": {
@@ -56,12 +60,12 @@
         "bullets": [
           "Leitung der Migration einer Videoanalyse-Codebasis mit ~80k Zeilen von Legacy-JavaScript zu TypeScript, wodurch Laufzeitfehler in Produktion um ~30 % sanken.",
           "Einführung von Vite und esbuild in die Build-Pipeline, wodurch die Build-Zeit von ~3 Min. auf ~20 s sank.",
-          "Enge Zusammenarbeit mit Produkt- und Designteams für ein konsistentes UI-Verhalten in einer komplexen, datenintensiven Überwachungsoberfläche."
+          "Erhebung der Anforderungen direkt bei Kunden sowie enge Zusammenarbeit mit Produkt- und Designteams für ein konsistentes UI-Verhalten in einer komplexen, datenintensiven Überwachungsoberfläche."
         ]
       },
       "bita_lead": {
         "company": "BITA GmbH",
-        "role": "UI Development Lead",
+        "role": "UI Development Lead (Full Stack)",
         "years": "2022",
         "bullets": [
           "Leitung eines Teams von 4 Frontend-Engineers, das 5 Analyseanwendungen für Indizes und ETFs entwickelte, einschließlich Engineering-Standards und Verantwortung für die Lieferqualität.",
@@ -72,12 +76,12 @@
       },
       "bita_dev": {
         "company": "BITA GmbH",
-        "role": "Full-Stack Engineer",
+        "role": "Full Stack Engineer",
         "years": "2021 — 2022",
         "bullets": [
           "Entwicklung und Wartung von Finanzanwendungen für Indexkonstruktion und ETF-Analyse über Frontend, Backend und Datenschicht.",
           "Entwurf asynchroner RabbitMQ-Workflows, die ~1 Mio. Marktdatensätze pro Tag verarbeiten.",
-          "Entwicklung von REST-APIs und Backend-Services in Python und Node.js auf Basis von PostgreSQL und MongoDB."
+          "Entwicklung von REST-APIs und Backend-Services in Python und Node.js auf Basis von PostgreSQL und MongoDB, dazu Go in internen Projekten zur Indexberechnung."
         ]
       },
       "intelix": {
@@ -86,6 +90,7 @@
         "years": "2020 — 2021",
         "bullets": [
           "Entwicklung von 3 internen Systemen, die ~200 Mitarbeitende täglich für Registrierung, Rückverfolgbarkeit und Mitarbeiter-Lifecycle-Management nutzen, mit Python und Node.js.",
+          "Entwicklung von Backend-Services in Java mit Spring Boot.",
           "Entwicklung von Frontend-Oberflächen und Backend-Services zur Unterstützung von Geschäftsprozessen und Datenverfolgung.",
           "Deployment und Betrieb von Services auf Linux-Servern mit NGINX als Reverse Proxy."
         ]
@@ -131,11 +136,13 @@
     "categories": {
       "languages": "Sprachen",
       "architecture": "Architektur & Muster",
+      "ai": "KI-Engineering",
       "cloud": "Cloud & Infrastruktur",
       "databases": "Daten & Messaging",
       "backend": "Backend",
+      "security": "Identität & Sicherheit",
       "aiTools": "KI & Automatisierung",
-      "devops": "DevOps & Tooling",
+      "devops": "DevOps & Netzwerke",
       "frontend": "Frontend"
     }
   },

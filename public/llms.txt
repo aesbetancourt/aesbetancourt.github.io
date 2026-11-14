@@ -16,11 +16,11 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 
 ## Experience
 
-- Founding Full Stack Engineer · Entropy Systems (2023 — Present): architected and delivered 3 SaaS products for ISO standards auditing, now used by ~40 client companies, in a team of 3–5 engineers; co-designed the agentic architecture and agent harness across AWS Bedrock and Google Cloud Vertex AI; defined the service architecture and delivered it hands-on in TypeScript (React, Next.js, Vite, Fastify, Node.js); LLM agent pipelines on AWS Bedrock processing ~2,000 audit documents per month and cutting manual review time by ~60%; a provider-agnostic speech-to-text (STT) engine on AWS Transcribe or Google Cloud Chirp 2 and Chirp 3, with no changes to calling services; replaced a Puppeteer HTML-to-PDF pipeline with a Typst-based document and report generation system, cutting generation time and resource usage by ~90%; owned 12 distributed services across AWS and GCP with 99.9% uptime, performance-tested in simulated environments before each release; Docker and CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases.
-- Frontend Engineer · Vintra, Inc. (2022 — 2023): led migration of a ~80k-line video analytics codebase from legacy JavaScript to TypeScript, reducing production runtime errors by ~30%; introduced Vite and esbuild, cutting build time from ~3 min to ~20 s.
-- UI Development Lead · BITA GmbH (2022): led a team of 4 front-end engineers building 5 index and ETF analytics applications; introduced shift-left practices, raising test coverage from ~10% to ~70%; established shared component patterns.
-- Full-Stack Engineer · BITA GmbH (2021 — 2022): financial applications for index construction and ETF analytics; asynchronous RabbitMQ workflows ingesting ~1M market-data records per day; REST APIs in Python and Node.js.
-- Application Developer · Intelix Synergy (2020 — 2021): built 3 internal systems used daily by ~200 employees, in Python and Node.js on Linux/NGINX.
+- Founding Full Stack Engineer · Entropy Systems (2023 — Present): architected and delivered 3 SaaS products for ISO standards auditing, now used by ~40 client companies, in a team of 3–5 engineers; worked directly with client companies to gather requirements and measured product KPIs with SQL queries and dashboards; co-designed the agentic architecture and agent harness across AWS Bedrock and Google Cloud Vertex AI; defined the service architecture and delivered it hands-on in TypeScript (React, Next.js, Vite, Fastify, Node.js, Prisma on PostgreSQL), plus Go for internal projects; built the identity and access layer on Better Auth and OpenID Connect (passkeys, 2FA, OIDC single sign-on, CASL authorization, hardened admin sign-in); built transaction handling for paid features and AI model usage on Stripe; LLM agent pipelines on AWS Bedrock processing ~2,000 audit documents per month and cutting manual review time by ~60%; a provider-agnostic speech-to-text (STT) engine on AWS Transcribe or Google Cloud Chirp 2 and Chirp 3, with no changes to calling services; replaced a Puppeteer HTML-to-PDF pipeline with a Typst-based document and report generation system, cutting generation time and resource usage by ~90%; owned 12 distributed services across AWS and GCP with 99.9% uptime, performance-tested in simulated environments before each release; Docker and CI/CD pipelines that cut deployment time from ~1 hour to ~10 minutes, enabling daily releases; mentored engineers on the team.
+- Frontend Engineer · Vintra, Inc. (2022 — 2023): led migration of a ~80k-line video analytics codebase from legacy JavaScript to TypeScript, reducing production runtime errors by ~30%; introduced Vite and esbuild, cutting build time from ~3 min to ~20 s; gathered requirements directly from clients.
+- UI Development Lead (full stack) · BITA GmbH (2022): led a team of 4 front-end engineers building 5 index and ETF analytics applications; introduced code reviews, linting and automated testing, raising test coverage from ~10% to ~70%; established shared component patterns.
+- Full Stack Engineer · BITA GmbH (2021 — 2022): financial applications for index construction and ETF analytics; asynchronous RabbitMQ workflows ingesting ~1M market-data records per day; REST APIs in Python and Node.js; Go for internal index calculation projects.
+- Application Developer · Intelix Synergy (2020 — 2021): built 3 internal systems used daily by ~200 employees, in Python and Node.js on Linux/NGINX; backend services in Java with Spring Boot.
 
 ## Projects
 
@@ -41,13 +41,14 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 
 ## Stack
 
-- Architecture & Patterns: system design, distributed systems, event-driven architecture, serverless, microservices, asynchronous workflows, multi-cloud (AWS, GCP), provider abstraction, REST API design
-- AI: LLMs, LLM orchestration, speech-to-text
-- Cloud & Infra: AWS (Bedrock, Transcribe, Lambda, EC2, S3, RDS, SQS, EventBridge), GCP (Cloud Run, Cloud Functions, Vertex AI, Speech-to-Text Chirp), DigitalOcean, Docker, CI/CD, NGINX, Linux
-- Data & Messaging: PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ
-- Backend: Node.js, Fastify, Express.js, FastAPI, Flask
+- Architecture & Patterns: system design, distributed systems, event-driven architecture, serverless, microservices, asynchronous workflows, multi-cloud (AWS, GCP), provider abstraction, REST API design, engineering documentation
+- AI: LLM agents, LangGraph, agent evaluation, RAG, LLM observability, voice agents, multi-agent systems, human-in-the-loop design, LLM orchestration, speech-to-text
+- Cloud & Infra: AWS (Bedrock, Transcribe, Lambda, EC2, S3, RDS, SQS, SNS, EventBridge), GCP (Cloud Run, Cloud Functions, Vertex AI, Speech-to-Text Chirp), DigitalOcean, Docker, Kubernetes, CI/CD, NGINX, Linux, VPC networking, load balancing
+- Data & Messaging: PostgreSQL, Prisma, MySQL, MongoDB, DynamoDB, Redis, RabbitMQ
+- Backend: Node.js, Fastify, Express.js, FastAPI, Flask, Spring Boot, Stripe API
+- Identity & Security: OpenID Connect (OIDC), OAuth 2.0, single sign-on, Better Auth, passkeys (WebAuthn), two-factor authentication, session management, CASL, Content Security Policy
 - AI & Automation tools: Claude Code, Codex, OpenCode, Cursor, Kiro, GitHub Copilot, n8n, Hermes
-- Languages: TypeScript, JavaScript, Python (currently exploring Go and Rust)
+- Languages: TypeScript, JavaScript, Python, Java, Go, C, SQL, Bash (currently exploring Rust)
 - Frontend: React, Next.js, Vite, esbuild
 
 ## Links

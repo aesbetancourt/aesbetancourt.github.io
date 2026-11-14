@@ -4,9 +4,11 @@ import { useReveal } from "@/hooks/use-reveal"
 
 const categoryOrder = [
   "architecture",
+  "ai",
   "cloud",
   "databases",
   "backend",
+  "security",
   "aiTools",
   "languages",
   "devops",

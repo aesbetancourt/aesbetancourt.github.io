@@ -1,5 +1,14 @@
 export const skills: Record<string, string[]> = {
-  languages: ["TypeScript", "JavaScript", "Python"],
+  languages: [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "Java",
+    "Go",
+    "C",
+    "SQL",
+    "Bash",
+  ],
   architecture: [
     "System Design",
     "Distributed Systems",
@@ -10,6 +19,17 @@ export const skills: Record<string, string[]> = {
     "Multi-Cloud (AWS · GCP)",
     "Provider Abstraction",
     "API Design (REST)",
+    "Engineering Documentation",
+  ],
+  ai: [
+    "LLM Agents",
+    "LangGraph",
+    "Agent Evaluation",
+    "RAG",
+    "LLM Observability",
+    "Voice Agents",
+    "Multi-Agent Systems",
+    "Human-in-the-Loop Design",
   ],
   cloud: [
     "AWS Bedrock",
@@ -19,6 +39,7 @@ export const skills: Record<string, string[]> = {
     "S3",
     "RDS",
     "SQS",
+    "SNS",
     "EventBridge",
     "ElastiCache",
     "IAM",
@@ -29,10 +50,38 @@ export const skills: Record<string, string[]> = {
     "GCP Speech-to-Text (Chirp)",
     "DigitalOcean",
   ],
-  databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "RabbitMQ"],
-  backend: ["Node.js", "Fastify", "Express.js", "FastAPI", "Flask"],
+  databases: [
+    "PostgreSQL",
+    "Prisma",
+    "MySQL",
+    "MongoDB",
+    "DynamoDB",
+    "Redis",
+    "RabbitMQ",
+  ],
+  backend: [
+    "Node.js",
+    "Fastify",
+    "Express.js",
+    "FastAPI",
+    "Flask",
+    "Spring Boot",
+    "Stripe API",
+  ],
+  security: [
+    "OpenID Connect (OIDC)",
+    "OAuth 2.0",
+    "Single Sign-On",
+    "Better Auth",
+    "Passkeys (WebAuthn)",
+    "Two-Factor Auth",
+    "Session Management",
+    "CASL",
+    "Content Security Policy",
+  ],
   devops: [
     "Docker",
+    "Kubernetes",
     "CI/CD",
     "NGINX",
     "PM2",
@@ -40,6 +89,9 @@ export const skills: Record<string, string[]> = {
     "GitHub",
     "GitLab",
     "Linux",
+    "TCP/IP",
+    "VPC Networking",
+    "Load Balancing",
   ],
   frontend: ["React", "Next.js", "Vite", "esbuild"],
   aiTools: [
@@ -55,7 +107,7 @@ export const skills: Record<string, string[]> = {
 };
 
 // Languages I am learning; shown apart from the production stack.
-export const exploringLanguages = ["Go", "Rust"];
+export const exploringLanguages = ["Rust"];
 
 export const certifications: { org: string; courses: string[] }[] = [
   {
