@@ -133,12 +133,15 @@ export const projects: {
   key: string;
   name: string;
   url: string;
+  // The project website. Omit it when the project has none.
+  site?: string;
   stack: string[];
 }[] = [
   {
     key: "archsim",
     name: "ArchSim",
     url: "https://github.com/aesbetancourt/archsim",
+    site: "https://aesbetancourt.dev/archsim/",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Excalidraw", "Tiptap"],
   },
   {

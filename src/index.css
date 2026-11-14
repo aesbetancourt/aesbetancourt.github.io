@@ -395,11 +395,16 @@ h2.sec {
 .projchips {
   margin-top: 16px;
 }
+.projlinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin-top: 16px;
+}
 .projlink {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-top: 16px;
   font-family: var(--mono);
   font-size: 12.5px;
   color: var(--ink);

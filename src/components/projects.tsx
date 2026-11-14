@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import { Github } from "lucide-react"
+import { Github, Globe } from "lucide-react"
 import { projects } from "@/lib/data"
 import { useReveal } from "@/hooks/use-reveal"
 
@@ -14,7 +14,7 @@ export function Projects() {
       </div>
       <h2 className="sec reveal">{t("projects.heading")}</h2>
       <div className="xp reveal-group">
-        {projects.map(({ key, name, url, stack }) => {
+        {projects.map(({ key, name, url, site, stack }) => {
           const bullets = t(`projects.entries.${key}.bullets`, {
             returnObjects: true,
           }) as string[]
@@ -38,15 +38,28 @@ export function Projects() {
                     </span>
                   ))}
                 </div>
-                <a
-                  className="projlink"
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Github size={14} strokeWidth={1.75} />
-                  {t("projects.source")}
-                </a>
+                <div className="projlinks">
+                  {site && (
+                    <a
+                      className="projlink"
+                      href={site}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Globe size={14} strokeWidth={1.75} />
+                      {t("projects.website")}
+                    </a>
+                  )}
+                  <a
+                    className="projlink"
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Github size={14} strokeWidth={1.75} />
+                    {t("projects.source")}
+                  </a>
+                </div>
               </div>
             </div>
           )

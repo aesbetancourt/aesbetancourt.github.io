@@ -99,6 +99,7 @@
   },
   "projects": {
     "heading": "Ce que je construis de mon côté",
+    "website": "Site web",
     "source": "Code sur GitHub",
     "entries": {
       "archsim": {

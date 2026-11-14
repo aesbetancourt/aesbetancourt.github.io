@@ -99,6 +99,7 @@
   },
   "projects": {
     "heading": "What I build on my own",
+    "website": "Website",
     "source": "Source on GitHub",
     "entries": {
       "archsim": {
