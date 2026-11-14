@@ -25,7 +25,7 @@ Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, de
 ## Projects
 
 - ArchSim (website: https://aesbetancourt.dev/archsim/, source: https://github.com/aesbetancourt/archsim): open-source web app to practice software architecture with katas. An AI reviewer reads the diagram and the written trade-offs, scores seven dimensions from 1 to 5 and names the top risk. Works with Claude Code, OpenCode, the Anthropic API or any OpenAI-compatible endpoint. Includes a 43-page wiki, worked examples and a glossary. Built with Next.js, TypeScript, Tailwind CSS, Excalidraw and Tiptap.
-- Blueprints (https://github.com/aesbetancourt/blueprints): desktop markdown editor and software spec system on a vault of plain files. Slash commands, wiki-links and backlinks, Mermaid and Excalidraw, Git integration, full-text search, tags and templates. Built with Tauri v2 (Rust), React 19, TypeScript, TipTap and Zustand.
+- Blueprints (website: https://aesbetancourt.dev/blueprints/, source: https://github.com/aesbetancourt/blueprints): desktop markdown editor and software spec system on a vault of plain files. Slash commands, wiki-links and backlinks, Mermaid and Excalidraw, Git integration, full-text search, tags and templates. Built with Tauri v2 (Rust), React 19, TypeScript, TipTap and Zustand.
 
 ## Education
 

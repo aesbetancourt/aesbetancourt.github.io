@@ -148,6 +148,7 @@ export const projects: {
     key: "blueprints",
     name: "Blueprints",
     url: "https://github.com/aesbetancourt/blueprints",
+    site: "https://aesbetancourt.dev/blueprints/",
     stack: ["Tauri v2", "Rust", "React 19", "TypeScript", "TipTap", "Zustand"],
   },
 ];
