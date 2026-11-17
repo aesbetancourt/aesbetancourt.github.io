@@ -123,7 +123,7 @@
         ]
       },
       "docreader": {
-        "kind": "Lokale Web-App · Open Source",
+        "kind": "Agentensystem · Open Source",
         "tagline": "KI-Agenten, die Dokumente lesen",
         "bullets": [
           "Ein KI-Agent bekommt eine Werkzeugkiste und eine Sandbox und entscheidet selbst, wie er jede Datei liest: PDFs (Text oder gescannt), Tabellen, Word-Dateien, Folien und Bilder. Keine feste Pipeline.",

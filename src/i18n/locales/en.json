@@ -123,7 +123,7 @@
         ]
       },
       "docreader": {
-        "kind": "Local web app · open source",
+        "kind": "Agentic system · open source",
         "tagline": "AI agents that read your documents",
         "bullets": [
           "An AI agent gets a toolbox and a sandbox, and decides how to read each file: PDFs (text or scanned), spreadsheets, Word files, slides and images. No fixed pipeline.",

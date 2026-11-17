@@ -123,7 +123,7 @@
         ]
       },
       "docreader": {
-        "kind": "App web local · código abierto",
+        "kind": "Sistema agéntico · código abierto",
         "tagline": "Agentes de IA que leen documentos",
         "bullets": [
           "Un agente de IA recibe una caja de herramientas y un sandbox, y decide cómo leer cada archivo: PDF (con texto o escaneados), hojas de cálculo, Word, presentaciones e imágenes. Sin un pipeline fijo.",

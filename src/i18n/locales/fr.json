@@ -123,7 +123,7 @@
         ]
       },
       "docreader": {
-        "kind": "App web locale · open source",
+        "kind": "Système agentique · open source",
         "tagline": "Des agents IA qui lisent des documents",
         "bullets": [
           "Un agent IA reçoit une boîte à outils et un bac à sable, et décide comment lire chaque fichier : PDF (texte ou scannés), tableurs, fichiers Word, présentations et images. Aucun pipeline figé.",

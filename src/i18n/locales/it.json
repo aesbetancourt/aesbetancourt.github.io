@@ -123,7 +123,7 @@
         ]
       },
       "docreader": {
-        "kind": "App web locale · open source",
+        "kind": "Sistema agentico · open source",
         "tagline": "Agenti IA che leggono documenti",
         "bullets": [
           "Un agente IA riceve una cassetta degli attrezzi e una sandbox, e decide come leggere ogni file: PDF (testo o scansioni), fogli di calcolo, file Word, presentazioni e immagini. Nessuna pipeline fissa.",
