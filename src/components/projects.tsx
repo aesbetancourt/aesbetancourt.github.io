@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next"
-import { Github, Globe } from "lucide-react"
+import { ArrowUpRight, Github, Globe } from "lucide-react"
 import { projects } from "@/lib/data"
 import { useReveal } from "@/hooks/use-reveal"
+import { SectionLabel } from "./section-label"
 
 export function Projects() {
   const { t } = useTranslation()
@@ -9,59 +10,52 @@ export function Projects() {
 
   return (
     <section id="projects" ref={root}>
-      <div className="eyebrow reveal">
-        03 / {t("nav.projects")} <span className="ln" />
-      </div>
+      <SectionLabel n="03" label={t("nav.projects")} />
       <h2 className="sec reveal">{t("projects.heading")}</h2>
-      <div className="xp reveal-group">
-        {projects.map(({ key, name, url, site, stack }) => {
+      <div className="pgrid reveal-group">
+        {projects.map(({ key, name, url, site, stack }, i) => {
           const bullets = t(`projects.entries.${key}.bullets`, {
             returnObjects: true,
           }) as string[]
           return (
-            <div className="item" key={key}>
-              <div className="yr">{t(`projects.entries.${key}.kind`)}</div>
-              <div>
-                <p className="ro">{name}</p>
+            <article className="detail" key={key}>
+              <header>
+                <span>
+                  <b>{String.fromCharCode(65 + i)}</b> — {name}
+                </span>
+                <span>{t(`projects.entries.${key}.kind`)}</span>
+              </header>
+              <div className="dbody">
+                <h3 className="pname">{name}</h3>
                 <p className="co">{t(`projects.entries.${key}.tagline`)}</p>
-                <div className="de">
-                  <ul>
-                    {bullets.map((bullet, i) => (
-                      <li key={i}>{bullet}</li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="chips projchips">
+                <ul className="scope">
+                  {bullets.map((bullet, j) => (
+                    <li key={j}>{bullet}</li>
+                  ))}
+                </ul>
+                <div className="tags">
                   {stack.map((tech) => (
-                    <span className="chip" key={tech}>
+                    <span className="tag" key={tech}>
                       {tech}
                     </span>
                   ))}
                 </div>
-                <div className="projlinks">
+                <div className="plinks">
                   {site && (
-                    <a
-                      className="projlink"
-                      href={site}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Globe size={14} strokeWidth={1.75} />
+                    <a className="btn" href={site} target="_blank" rel="noopener noreferrer">
+                      <Globe size={14} strokeWidth={2} />
                       {t("projects.website")}
+                      <ArrowUpRight size={14} strokeWidth={2} />
                     </a>
                   )}
-                  <a
-                    className="projlink"
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Github size={14} strokeWidth={1.75} />
+                  <a className="btn" href={url} target="_blank" rel="noopener noreferrer">
+                    <Github size={14} strokeWidth={2} />
                     {t("projects.source")}
+                    <ArrowUpRight size={14} strokeWidth={2} />
                   </a>
                 </div>
               </div>
-            </div>
+            </article>
           )
         })}
       </div>

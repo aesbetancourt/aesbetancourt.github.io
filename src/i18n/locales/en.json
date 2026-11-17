@@ -120,6 +120,16 @@
           "Rich editing with slash commands, wiki-links and backlinks, Mermaid diagrams and Excalidraw drawings.",
           "Git integration (status, commit, diff), full-text search with regex, tags and templates for new files."
         ]
+      },
+      "docreader": {
+        "kind": "Local web app · open source",
+        "tagline": "AI agents that read your documents",
+        "bullets": [
+          "An AI agent gets a toolbox and a sandbox, and decides how to read each file: PDFs (text or scanned), spreadsheets, Word files, slides and images. No fixed pipeline.",
+          "Two modes: answer questions with their sources, or convert documents to structured Markdown or JSON. Each source is labelled after a code check against the original file.",
+          "Uses free local tools first (Python, poppler, tesseract) and pays for Google Document AI or Gemini only when the local view is not enough. A live meter shows every step and its cost.",
+          "Safe by design: each request runs in a fresh, hardened container with no secrets, no internet and read-only inputs. One broker holds every key and enforces the budget."
+        ]
       }
     }
   },
@@ -159,5 +169,45 @@
   "theme": {
     "light": "Switch to light mode",
     "dark": "Switch to dark mode"
+  },
+  "figures": {
+    "clients": "client companies",
+    "services": "services owned",
+    "uptime": "uptime",
+    "deploys": "deploy time",
+    "codebase": "lines migrated",
+    "errors": "runtime errors",
+    "build": "build time",
+    "team": "engineers led",
+    "apps": "applications",
+    "coverage": "test coverage",
+    "records": "records / day",
+    "systems": "internal systems",
+    "users": "daily users"
+  },
+  "columns": {
+    "ref": "Ref",
+    "period": "Period",
+    "role": "Role / company",
+    "scope": "Scope",
+    "figures": "Key figures",
+    "item": "No.",
+    "group": "Group",
+    "components": "Components"
+  },
+  "titleblock": {
+    "project": "Project",
+    "drawnBy": "Drawn by",
+    "rev": "Rev",
+    "sheet": "Sheet"
+  },
+  "diagram": {
+    "figure": "Fig. 01 — Typical system, simplified",
+    "docs": "~2,000 docs / month",
+    "review": "−60% manual review",
+    "agnostic": "provider-agnostic",
+    "noChanges": "no caller changes",
+    "uptime": "99.9% uptime",
+    "events": "event-driven"
   }
 }

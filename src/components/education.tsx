@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next"
 import { certifications } from "@/lib/data"
 import { useReveal } from "@/hooks/use-reveal"
+import { SectionLabel } from "./section-label"
 
 export function Education() {
   const { t } = useTranslation()
@@ -8,19 +9,18 @@ export function Education() {
 
   return (
     <section id="education" ref={root}>
-      <div className="eyebrow reveal">
-        04 / {t("nav.education")} <span className="ln" />
-      </div>
+      <SectionLabel n="04" label={t("nav.education")} />
       <h2 className="sec reveal">{t("education.heading")}</h2>
-      <div className="xp reveal">
-        <div className="item">
-          <div className="yr">{t("education.years")}</div>
+      <div className="spectable edutable reveal">
+        <article className="trow">
+          <span className="ref">A</span>
+          <span className="period">{t("education.years")}</span>
           <div>
-            <p className="ro">{t("education.role")}</p>
+            <h3 className="role">{t("education.role")}</h3>
             <p className="co">{t("education.school")}</p>
-            <p className="de">{t("education.detail")}</p>
           </div>
-        </div>
+          <p className="detail">{t("education.detail")}</p>
+        </article>
       </div>
 
       <h3 className="subsec reveal">{t("education.certifications")}</h3>

@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"
 
 type Theme = "light" | "dark"
 
-const META_COLOR: Record<Theme, string> = { light: "#f5f3ee", dark: "#0d0e11" }
+const META_COLOR: Record<Theme, string> = { light: "#f2efe7", dark: "#0f1b2d" }
 
 function applyTheme(theme: Theme) {
   const root = document.documentElement

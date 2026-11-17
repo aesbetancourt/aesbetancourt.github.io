@@ -120,6 +120,16 @@
           "Komfortables Editieren mit Slash-Befehlen, Wiki-Links und Backlinks, Mermaid-Diagrammen und Excalidraw-Zeichnungen.",
           "Git-Integration (Status, Commit, Diff), Volltextsuche mit Regex, Tags und Vorlagen für neue Dateien."
         ]
+      },
+      "docreader": {
+        "kind": "Lokale Web-App · Open Source",
+        "tagline": "KI-Agenten, die Dokumente lesen",
+        "bullets": [
+          "Ein KI-Agent bekommt eine Werkzeugkiste und eine Sandbox und entscheidet selbst, wie er jede Datei liest: PDFs (Text oder gescannt), Tabellen, Word-Dateien, Folien und Bilder. Keine feste Pipeline.",
+          "Zwei Modi: Fragen mit Quellen beantworten oder Dokumente in strukturiertes Markdown oder JSON umwandeln. Jede Quelle wird nach einer Code-Prüfung gegen die Originaldatei gekennzeichnet.",
+          "Nutzt zuerst kostenlose lokale Werkzeuge (Python, poppler, tesseract) und zahlt nur dann für Google Document AI oder Gemini, wenn die lokale Sicht nicht reicht. Ein Live-Zähler zeigt jeden Schritt und seine Kosten.",
+          "Sicher by Design: Jede Anfrage läuft in einem frischen, gehärteten Container ohne Secrets, ohne Internet und mit schreibgeschützten Eingaben. Ein Broker verwaltet alle Schlüssel und setzt das Budget durch."
+        ]
       }
     }
   },
@@ -159,5 +169,45 @@
   "theme": {
     "light": "Zum hellen Modus wechseln",
     "dark": "Zum dunklen Modus wechseln"
+  },
+  "figures": {
+    "clients": "Kundenunternehmen",
+    "services": "verantwortete Services",
+    "uptime": "Verfügbarkeit",
+    "deploys": "Deployment-Zeit",
+    "codebase": "migrierte Zeilen",
+    "errors": "Laufzeitfehler",
+    "build": "Build-Zeit",
+    "team": "geführte Engineers",
+    "apps": "Anwendungen",
+    "coverage": "Testabdeckung",
+    "records": "Datensätze / Tag",
+    "systems": "interne Systeme",
+    "users": "tägliche Nutzer"
+  },
+  "columns": {
+    "ref": "Ref.",
+    "period": "Zeitraum",
+    "role": "Rolle / Unternehmen",
+    "scope": "Umfang",
+    "figures": "Kennzahlen",
+    "item": "Nr.",
+    "group": "Gruppe",
+    "components": "Komponenten"
+  },
+  "titleblock": {
+    "project": "Projekt",
+    "drawnBy": "Gezeichnet von",
+    "rev": "Rev.",
+    "sheet": "Blatt"
+  },
+  "diagram": {
+    "figure": "Abb. 01 — Typisches System, vereinfacht",
+    "docs": "~2.000 Dok. / Monat",
+    "review": "−60 % manuelle Prüfung",
+    "agnostic": "anbieterunabhängig",
+    "noChanges": "ohne Änderung der Aufrufer",
+    "uptime": "99,9 % Verfügbarkeit",
+    "events": "ereignisgesteuert"
   }
 }

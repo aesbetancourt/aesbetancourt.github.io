@@ -151,6 +151,12 @@ export const projects: {
     site: "https://aesbetancourt.dev/blueprints/",
     stack: ["Tauri v2", "Rust", "React 19", "TypeScript", "TipTap", "Zustand"],
   },
+  {
+    key: "docreader",
+    name: "docreader",
+    url: "https://github.com/aesbetancourt/docreader",
+    stack: ["TypeScript", "Node.js", "React 19", "Docker", "OpenCode", "Python", "Document AI"],
+  },
 ];
 
 export const socialLinks = {
@@ -159,3 +165,29 @@ export const socialLinks = {
 };
 
 export const githubHandle = "@aesbetancourt";
+
+// Headline numbers per role for the Experience table. Each label is an i18n
+// key under "figures"; the values are language-neutral.
+export const keyFigures: Record<string, { value: string; label: string }[]> = {
+  entropy: [
+    { value: "~40", label: "clients" },
+    { value: "12", label: "services" },
+    { value: "99.9%", label: "uptime" },
+    { value: "1h → 10m", label: "deploys" },
+  ],
+  vintra: [
+    { value: "~80k", label: "codebase" },
+    { value: "−30%", label: "errors" },
+    { value: "3m → 20s", label: "build" },
+  ],
+  bita_lead: [
+    { value: "4", label: "team" },
+    { value: "5", label: "apps" },
+    { value: "10 → 70%", label: "coverage" },
+  ],
+  bita_dev: [{ value: "~1M", label: "records" }],
+  intelix: [
+    { value: "3", label: "systems" },
+    { value: "~200", label: "users" },
+  ],
+};

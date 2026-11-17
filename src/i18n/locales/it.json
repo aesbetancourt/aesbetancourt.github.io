@@ -120,6 +120,16 @@
           "Editing avanzato con comandi slash, wiki-link e backlink, diagrammi Mermaid e disegni Excalidraw.",
           "Integrazione con Git (status, commit, diff), ricerca full-text con regex, tag e template per i nuovi file."
         ]
+      },
+      "docreader": {
+        "kind": "App web locale · open source",
+        "tagline": "Agenti IA che leggono documenti",
+        "bullets": [
+          "Un agente IA riceve una cassetta degli attrezzi e una sandbox, e decide come leggere ogni file: PDF (testo o scansioni), fogli di calcolo, file Word, presentazioni e immagini. Nessuna pipeline fissa.",
+          "Due modalità: risponde alle domande con le fonti, oppure converte i documenti in Markdown o JSON strutturato. Ogni fonte viene etichettata dopo un controllo via codice sul file originale.",
+          "Usa prima strumenti locali gratuiti (Python, poppler, tesseract) e paga Google Document AI o Gemini solo quando la vista locale non basta. Un contatore in tempo reale mostra ogni passo e il suo costo.",
+          "Sicuro per progettazione: ogni richiesta gira in un container nuovo e blindato, senza segreti, senza internet e con input in sola lettura. Un broker custodisce tutte le chiavi e applica il budget."
+        ]
       }
     }
   },
@@ -159,5 +169,45 @@
   "theme": {
     "light": "Passa alla modalità chiara",
     "dark": "Passa alla modalità scura"
+  },
+  "figures": {
+    "clients": "aziende clienti",
+    "services": "servizi gestiti",
+    "uptime": "disponibilità",
+    "deploys": "tempo di deploy",
+    "codebase": "righe migrate",
+    "errors": "errori in produzione",
+    "build": "tempo di build",
+    "team": "ingegneri guidati",
+    "apps": "applicazioni",
+    "coverage": "copertura dei test",
+    "records": "record / giorno",
+    "systems": "sistemi interni",
+    "users": "utenti giornalieri"
+  },
+  "columns": {
+    "ref": "Rif.",
+    "period": "Periodo",
+    "role": "Ruolo / azienda",
+    "scope": "Ambito",
+    "figures": "Numeri chiave",
+    "item": "N.",
+    "group": "Gruppo",
+    "components": "Componenti"
+  },
+  "titleblock": {
+    "project": "Progetto",
+    "drawnBy": "Disegnato da",
+    "rev": "Rev.",
+    "sheet": "Foglio"
+  },
+  "diagram": {
+    "figure": "Fig. 01 — Sistema tipico, semplificato",
+    "docs": "~2.000 doc / mese",
+    "review": "−60% revisione manuale",
+    "agnostic": "indipendente dal provider",
+    "noChanges": "senza modifiche ai client",
+    "uptime": "99,9% disponibilità",
+    "events": "guidato dagli eventi"
   }
 }

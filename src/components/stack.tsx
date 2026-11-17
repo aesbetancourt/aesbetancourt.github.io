@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next"
 import { exploringLanguages, skills } from "@/lib/data"
 import { useReveal } from "@/hooks/use-reveal"
+import { SectionLabel } from "./section-label"
 
 const categoryOrder = [
   "architecture",
@@ -15,39 +16,44 @@ const categoryOrder = [
   "frontend",
 ] as const
 
+/** The stack as a bill of materials. */
 export function Stack() {
   const { t } = useTranslation()
   const root = useReveal()
 
   return (
     <section id="stack" ref={root}>
-      <div className="eyebrow reveal">
-        05 / {t("nav.stack")} <span className="ln" />
-      </div>
+      <SectionLabel n="05" label={t("nav.stack")} />
       <h2 className="sec reveal">{t("stack.heading")}</h2>
-      <div className="stackgrid reveal-group">
-        {categoryOrder.map((category) => (
-          <div key={category}>
-            <h4>{t(`stack.categories.${category}`)}</h4>
-            <div className="chips">
-              {skills[category].map((skill) => (
-                <span className="chip" key={skill}>
-                  {skill}
-                </span>
-              ))}
-              {category === "languages" &&
-                exploringLanguages.map((lang) => (
-                  <span className="chip exploring" key={lang}>
-                    {lang}
+      <div className="spectable bom">
+        <div className="thead reveal" aria-hidden="true">
+          <span>{t("columns.item")}</span>
+          <span>{t("columns.group")}</span>
+          <span>{t("columns.components")}</span>
+        </div>
+        <div className="reveal-group">
+          {categoryOrder.map((category, i) => (
+            <div className="trow" key={category}>
+              <span className="period">05.{String(i + 1).padStart(2, "0")}</span>
+              <h3 className="grp">{t(`stack.categories.${category}`)}</h3>
+              <div className="tags">
+                {skills[category].map((skill) => (
+                  <span className="tag" key={skill}>
+                    {skill}
                   </span>
                 ))}
+                {category === "languages" &&
+                  exploringLanguages.map((lang) => (
+                    <span className="tag exploring" key={lang}>
+                      {lang}
+                    </span>
+                  ))}
+              </div>
             </div>
-            {category === "languages" && (
-              <p className="exploring-note">{t("stack.exploring")}</p>
-            )}
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
+      <p className="note reveal">{t("stack.exploring")}</p>
     </section>
   )
 }
