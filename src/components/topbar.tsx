@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { cn } from "@/lib/utils"
-import { LanguageSwitcher } from "./language-switcher"
 import { ThemeToggle } from "./theme-toggle"
 
 const sections = [
@@ -48,7 +47,6 @@ export function Topbar() {
       </nav>
       <div className="ctl">
         <ThemeToggle />
-        <LanguageSwitcher />
       </div>
     </header>
   )

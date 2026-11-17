@@ -151,33 +151,6 @@ a {
   align-items: center;
   gap: 8px;
 }
-.langswitch {
-  display: inline-flex;
-}
-.langbtn {
-  display: inline-grid;
-  place-items: center;
-  height: 26px;
-  min-width: 30px;
-  padding: 0 6px;
-  border: 0.75px solid var(--hair);
-  margin-left: -0.75px;
-  background: none;
-  color: var(--soft);
-  font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  transition: color 0.15s, background-color 0.15s;
-}
-.langbtn:hover {
-  color: var(--ink);
-}
-.langbtn.active {
-  background: var(--ink);
-  border-color: var(--ink);
-  color: var(--paper);
-}
 .themebtn {
   margin-left: 0;
 }
@@ -924,12 +897,5 @@ h2.sec {
   }
   .titleblock div:nth-child(4) {
     border-top: 0.75px solid var(--rule);
-  }
-}
-@media (max-width: 420px) {
-  .langbtn {
-    min-width: 26px;
-    padding: 0 4px;
-    font-size: 10px;
   }
 }

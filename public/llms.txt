@@ -2,7 +2,7 @@
 
 > Software engineer focused on system architecture: service boundaries, data flow and cloud infrastructure for scalable distributed systems and AI-powered features (LLM orchestration, retrieval, speech-to-text). Builds them hands-on with TypeScript, Node.js and Python. Founding Engineer at Entropy Systems. Based in Barcelona, Spain, EU.
 
-Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, designing APIs and data layers, building the interfaces on top, and integrating the AI that makes them useful. This file summarizes his profile for language models and AI agents. The site is a single-page portfolio available in English, Spanish, French, German and Italian.
+Alejandro Sánchez (handle: aesbetancourt) works end-to-end across the stack, designing APIs and data layers, building the interfaces on top, and integrating the AI that makes them useful. This file summarizes his profile for language models and AI agents. The site is a single-page portfolio in English.
 
 ## Profile
 

@@ -12,8 +12,7 @@ export function Hero() {
 
   // Signature moment: the dimension line draws, the name and headline rise
   // word by word once fonts are ready, then the spec rows and the drawing
-  // follow. Keyed by language in App so a locale switch remounts cleanly
-  // (splitText rewrites the DOM, so React must not reconcile against it).
+  // follow.
   useEffect(() => {
     if (!root.current) return
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return
