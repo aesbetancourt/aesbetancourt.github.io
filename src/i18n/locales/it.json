@@ -114,11 +114,12 @@
       },
       "blueprints": {
         "kind": "App desktop",
-        "tagline": "Editor markdown e sistema di specifiche software",
+        "tagline": "Spazio local-first per specifiche, note e diagrammi",
         "bullets": [
-          "Un editor desktop per scrivere specifiche software in un vault di semplici file markdown, con un backend Rust su Tauri.",
-          "Editing avanzato con comandi slash, wiki-link e backlink, diagrammi Mermaid e disegni Excalidraw.",
-          "Integrazione con Git (status, commit, diff), ricerca full-text con regex, tag e template per i nuovi file."
+          "Uno spazio desktop per specifiche, ADR, runbook e diagrammi. Un vault è una normale cartella su disco: niente database, niente account, niente cloud.",
+          "Apre ogni file nell'editor giusto: Markdown avanzato con comandi slash e wiki-link, Typst con anteprima dal vivo ed export PDF, Mermaid, Excalidraw, e JSON, YAML o CSV con vista a grafo.",
+          "Git integrato (stage, commit, diff, log), ricerca full-text con regex, tag nel frontmatter e 36 template per specifiche, ADR e RFC.",
+          "Pensato per alimentare gli agenti IA di coding: la barra di stato mostra il numero di token del documento aperto. Un backend Rust su Tauri v2 gestisce tutto l'accesso a file e Git."
         ]
       },
       "docreader": {
@@ -129,6 +130,16 @@
           "Due modalità: risponde alle domande con le fonti, oppure converte i documenti in Markdown o JSON strutturato. Ogni fonte viene etichettata dopo un controllo via codice sul file originale.",
           "Usa prima strumenti locali gratuiti (Python, poppler, tesseract) e paga Google Document AI o Gemini solo quando la vista locale non basta. Un contatore in tempo reale mostra ogni passo e il suo costo.",
           "Sicuro per progettazione: ogni richiesta gira in un container nuovo e blindato, senza segreti, senza internet e con input in sola lettura. Un broker custodisce tutte le chiavi e applica il budget."
+        ]
+      },
+      "docspawner": {
+        "kind": "Worker · open source",
+        "tagline": "Template Typst + dati JSON → PDF, con una chiamata HTTP",
+        "bullets": [
+          "Un worker senza stato che genera PDF, non un'app. Un servizio invia un template Typst e i suoi dati JSON, e riceve il PDF. Architettura esagonale, con 13 ADR.",
+          "Veloce, senza browser headless: circa 120 ms per una fattura di 3 pagine con un grafico e un QR code di pagamento, circa 20 ms per una semplice.",
+          "Fatto per girare in flotta: un numero fisso di slot di rendering, una coda limitata, 503 con Retry-After quando è piena e uno spegnimento ordinato. Scala aggiungendo copie.",
+          "Deterministico e sicuro con template non fidati: lo stesso input dà gli stessi byte PDF. Ogni rendering ha un timeout, limiti di dimensione, una propria cartella e nessuna rete."
         ]
       }
     }

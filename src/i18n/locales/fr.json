@@ -114,11 +114,12 @@
       },
       "blueprints": {
         "kind": "App de bureau",
-        "tagline": "Éditeur markdown et système de spécifications logicielles",
+        "tagline": "Espace local-first pour spécifications, notes et diagrammes",
         "bullets": [
-          "Un éditeur de bureau pour rédiger des spécifications logicielles dans un vault de simples fichiers markdown, avec un backend Rust sur Tauri.",
-          "Édition riche avec commandes slash, wiki-links et backlinks, diagrammes Mermaid et dessins Excalidraw.",
-          "Intégration Git (status, commit, diff), recherche plein texte avec regex, tags et modèles pour les nouveaux fichiers."
+          "Un espace de bureau pour les spécifications, ADR, runbooks et diagrammes. Un vault est un simple dossier sur le disque : pas de base de données, pas de compte, pas de cloud.",
+          "Ouvre chaque fichier dans le bon éditeur : Markdown riche avec commandes slash et wiki-links, Typst avec aperçu en direct et export PDF, Mermaid, Excalidraw, et JSON, YAML ou CSV avec une vue en graphe.",
+          "Git intégré (stage, commit, diff, log), recherche plein texte avec regex, tags dans le frontmatter et 36 modèles pour spécifications, ADR et RFC.",
+          "Conçu pour alimenter les agents IA de code : la barre d'état affiche le nombre de tokens du document ouvert. Un backend Rust sur Tauri v2 gère tout l'accès aux fichiers et à Git."
         ]
       },
       "docreader": {
@@ -129,6 +130,16 @@
           "Deux modes : répondre aux questions avec leurs sources, ou convertir les documents en Markdown ou JSON structuré. Chaque source est étiquetée après une vérification par code sur le fichier d'origine.",
           "Utilise d'abord des outils locaux gratuits (Python, poppler, tesseract) et ne paie Google Document AI ou Gemini que si la vue locale ne suffit pas. Un compteur en direct affiche chaque étape et son coût.",
           "Sûr par conception : chaque requête tourne dans un conteneur neuf et durci, sans secrets, sans internet et avec des entrées en lecture seule. Un broker détient toutes les clés et applique le budget."
+        ]
+      },
+      "docspawner": {
+        "kind": "Worker · open source",
+        "tagline": "Modèle Typst + données JSON → PDF, en un appel HTTP",
+        "bullets": [
+          "Un worker sans état qui génère des PDF, pas une app. Un service envoie un modèle Typst et ses données JSON, et reçoit le PDF. Architecture hexagonale, avec 13 ADR.",
+          "Rapide, sans navigateur headless : environ 120 ms pour une facture de 3 pages avec un graphique et un QR code de paiement, environ 20 ms pour une facture simple.",
+          "Conçu pour tourner en flotte : un nombre fixe de slots de rendu, une file bornée, 503 avec Retry-After quand elle est pleine et un arrêt propre. On le met à l'échelle en ajoutant des copies.",
+          "Déterministe et sûr face aux modèles non fiables : la même entrée donne les mêmes octets PDF. Chaque rendu a un timeout, des limites de taille, son propre dossier et aucun accès réseau."
         ]
       }
     }

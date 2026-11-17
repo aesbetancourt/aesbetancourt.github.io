@@ -668,12 +668,12 @@ h2.sec {
 /* ---------------- PROJECTS ---------------- */
 .pgrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   align-items: stretch;
 }
 /* Equal-height cards: the body fills the card and the links sit at the
-   bottom, so both cards line up whatever their bullet count. */
+   bottom, so the cards line up whatever their bullet count. */
 .detail {
   display: flex;
   flex-direction: column;
@@ -840,9 +840,6 @@ h2.sec {
 @media (max-width: 1120px) {
   .snav {
     display: none;
-  }
-  .pgrid {
-    grid-template-columns: repeat(2, 1fr);
   }
   .xptable .thead,
   .xptable .trow {

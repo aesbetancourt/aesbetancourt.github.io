@@ -114,11 +114,12 @@
       },
       "blueprints": {
         "kind": "Desktop-App",
-        "tagline": "Markdown-Editor und System für Software-Spezifikationen",
+        "tagline": "Local-first-Arbeitsbereich für Spezifikationen, Notizen und Diagramme",
         "bullets": [
-          "Ein Desktop-Editor für Software-Spezifikationen in einem Vault aus einfachen Markdown-Dateien, mit einem Rust-Backend auf Tauri.",
-          "Komfortables Editieren mit Slash-Befehlen, Wiki-Links und Backlinks, Mermaid-Diagrammen und Excalidraw-Zeichnungen.",
-          "Git-Integration (Status, Commit, Diff), Volltextsuche mit Regex, Tags und Vorlagen für neue Dateien."
+          "Ein Desktop-Arbeitsbereich für Spezifikationen, ADRs, Runbooks und Diagramme. Ein Vault ist ein normaler Ordner auf der Festplatte: keine Datenbank, kein Konto, keine Cloud.",
+          "Öffnet jede Datei im passenden Editor: Rich-Markdown mit Slash-Befehlen und Wiki-Links, Typst mit Live-Vorschau und PDF-Export, Mermaid, Excalidraw sowie JSON, YAML oder CSV mit Graphansicht.",
+          "Git eingebaut (Stage, Commit, Diff, Log), Volltextsuche mit Regex, Frontmatter-Tags und 36 Vorlagen für Spezifikationen, ADRs und RFCs.",
+          "Gemacht, um KI-Coding-Agenten zu versorgen: Die Statusleiste zeigt die Token-Zahl des offenen Dokuments. Ein Rust-Backend auf Tauri v2 steuert jeden Datei- und Git-Zugriff."
         ]
       },
       "docreader": {
@@ -129,6 +130,16 @@
           "Zwei Modi: Fragen mit Quellen beantworten oder Dokumente in strukturiertes Markdown oder JSON umwandeln. Jede Quelle wird nach einer Code-Prüfung gegen die Originaldatei gekennzeichnet.",
           "Nutzt zuerst kostenlose lokale Werkzeuge (Python, poppler, tesseract) und zahlt nur dann für Google Document AI oder Gemini, wenn die lokale Sicht nicht reicht. Ein Live-Zähler zeigt jeden Schritt und seine Kosten.",
           "Sicher by Design: Jede Anfrage läuft in einem frischen, gehärteten Container ohne Secrets, ohne Internet und mit schreibgeschützten Eingaben. Ein Broker verwaltet alle Schlüssel und setzt das Budget durch."
+        ]
+      },
+      "docspawner": {
+        "kind": "Worker · Open Source",
+        "tagline": "Typst-Vorlage + JSON-Daten → PDF, mit einem HTTP-Aufruf",
+        "bullets": [
+          "Ein zustandsloser Worker, der PDFs rendert, keine App. Ein Service sendet eine Typst-Vorlage und ihre JSON-Daten und bekommt das PDF zurück. Hexagonale Architektur mit 13 ADRs.",
+          "Schnell, ohne Headless-Browser: etwa 120 ms für eine 3-seitige Rechnung mit Diagramm und Zahlungs-QR-Code, etwa 20 ms für eine einfache.",
+          "Gebaut für den Betrieb als Flotte: feste Render-Slots, eine begrenzte Warteschlange, 503 mit Retry-After bei Überlast und ein geordnetes Herunterfahren. Skaliert durch weitere Kopien.",
+          "Deterministisch und sicher bei nicht vertrauenswürdigen Vorlagen: Gleiche Eingabe, gleiche PDF-Bytes. Jedes Rendering hat ein Timeout, Größenlimits, einen eigenen Ordner und kein Netzwerk."
         ]
       }
     }

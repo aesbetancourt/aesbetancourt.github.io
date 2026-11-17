@@ -149,13 +149,20 @@ export const projects: {
     name: "Blueprints",
     url: "https://github.com/aesbetancourt/blueprints",
     site: "https://aesbetancourt.dev/blueprints/",
-    stack: ["Tauri v2", "Rust", "React 19", "TypeScript", "TipTap", "Zustand"],
+    stack: ["Tauri v2", "Rust", "React 19", "TypeScript", "TipTap", "Typst", "Zustand"],
   },
   {
     key: "docreader",
     name: "docreader",
     url: "https://github.com/aesbetancourt/docreader",
     stack: ["TypeScript", "Node.js", "React 19", "Docker", "OpenCode", "Python", "Document AI"],
+  },
+  {
+    key: "docspawner",
+    name: "docspawner",
+    url: "https://github.com/aesbetancourt/docspawner",
+    site: "https://aesbetancourt.dev/docspawner/",
+    stack: ["TypeScript", "Node.js", "Fastify", "Typst", "Docker", "OpenAPI"],
   },
 ];
 

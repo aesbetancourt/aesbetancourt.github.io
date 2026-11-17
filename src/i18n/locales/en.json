@@ -114,11 +114,12 @@
       },
       "blueprints": {
         "kind": "Desktop app",
-        "tagline": "Markdown editor and software spec system",
+        "tagline": "Local-first workspace for specs, notes and diagrams",
         "bullets": [
-          "A desktop editor to write software specs in a vault of plain markdown files, with a Rust backend on Tauri.",
-          "Rich editing with slash commands, wiki-links and backlinks, Mermaid diagrams and Excalidraw drawings.",
-          "Git integration (status, commit, diff), full-text search with regex, tags and templates for new files."
+          "A desktop workspace for specs, ADRs, runbooks and diagrams. A vault is a plain folder on disk: no database, no account, no cloud.",
+          "Opens each file in the right editor: rich Markdown with slash commands and wiki-links, Typst with live preview and PDF export, Mermaid, Excalidraw, and JSON, YAML or CSV with a graph view.",
+          "Git built in (stage, commit, diff, log), full-text search with regex, frontmatter tags and 36 templates for specs, ADRs and RFCs.",
+          "Made to feed AI coding agents: the status bar shows the token count of the open document. A Rust backend on Tauri v2 owns all file and Git access."
         ]
       },
       "docreader": {
@@ -129,6 +130,16 @@
           "Two modes: answer questions with their sources, or convert documents to structured Markdown or JSON. Each source is labelled after a code check against the original file.",
           "Uses free local tools first (Python, poppler, tesseract) and pays for Google Document AI or Gemini only when the local view is not enough. A live meter shows every step and its cost.",
           "Safe by design: each request runs in a fresh, hardened container with no secrets, no internet and read-only inputs. One broker holds every key and enforces the budget."
+        ]
+      },
+      "docspawner": {
+        "kind": "Worker · open source",
+        "tagline": "Typst template + JSON data → PDF, in one HTTP call",
+        "bullets": [
+          "A stateless PDF rendering worker, not an app. A service sends a Typst template and its JSON data, and gets the PDF back. Hexagonal architecture, with 13 ADRs.",
+          "Fast, with no headless browser: about 120 ms for a 3-page invoice with a chart and a payment QR code, and about 20 ms for a plain one.",
+          "Built to run as a fleet: a fixed number of render slots, a bounded queue, 503 with Retry-After when full and a graceful shutdown. Scale it by adding copies.",
+          "Deterministic and safe for untrusted templates: the same input gives the same PDF bytes. Each render has a timeout, size limits, its own folder and no network."
         ]
       }
     }
