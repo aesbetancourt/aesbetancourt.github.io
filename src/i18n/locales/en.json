@@ -102,14 +102,14 @@
     "website": "Website",
     "source": "Source on GitHub",
     "entries": {
-      "archsim": {
+      "charrette": {
         "kind": "Web app · open source",
-        "tagline": "Architecture katas with an AI reviewer",
+        "tagline": "Draw it. Defend it. Face the crit.",
         "bullets": [
           "A practice tool for software architecture. You take a short business problem, set the scope, select the driving characteristics and a style, draw the diagram and write the trade-offs.",
           "An AI reviewer reads the diagram and the text, scores seven dimensions from 1 to 5, quotes the evidence for each score and names the top risk.",
           "Provider-agnostic by design: it runs on Claude Code, OpenCode, the Anthropic API or any OpenAI-compatible endpoint, including local models.",
-          "Includes a 43-page wiki, worked examples and a glossary of 120+ terms. Local and single-user, with plain files in place of a database."
+          "Includes 91 lessons in ten sections, from trade-offs to product decisions, worked examples, a glossary of 320+ terms, interview drills and read aloud. Local and single-user, with plain files in place of a database."
         ]
       },
       "blueprints": {

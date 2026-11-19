@@ -138,10 +138,10 @@ export const projects: {
   stack: string[];
 }[] = [
   {
-    key: "archsim",
-    name: "ArchSim",
-    url: "https://github.com/aesbetancourt/archsim",
-    site: "https://aesbetancourt.dev/archsim/",
+    key: "charrette",
+    name: "Charrette",
+    url: "https://github.com/aesbetancourt/charrette",
+    site: "https://aesbetancourt.dev/charrette/",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Excalidraw", "Tiptap"],
   },
   {
